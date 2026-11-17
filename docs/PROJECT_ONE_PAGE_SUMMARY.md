@@ -43,9 +43,9 @@ Precipitation across peninsular regions exhibits severe temporal and spatial vol
 
 ---
 
-### PROJECT CLASSIFICATION & METADATA
-* **Project Name:** AquaPulse
-* **Topic:** Seasonal Rainfall Intelligence & Climate Pattern Discovery
+### PROJECT LINKS & CLASSIFICATION
+* **GitHub Repository:** https://github.com/devops941/aquapulse
+* **Live Web Application:** https://aquapulse.streamlit.app/
 * **Domain:** Meteorological Data Science | Climate Informatics | Precision Hydrology
 * **Application Type:** Full-Stack Data Analytics & Machine Learning Web Application
 * **Data Source:** India Meteorological Department (IMD) – Regional Meteorological Centre, Chennai
