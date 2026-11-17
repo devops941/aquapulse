@@ -1,0 +1,49 @@
+==========================================================================================
+TAMIL NADU MULTI-YEAR RAINFALL & YEAR-OVER-YEAR (YoY) COMPARATIVE REPORT
+Comparative Baseline: 2023-2024 (Historical Prior) vs 2024-2025 (Reporting Year)
+==========================================================================================
+
+1. STATE-LEVEL ANNUAL EXECUTIVE SUMMARY
+------------------------------------------------------------------------------------------
+State Total Rainfall (2023-24): 1117.9 mm (Normal: 965.6 mm, Dev: +15.8%)
+State Total Rainfall (2024-25): 1299.5 mm (Normal: 966.7 mm, Dev: +34.4%)
+Year-over-Year Delta:           +181.6 mm (+16.24%)
+Macro Trend:                    Moderate Increase (+5% to +20%)
+
+2. TOP 5 DISTRICTS WITH HIGHEST RAINFALL SURGE IN 2024-25
+------------------------------------------------------------------------------------------
+District             2023-24 (mm)    2024-25 (mm)    YoY Delta (mm)     YoY Growth (%) 
+The Nilgiris         1608.7          2382.9          +774.2             +48.13         %
+Coimbatore           1510.2          1989.6          +479.4             +31.74         %
+Kallakurichi         820.4           1290.6          +470.2             +57.31         %
+Viluppuram           1177.2          1622.7          +445.5             +37.84         %
+Krishnagiri          734.4           1146.9          +412.5             +56.17         %
+
+3. TOP 5 DISTRICTS WITH HIGHEST RAINFALL DEFICIT IN 2024-25
+------------------------------------------------------------------------------------------
+District             2023-24 (mm)    2024-25 (mm)    YoY Delta (mm)     YoY Growth (%) 
+Kancheepuram         1716.7          1428.9          -287.8             -16.76         %
+Virudhunagar         1242.7          998.9           -243.8             -19.62         %
+Chengalpattu         1600.5          1392.4          -208.1             -13.00         %
+Thoothukudi          801.1           681.3           -119.8             -14.95         %
+Chennai              1950.9          1870.6          -80.3              -4.12          %
+
+4. COMMON METEOROLOGICAL MONTHS COMPARISON (STATE AVERAGE)
+------------------------------------------------------------------------------------------
+Month           2023-24 (mm)    2024-25 (mm)    Delta (mm)      YoY Change (%)  Meteorological Note      
+November        249.0           164.4           -84.6           -33.98         % NE Monsoon peak shift    
+December        145.1           246.3           +101.2          +69.75         % Heavy cyclonic systems   
+January         57.3            26.8            -30.5           -53.23         % Post-monsoon drydown     
+February        1.8             2.8             +1.0            +55.56         % Standard dry winter      
+March           1.4             47.2            +45.8           +3271.43       % Early summer convective showers
+April           8.6             57.2            +48.6           +565.12        % Intense pre-monsoon activity
+May             125.7           140.9           +15.2           +12.09         % Robust pre-monsoon thunderstorms
+
+5. SEASONAL AGGREGATE COMPARISONS (STATE AVERAGE)
+------------------------------------------------------------------------------------------
+Winter Monsoon        : 2023-24 =   59.1 mm | 2024-25 =   29.6 mm | Delta =  -29.5 mm (-49.92%)
+Hot-Weather Season    : 2023-24 =  135.7 mm | 2024-25 =  245.3 mm | Delta = +109.6 mm (+80.77%)
+
+==========================================================================================
+END OF MULTI-YEAR & YoY REPORT
+==========================================================================================

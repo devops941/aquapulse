@@ -1,0 +1,108 @@
+================================================================================
+TAMIL NADU DISTRICT-WISE RAINFALL ANALYSIS REPORT (2024–2025)
+================================================================================
+Source Dataset: data\raw\rainfall_by_district_2024_25.csv
+Generated At: Automated Quality Audit
+
+1. DATASET OVERVIEW & DIMENSIONS
+--------------------------------------------------------------------------------
+Total Records (Rows): 663
+Total Columns: 9
+Columns List: report_year, district_code, district, season, period, actual_mm, normal_mm, pct_deviation, printed_page
+Reporting Year: 2024-25
+Total Unique Entities in 'district': 39
+Official Administrative Districts: 38
+State-level Aggregate Present: Yes (Tamil Nadu (State))
+
+Column Data Types:
+  - report_year    : str
+  - district_code  : float64
+  - district       : str
+  - season         : str
+  - period         : str
+  - actual_mm      : float64
+  - normal_mm      : float64
+  - pct_deviation  : float64
+  - printed_page   : int64
+
+2. GRANULARITY & RECORD CLASSIFICATION
+--------------------------------------------------------------------------------
+Available Calendar Months (12): Jun 2024, Jul 2024, Aug 2024, Sep 2024, Oct 2024, Nov 2024, Dec 2024, Jan 2025, Feb 2025, Mar 2025, Apr 2025, May 2025
+Rainfall Seasons (5): South-West Monsoon, North-East Monsoon, Winter, Hot-Weather, Whole year
+Summary Aggregate Periods (5): South-West Monsoon total, North-East Monsoon total, Winter total, Hot-Weather total, Whole year 2024-25
+
+Record Breakdown:
+  - District Monthly Observations: 456 rows (38 districts × 12 months)
+  - District Seasonal Totals     : 152 rows (38 districts × 4 seasons)
+  - District Annual Totals       : 38 rows (38 districts × 1 annual total)
+  - State-level Monthly Rows     : 12 rows (12 months)
+  - State-level Seasonal Rows    : 4 rows (4 seasonal totals)
+  - State-level Annual Row       : 1 row (1 annual total)
+  - Total Row Count Verification : 663 rows (Mutually exclusive sum: 663 rows)
+  - All 38 districts have 12 months: Verified (100% complete)
+
+3. MISSING & DUPLICATE VALUES AUDIT
+--------------------------------------------------------------------------------
+Exact Duplicate Rows Across All Columns: 0
+Key Duplicates on [district, period]   : 0
+Missing Value Breakdown:
+  - report_year    :   0 missing (  0.0%)
+  - district_code  :  17 missing (  2.6%)
+  - district       :   0 missing (  0.0%)
+  - season         :   0 missing (  0.0%)
+  - period         :   0 missing (  0.0%)
+  - actual_mm      :   0 missing (  0.0%)
+  - normal_mm      :   0 missing (  0.0%)
+  - pct_deviation  :   0 missing (  0.0%)
+  - printed_page   :   0 missing (  0.0%)
+
+Missing Value Justification:
+  - The 17 missing values in 'district_code' belong exclusively to 'Tamil Nadu (State)'.
+  - District administrative codes (1 to 38) are 100% populated for all 38 districts.
+  - No missing values exist in 'actual_mm', 'normal_mm', or 'pct_deviation'.
+
+4. NUMERICAL METEOROLOGICAL VALIDATION
+--------------------------------------------------------------------------------
+District Monthly Observations Only (Pure Observations - 456 rows):
+  - Actual Rainfall (mm) : Min=0.0, Max=767.5, Mean=108.29, Median=77.2
+  - Normal Rainfall (mm) : Min=2.7, Max=432.1, Mean=80.56, Median=56.0
+  - Negative Rainfall Values Check: 0 negative values found (Valid: 0)
+  - Negative Normal Values Check  : 0 negative values found (Valid: 0)
+
+5. DATA QUALITY ISSUES IDENTIFIED
+--------------------------------------------------------------------------------
+1. Mixed Granularity in 'period' Column:
+   Individual monthly records ('Jun 2024'), seasonal totals ('South-West Monsoon total'),
+   and annual totals ('Whole year 2024-25') are packed inside the same column.
+   *Risk*: Naive modeling or aggregations will double-count rainfall by a factor of 3x.
+
+2. Mixed Hierarchy in 'district' Column:
+   38 administrative districts and 1 regional macro-entity ('Tamil Nadu (State)')
+   coexist in the 'district' column. The state rows have null 'district_code'.
+
+3. String Datetime Representation:
+   'period' is formatted as text ('Jun 2024') rather than a parsed datetime/period type.
+
+6. FEASIBILITY EVALUATION
+--------------------------------------------------------------------------------
+A. Suitability for District-wise Rainfall Analysis: YES (EXCELLENT)
+   - Complete spatial coverage for all 38 districts of Tamil Nadu.
+   - Unbroken temporal sequence across all 12 calendar months (June 2024 - May 2025).
+   - Officially recorded actual vs normal benchmarks enable rich spatial EDA,
+     monsoon deficit/excess classification, and district clustering.
+
+B. Sufficiency for Retrospective Monthly Prediction Experiments: SUFFICIENT (WITH SCOPE LIMITATIONS)
+   - Provides 456 district-month empirical observations.
+   - Well-suited for cross-sectional spatial regression, regional clustering, and
+     retrospective baseline modeling (predicting actual from normal, season, and geography).
+
+C. Limitations of Using Only One Reporting Year (2024–2025):
+   1. Lack of Multi-year Time Horizons: Unable to learn cyclical macro-climate oscillations
+      (e.g., El Niño / La Niña, Indian Ocean Dipole).
+   2. Extreme Anomaly Sensitivity: Season-specific weather anomalies in 2024-25 heavily bias models.
+   3. Short Temporal Sequence per District (N=12): Precludes training complex deep sequence models
+      (e.g., LSTMs/GRUs). Cross-validation must rely on spatial district-folds or sequential temporal splits.
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

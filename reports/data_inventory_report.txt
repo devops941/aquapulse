@@ -1,0 +1,249 @@
+==========================================================================================
+PHASE 1 - COMPREHENSIVE PROJECT ANALYSIS & DATA INVENTORY REPORT
+Tamil Nadu District-Wise Rainfall Analysis and Prediction System
+Project Location: D:\collegeprojects\Rainfall_prediction
+==========================================================================================
+
+1. PROJECT STRUCTURE OVERVIEW
+------------------------------------------------------------------------------------------
+./
+    README.md                                     (   15.56 KB)
+    app.py                                        (   30.57 KB)
+    requirements.txt                              (    0.07 KB)
+    data/
+        processed/
+            annual_totals_2023_2024_extracted.csv         (    4.98 KB)
+            district_monthly_2023_2024_extracted.csv      (   30.54 KB)
+            district_monthly_cleaned.csv                  (   30.42 KB)
+            district_monthly_features.csv                 (   66.74 KB)
+            screenshot_extracted_clean.csv                (   79.72 KB)
+            state_monthly_cleaned.csv                     (    0.97 KB)
+        raw/
+            extracted_rainfall_from_screenshots.csv       (   79.75 KB)
+            rainfall_by_district_2024_25.csv              (   44.31 KB)
+            tamil_nadu_rainfall_2024_2025.csv             (   44.31 KB)
+    models/
+        baseline_model.joblib                         (    0.87 KB)
+        linear_regression_model.joblib                (    0.60 KB)
+        model_registry.joblib                         (    1.77 KB)
+        random_forest_model.joblib                    (  346.97 KB)
+    notebooks/
+    reports/
+        dataset_analysis_report.txt                   (    5.66 KB)
+        eda_report.txt                                (   10.04 KB)
+        model_evaluation_report.txt                   (    3.46 KB)
+        preprocessing_report.txt                      (    5.21 KB)
+        screenshot_extraction_report.txt              (    5.21 KB)
+        figures/
+            01_district_rainfall_totals.png               (  326.90 KB)
+            01_tamil_nadu_monthly_rainfall_trend.png      (  303.64 KB)
+            02_district_actual_vs_normal.png              (  288.61 KB)
+            02_district_wise_total_rainfall_comparison.png (  334.83 KB)
+            03_actual_rainfall_vs_normal_rainfall.png     (  285.25 KB)
+            03_monthly_trend_line.png                     (  305.35 KB)
+            04_monthly_pct_deviation.png                  (  154.99 KB)
+            04_monthly_rainfall_distribution.png          (  248.98 KB)
+            05_seasonal_comparison.png                    (  114.10 KB)
+            05_seasonal_rainfall_analysis.png             (  121.88 KB)
+            06_district_pct_deviation.png                 (  362.94 KB)
+            06_top_10_highest_rainfall_districts.png      (  130.31 KB)
+            07_top5_highest_districts.png                 (   85.52 KB)
+            07_top_10_lowest_rainfall_districts.png       (  124.83 KB)
+            08_district_wise_rainfall_heatmap.png         (  859.37 KB)
+            08_top5_lowest_districts.png                  (   80.58 KB)
+            09_rainfall_deviation_analysis.png            (  365.99 KB)
+            10_seasonal_contribution_percentage.png       (  165.54 KB)
+            11_model_comparison_metrics.png               (  103.91 KB)
+            12_actual_vs_predicted.png                    (  463.85 KB)
+            13_prediction_residual_errors.png             (  234.60 KB)
+            interactive_district_comparison.html          ( 4717.71 KB)
+            interactive_monthly_trend.html                ( 4714.68 KB)
+    src/
+        data_preprocessing.py                         (   18.99 KB)
+        dataset_analysis.py                           (   13.73 KB)
+        extract_screenshot_data.py                    (   34.80 KB)
+        generate_data_inventory.py                    (    7.76 KB)
+        prediction.py                                 (    7.06 KB)
+        train_model.py                                (   15.89 KB)
+        visualization.py                              (   22.62 KB)
+    tests/
+        test_verification.py                          (    6.28 KB)
+
+2. CSV DATASET INVENTORY
+------------------------------------------------------------------------------------------
+File: data\processed\annual_totals_2023_2024_extracted.csv
+  - Size: 4.98 KB | SHA256 (prefix): da742e287ac23003
+  - Dimensions: 39 rows x 11 columns
+  - Columns: ['district', 'year', 'period', 'month', 'season', 'actual_mm', 'normal_mm', 'pct_deviation', 'source_screenshot', 'is_aggregate', 'district_standardized']
+  - Missing Values: {'district': 0, 'year': 0, 'period': 0, 'month': 0, 'season': 0, 'actual_mm': 0, 'normal_mm': 0, 'pct_deviation': 0, 'source_screenshot': 0, 'is_aggregate': 0, 'district_standardized': 0}
+  - Duplicate Records: 0
+
+File: data\processed\district_monthly_2023_2024_extracted.csv
+  - Size: 30.54 KB | SHA256 (prefix): b0d5c931e8794ff4
+  - Dimensions: 273 rows x 11 columns
+  - Columns: ['district', 'year', 'period', 'month', 'season', 'actual_mm', 'normal_mm', 'pct_deviation', 'source_screenshot', 'is_aggregate', 'district_standardized']
+  - Missing Values: {'district': 0, 'year': 0, 'period': 0, 'month': 0, 'season': 0, 'actual_mm': 0, 'normal_mm': 0, 'pct_deviation': 0, 'source_screenshot': 0, 'is_aggregate': 0, 'district_standardized': 0}
+  - Duplicate Records: 0
+
+File: data\processed\district_monthly_cleaned.csv
+  - Size: 30.42 KB | SHA256 (prefix): 28f40b6f38295af7
+  - Dimensions: 456 rows x 9 columns
+  - Columns: ['report_year', 'district_code', 'district', 'season', 'period', 'actual_mm', 'normal_mm', 'pct_deviation', 'printed_page']
+  - Missing Values: {'report_year': 0, 'district_code': 0, 'district': 0, 'season': 0, 'period': 0, 'actual_mm': 0, 'normal_mm': 0, 'pct_deviation': 0, 'printed_page': 0}
+  - Duplicate Records: 0
+
+File: data\processed\district_monthly_features.csv
+  - Size: 66.74 KB | SHA256 (prefix): 6ebcb9e647c2d43b
+  - Dimensions: 456 rows x 24 columns
+  - Columns: ['report_year', 'district_code', 'district', 'season', 'period', 'actual_mm', 'normal_mm', 'pct_deviation', 'printed_page', 'month_num', 'month_name', 'period_str', 'month_seq', 'season_display', 'season_code', 'is_monsoon', 'rainfall_deviation', 'rainfall_deviation_pct', 'season_normal_mean', 'season_month_idx', 'lag_1_actual', 'lag_1_normal', 'has_lag', 'lag_1_actual_imputed']
+  - Missing Values: {'report_year': 0, 'district_code': 0, 'district': 0, 'season': 0, 'period': 0, 'actual_mm': 0, 'normal_mm': 0, 'pct_deviation': 0, 'printed_page': 0, 'month_num': 0, 'month_name': 0, 'period_str': 0, 'month_seq': 0, 'season_display': 0, 'season_code': 0, 'is_monsoon': 0, 'rainfall_deviation': 0, 'rainfall_deviation_pct': 0, 'season_normal_mean': 0, 'season_month_idx': 0, 'lag_1_actual': 38, 'lag_1_normal': 38, 'has_lag': 0, 'lag_1_actual_imputed': 0}
+  - Duplicate Records: 0
+
+File: data\processed\screenshot_extracted_clean.csv
+  - Size: 79.72 KB | SHA256 (prefix): 207d38a7e14845b7
+  - Dimensions: 663 rows x 11 columns
+  - Columns: ['district', 'year', 'period', 'month', 'season', 'actual_mm', 'normal_mm', 'pct_deviation', 'source_screenshot', 'is_aggregate', 'district_standardized']
+  - Missing Values: {'district': 0, 'year': 0, 'period': 0, 'month': 0, 'season': 0, 'actual_mm': 0, 'normal_mm': 0, 'pct_deviation': 0, 'source_screenshot': 0, 'is_aggregate': 0, 'district_standardized': 0}
+  - Duplicate Records: 0
+
+File: data\processed\state_monthly_cleaned.csv
+  - Size: 0.97 KB | SHA256 (prefix): 560f7af534479570
+  - Dimensions: 12 rows x 9 columns
+  - Columns: ['report_year', 'district_code', 'district', 'season', 'period', 'actual_mm', 'normal_mm', 'pct_deviation', 'printed_page']
+  - Missing Values: {'report_year': 0, 'district_code': 12, 'district': 0, 'season': 0, 'period': 0, 'actual_mm': 0, 'normal_mm': 0, 'pct_deviation': 0, 'printed_page': 0}
+  - Duplicate Records: 0
+
+File: data\raw\extracted_rainfall_from_screenshots.csv
+  - Size: 79.75 KB | SHA256 (prefix): 1ba5677b788632e4
+  - Dimensions: 663 rows x 11 columns
+  - Columns: ['District', 'District_Standardized', 'Year', 'Month', 'Period', 'Season', 'Actual Rainfall (mm)', 'Normal Rainfall (mm)', 'Percentage Deviation', 'Is_Aggregate', 'Source Screenshot']
+  - Missing Values: {'District': 0, 'District_Standardized': 0, 'Year': 0, 'Month': 0, 'Period': 0, 'Season': 0, 'Actual Rainfall (mm)': 0, 'Normal Rainfall (mm)': 0, 'Percentage Deviation': 0, 'Is_Aggregate': 0, 'Source Screenshot': 0}
+  - Duplicate Records: 0
+
+File: data\raw\rainfall_by_district_2024_25.csv
+  - Size: 44.31 KB | SHA256 (prefix): 4b71b8c80dd6f305
+  - Dimensions: 663 rows x 9 columns
+  - Columns: ['report_year', 'district_code', 'district', 'season', 'period', 'actual_mm', 'normal_mm', 'pct_deviation', 'printed_page']
+  - Missing Values: {'report_year': 0, 'district_code': 17, 'district': 0, 'season': 0, 'period': 0, 'actual_mm': 0, 'normal_mm': 0, 'pct_deviation': 0, 'printed_page': 0}
+  - Duplicate Records: 0
+
+File: data\raw\tamil_nadu_rainfall_2024_2025.csv
+  - Size: 44.31 KB | SHA256 (prefix): 4b71b8c80dd6f305
+  - Dimensions: 663 rows x 9 columns
+  - Columns: ['report_year', 'district_code', 'district', 'season', 'period', 'actual_mm', 'normal_mm', 'pct_deviation', 'printed_page']
+  - Missing Values: {'report_year': 0, 'district_code': 17, 'district': 0, 'season': 0, 'period': 0, 'actual_mm': 0, 'normal_mm': 0, 'pct_deviation': 0, 'printed_page': 0}
+  - Duplicate Records: 0
+
+3. PYTHON MODULE INVENTORY
+------------------------------------------------------------------------------------------
+Module: app.py                              |  758 lines |  30.57 KB
+  Purpose: """
+Module: src\data_preprocessing.py           |  427 lines |  18.99 KB
+  Purpose: """
+Module: src\dataset_analysis.py             |  303 lines |  13.73 KB
+  Purpose: """
+Module: src\extract_screenshot_data.py      |  544 lines |  34.80 KB
+  Purpose: """
+Module: src\generate_data_inventory.py      |  182 lines |   7.76 KB
+  Purpose: """
+Module: src\prediction.py                   |  165 lines |   7.06 KB
+  Purpose: """
+Module: src\train_model.py                  |  411 lines |  15.89 KB
+  Purpose: """
+Module: src\visualization.py                |  572 lines |  22.62 KB
+  Purpose: """
+Module: tests/test_verification.py          |  155 lines |   6.28 KB
+  Purpose: """
+
+4. EDA REPORTS & VISUALIZATION ARTIFACTS
+------------------------------------------------------------------------------------------
+  - Text Report: reports\dataset_analysis_report.txt      (  5.66 KB)
+  - Text Report: reports\eda_report.txt                   ( 10.04 KB)
+  - Text Report: reports\model_evaluation_report.txt      (  3.46 KB)
+  - Text Report: reports\preprocessing_report.txt         (  5.21 KB)
+  - Text Report: reports\screenshot_extraction_report.txt (  5.21 KB)
+  - Visualizations in reports/figures/: 23 items
+    * 01_district_rainfall_totals.png                    (  326.90 KB)
+    * 01_tamil_nadu_monthly_rainfall_trend.png           (  303.64 KB)
+    * 02_district_actual_vs_normal.png                   (  288.61 KB)
+    * 02_district_wise_total_rainfall_comparison.png     (  334.83 KB)
+    * 03_actual_rainfall_vs_normal_rainfall.png          (  285.25 KB)
+    * 03_monthly_trend_line.png                          (  305.35 KB)
+    * 04_monthly_pct_deviation.png                       (  154.99 KB)
+    * 04_monthly_rainfall_distribution.png               (  248.98 KB)
+    * 05_seasonal_comparison.png                         (  114.10 KB)
+    * 05_seasonal_rainfall_analysis.png                  (  121.88 KB)
+    * 06_district_pct_deviation.png                      (  362.94 KB)
+    * 06_top_10_highest_rainfall_districts.png           (  130.31 KB)
+    * 07_top5_highest_districts.png                      (   85.52 KB)
+    * 07_top_10_lowest_rainfall_districts.png            (  124.83 KB)
+    * 08_district_wise_rainfall_heatmap.png              (  859.37 KB)
+    * 08_top5_lowest_districts.png                       (   80.58 KB)
+    * 09_rainfall_deviation_analysis.png                 (  365.99 KB)
+    * 10_seasonal_contribution_percentage.png            (  165.54 KB)
+    * 11_model_comparison_metrics.png                    (  103.91 KB)
+    * 12_actual_vs_predicted.png                         (  463.85 KB)
+    * 13_prediction_residual_errors.png                  (  234.60 KB)
+    * interactive_district_comparison.html               ( 4717.71 KB)
+    * interactive_monthly_trend.html                     ( 4714.68 KB)
+
+5. STREAMLIT WEB DASHBOARD ARCHITECTURE (app.py)
+------------------------------------------------------------------------------------------
+Dashboard Title: Tamil Nadu Rainfall Analysis & Prediction Dashboard
+Tabs & Interactive Modules:
+  1. Overview & KPIs (State aggregates, monsoon highlights, data preview)
+  2. Monthly Analysis (Interactive month-by-month actual vs normal trends)
+  3. District Deep Dive (District selector, rankings, high/low performers)
+  4. Seasonal Breakdown (SW Monsoon, NE Monsoon, Winter, Summer analysis)
+  5. Deviation & Anomalies (Deficit/Normal/Excess categorization, distributions)
+  6. Machine Learning Models (Model comparison, actual vs predicted, residuals)
+  7. Live Prediction Studio (Interactive district & period rainfall inferencing)
+  8. Data Explorer (Dynamic filters, raw data table, CSV download)
+
+6. TRAINED MACHINE LEARNING MODELS (models/)
+------------------------------------------------------------------------------------------
+  - Model File: models\baseline_model.joblib               (  0.87 KB)
+    Object Type: LinearRegression
+  - Model File: models\linear_regression_model.joblib      (  0.60 KB)
+    Object Type: Ridge
+  - Model File: models\model_registry.joblib               (  1.77 KB)
+    Object Type: dict
+    Registry Keys: ['feature_columns', 'scaler', 'evaluation_metrics', 'split_config', 'target_col']
+  - Model File: models\random_forest_model.joblib          (346.97 KB)
+    Object Type: RandomForestRegressor
+
+7. AVAILABLE RAINFALL YEARS
+------------------------------------------------------------------------------------------
+  - Primary Cleaned Dataset (district_monthly_cleaned.csv): 2024-2025
+  - Newly Extracted Screenshots (extracted_rainfall_from_screenshots.csv):
+      * 2023-2024 (Historical Prior / Comparison)
+      * 2024-2025 (Verification & SW/NE Monsoon observations)
+
+8. AVAILABLE DISTRICTS AND METEOROLOGICAL MONTHS
+------------------------------------------------------------------------------------------
+  - Districts in cleaned dataset (38 districts):
+    Ariyalur, Chengalpattu, Chennai, Coimbatore, Cuddalore, Dharmapuri, Dindigul, Erode, Kallakurichi, Kancheepuram, Kanniyakumari, Karur, Krishnagiri, Madurai, Mayiladuthurai, Nagapattinam, Namakkal, Perambalur, Pudukkottai, Ramanathapuram, Ranipet, Salem, Sivaganga, Tenkasi, Thanjavur, The Nilgiris, Theni, Thoothukudi, Tiruchirappalli, Tirunelveli, Tirupathur, Tiruppur, Tiruvallur, Tiruvannamalai, Tiruvarur, Vellore, Viluppuram, Virudhunagar
+  - Months in cleaned dataset (12 periods):
+    2024-06-01, 2024-07-01, 2024-08-01, 2024-09-01, 2024-10-01, 2024-11-01, 2024-12-01, 2025-01-01, 2025-02-01, 2025-03-01, 2025-04-01, 2025-05-01
+  - Periods extracted from screenshots (17 periods):
+    Jun 2024, Jul 2024, Aug 2024, Sep 2024, SW Monsoon Total 2024, Oct 2024, Nov 2023, Dec 2023, NE Monsoon Total 2023, Jan 2024, Feb 2024, Winter Monsoon Total 2024, Mar 2024, Apr 2024, May 2024, Hot Weather Total 2024, Whole Year 2023-24
+
+9. MISSING OBSERVATIONS & DATA GAPS AUDIT
+------------------------------------------------------------------------------------------
+  - 2024-2025 Monthly Cleaned: 0 missing values across all 456 observations (38 districts x 12 months).
+  - 2024-2025 State Cleaned: 0 missing values across 12 monthly state aggregate records.
+  - 2023-2024 Screenshots Coverage:
+      * Complete Monthly Records: Nov 2023, Dec 2023, Jan 2024, Feb 2024, Mar 2024, Apr 2024, May 2024 (7 months).
+      * Seasonal Aggregates: NE Monsoon Total 2023, Winter Total 2024, Hot Weather Total 2024, Whole Year 2023-24.
+      * Unobserved Individual Months: Jun 2023 - Oct 2023 (Oct 2023 is implicitly captured in NE Monsoon Total).
+      * Rule Compliance: Zero synthetic data generated for unobserved individual months.
+
+10. DUPLICATE RECORDS AUDIT
+------------------------------------------------------------------------------------------
+  - district_monthly_cleaned.csv duplicates: 0
+  - district_monthly_features.csv duplicates: 0
+  - extracted_rainfall_from_screenshots.csv duplicates: 0
+
+==========================================================================================
+DATA INVENTORY STATUS: VERIFIED & COMPLETE (Preserves all completed Steps 1-10 work)
+==========================================================================================
