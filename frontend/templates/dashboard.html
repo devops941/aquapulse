@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard &mdash; AquaPulse</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="page-inner">
+
+  <!-- ── Top Navigation ─────────────────────────────────────── -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff;vertical-align:middle"><path d="M12 2C12 2 5 10.5 5 15a7 7 0 0 0 14 0C19 10.5 12 2 12 2z"/></svg></span>
+      <span class="brand-text">AquaPulse</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/dashboard" class="active">Dashboard</a></li>
+      <li><a href="/prediction">Predict</a></li>
+      <li><a href="/analysis">Analysis</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+    <div class="nav-badge">Tamil Nadu &bull; 2024&ndash;25</div>
+  </nav>
+
+  <div class="dashboard-layout">
+
+    <!-- ── Sidebar ───────────────────────────────────────────── -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-label">Navigation</div>
+        <ul class="sidebar-nav">
+          <li><a href="/dashboard" class="sidebar-link active">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            Overview
+          </a></li>
+          <li><a href="/prediction" class="sidebar-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            Prediction
+          </a></li>
+          <li><a href="/analysis" class="sidebar-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+            Analysis
+          </a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-label">District Filter</div>
+        <select class="sidebar-select" id="districtSelect" onchange="updateCharts(this.value)">
+          <option value="">-- All Districts --</option>
+        </select>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-label">Data Range</div>
+        <div class="sidebar-info-row"><span>Start</span><strong>Jun 2024</strong></div>
+        <div class="sidebar-info-row"><span>End</span><strong>May 2025</strong></div>
+        <div class="sidebar-info-row"><span>Records</span><strong>456 rows</strong></div>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-label">Models Active</div>
+        <div class="model-badge">Random Forest</div>
+        <div class="model-badge">Ridge Regression</div>
+        <div class="model-badge">Baseline</div>
+      </div>
+    </aside>
+
+    <!-- ── Main Content ──────────────────────────────────────── -->
+    <main class="dashboard-main">
+      <div class="page-header">
+        <div>
+          <h1 class="page-title">Rainfall Dashboard</h1>
+          <p class="page-subtitle">Tamil Nadu District-wise Seasonal Rainfall Overview &mdash; 2024&ndash;25</p>
+        </div>
+        <div class="page-header-actions">
+          <span class="status-pill status-live">
+            <span class="pulse-dot"></span> Live Data
+          </span>
+        </div>
+      </div>
+
+      <!-- KPI Cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card kpi-blue">
+          <div class="kpi-label">Total Rainfall Recorded</div>
+          <div class="kpi-value" id="kpiTotal">{{ stats.total_rainfall_mm }} mm</div>
+          <div class="kpi-sub">Across all districts &bull; 2024&ndash;25</div>
+        </div>
+        <div class="kpi-card kpi-cyan">
+          <div class="kpi-label">Top Rainfall District</div>
+          <div class="kpi-value" id="kpiTop">{{ stats.top_district }}</div>
+          <div class="kpi-sub">{{ stats.top_district_mm }} mm total annual</div>
+        </div>
+        <div class="kpi-card kpi-teal">
+          <div class="kpi-label">District Average</div>
+          <div class="kpi-value" id="kpiAvg">{{ stats.avg_annual_mm }} mm</div>
+          <div class="kpi-sub">Mean annual rainfall per district</div>
+        </div>
+        <div class="kpi-card kpi-purple">
+          <div class="kpi-label">Districts Analyzed</div>
+          <div class="kpi-value">{{ stats.total_districts }}</div>
+          <div class="kpi-sub">Complete Tamil Nadu coverage</div>
+        </div>
+      </div>
+
+      <!-- Live Chart Section -->
+      <div class="chart-row">
+        <div class="chart-card chart-wide">
+          <div class="chart-card-header">
+            <h3>Monthly Rainfall: Actual vs Predicted vs Normal</h3>
+            <select class="inline-select" id="chartDistrictSelect" onchange="loadChartData(this.value)">
+              <option value="Chennai">Chennai</option>
+            </select>
+          </div>
+          <div class="chart-container">
+            <canvas id="mainChart" height="90"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Static Report Charts -->
+      <div class="section-subheader">
+        <h2>Generated Analysis Charts</h2>
+        <p>Static reports from the ML analysis pipeline</p>
+      </div>
+
+      <div class="charts-gallery">
+        {% for fig in figures %}
+          {% if fig.endswith('.png') %}
+          <div class="gallery-card">
+            <img src="/figures/{{ fig }}" alt="{{ fig }}" loading="lazy" />
+            <div class="gallery-label">{{ fig.replace('_', ' ').replace('.png', '') }}</div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Interactive HTML Charts -->
+      {% set html_figs = figures | selectattr('__class__', 'eq', 'str') | list %}
+      {% set has_html = namespace(found=false) %}
+      {% for fig in figures %}
+        {% if fig.endswith('.html') %}{% set has_html.found = true %}{% endif %}
+      {% endfor %}
+
+      {% if has_html.found %}
+      <div class="section-subheader">
+        <h2>Interactive Plotly Charts</h2>
+        <p>Hover, zoom and filter the interactive visualizations</p>
+      </div>
+      <div class="html-charts-list">
+        {% for fig in figures %}
+          {% if fig.endswith('.html') %}
+          <div class="html-chart-card">
+            <div class="html-chart-label">{{ fig.replace('_', ' ').replace('.html', '') }}</div>
+            <a href="/figures/{{ fig }}" target="_blank" class="btn btn-sm btn-outline">
+              Open Interactive Chart &rarr;
+            </a>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </main>
+  </div>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="/static/js/main.js"></script>
+  <script>
+    // Load districts into selects and initialize chart
+    document.addEventListener("DOMContentLoaded", async () => {
+      const res = await fetch("/api/districts");
+      const data = await res.json();
+      const sel = document.getElementById("districtSelect");
+      const sel2 = document.getElementById("chartDistrictSelect");
+      sel2.innerHTML = "";
+      data.districts.forEach(d => {
+        sel.innerHTML += `<option value="${d}">${d}</option>`;
+        sel2.innerHTML += `<option value="${d}">${d}</option>`;
+      });
+      loadChartData("Chennai");
+    });
+
+    let mainChart = null;
+
+    async function loadChartData(district) {
+      const res = await fetch(`/api/chart-data?district=${encodeURIComponent(district)}`);
+      const d = await res.json();
+      const ctx = document.getElementById("mainChart").getContext("2d");
+      if (mainChart) mainChart.destroy();
+      mainChart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: d.labels,
+          datasets: [
+            {
+              label: "Actual (mm)",
+              data: d.actual,
+              borderColor: "#00d4ff",
+              backgroundColor: "rgba(0,212,255,0.12)",
+              borderWidth: 2.5,
+              tension: 0.4,
+              fill: true,
+              pointRadius: 4,
+              pointBackgroundColor: "#00d4ff",
+            },
+            {
+              label: "Predicted (mm)",
+              data: d.predicted,
+              borderColor: "#7c5ce4",
+              backgroundColor: "rgba(124,92,228,0.08)",
+              borderWidth: 2,
+              tension: 0.4,
+              borderDash: [6, 3],
+              pointRadius: 3,
+            },
+            {
+              label: "Normal (mm)",
+              data: d.normal,
+              borderColor: "rgba(255,255,255,0.3)",
+              borderWidth: 1.5,
+              borderDash: [3, 3],
+              tension: 0.3,
+              pointRadius: 2,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              labels: { color: "rgba(255,255,255,0.75)", font: { family: "Inter", size: 12 } }
+            },
+            tooltip: { mode: "index", intersect: false },
+          },
+          scales: {
+            x: {
+              ticks: { color: "rgba(255,255,255,0.5)", font: { size: 11 }, maxRotation: 45 },
+              grid: { color: "rgba(255,255,255,0.05)" },
+            },
+            y: {
+              ticks: { color: "rgba(255,255,255,0.5)", font: { size: 11 } },
+              grid: { color: "rgba(255,255,255,0.08)" },
+              title: { display: true, text: "Rainfall (mm)", color: "rgba(255,255,255,0.4)" },
+            },
+          },
+        },
+      });
+    }
+
+    function updateCharts(district) {
+      if (district) {
+        document.getElementById("chartDistrictSelect").value = district;
+        loadChartData(district);
+      }
+    }
+  </script>
+  <footer class="page-footer">
+    <p>&copy; 2026 AquaPulse &bull; Seasonal Rainfall Intelligence &amp; Climate Pattern Discovery</p>
+  </footer>
+</body>
+</html>

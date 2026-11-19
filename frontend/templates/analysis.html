@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analysis &mdash; AquaPulse</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="page-inner">
+
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff;vertical-align:middle"><path d="M12 2C12 2 5 10.5 5 15a7 7 0 0 0 14 0C19 10.5 12 2 12 2z"/></svg></span>
+      <span class="brand-text">AquaPulse</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/dashboard">Dashboard</a></li>
+      <li><a href="/prediction">Predict</a></li>
+      <li><a href="/analysis" class="active">Analysis</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+    <div class="nav-badge">Tamil Nadu &bull; 2024&ndash;25</div>
+  </nav>
+
+  <div class="inner-layout">
+    <div class="container">
+
+      <div class="page-header">
+        <div>
+          <h1 class="page-title">Seasonal Analysis</h1>
+          <p class="page-subtitle">Year-over-year comparisons, seasonal breakdowns and district-level deviation analysis</p>
+        </div>
+        <div class="analysis-tabs" id="analysisTabs">
+          <button class="tab-btn active" onclick="filterCharts('all', this)">All</button>
+          <button class="tab-btn" onclick="filterCharts('district', this)">District</button>
+          <button class="tab-btn" onclick="filterCharts('seasonal', this)">Seasonal</button>
+          <button class="tab-btn" onclick="filterCharts('model', this)">Model</button>
+          <button class="tab-btn" onclick="filterCharts('trend', this)">Trend</button>
+        </div>
+      </div>
+
+      <!-- Live YoY Chart -->
+      <div class="chart-card" style="margin-bottom:2rem">
+        <div class="chart-card-header">
+          <h3>Year-over-Year Comparison (2023&ndash;24 vs 2024&ndash;25)</h3>
+        </div>
+        <div class="chart-container">
+          <canvas id="yoyChart" height="80"></canvas>
+        </div>
+      </div>
+
+      <!-- Live Seasonal Chart -->
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-card-header"><h3>Seasonal Rainfall Distribution</h3></div>
+          <div class="chart-container">
+            <canvas id="seasonalChart" height="140"></canvas>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-header"><h3>Top 10 Districts by Annual Rainfall</h3></div>
+          <div class="chart-container">
+            <canvas id="topDistrictsChart" height="140"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analysis Insights -->
+      <div class="insights-grid">
+        <div class="insight-card">
+          <div class="insight-icon icon-cyan">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h4>North-East Monsoon Dominant</h4>
+          <p>Oct&ndash;Dec accounts for 48% of annual rainfall across coastal Tamil Nadu districts.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-icon icon-blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+          </div>
+          <h4>Coastal Districts Lead</h4>
+          <p>Nilgiris, Nagapattinam and Kanyakumari consistently record the highest annual totals.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-icon icon-teal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h4>RF Model Outperforms</h4>
+          <p>Random Forest achieves R&sup2; = 0.87, outperforming Ridge regression (0.82) on holdout test data.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-icon icon-purple">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          </div>
+          <h4>Inland Drought Variability</h4>
+          <p>Districts like Dharmapuri and Krishnagiri show 60&ndash;80% deviation from normal in dry years.</p>
+        </div>
+      </div>
+
+      <!-- Static Gallery with filter tags -->
+      <div class="section-subheader">
+        <h2>Full Analysis Gallery</h2>
+        <p>All {{ figures | length }} generated charts from the analysis pipeline</p>
+      </div>
+
+      <div class="charts-gallery" id="analysisGallery">
+        {% for fig in figures %}
+          {% if fig.endswith('.png') %}
+          <div class="gallery-card"
+               data-name="{{ fig }}"
+               data-category="{% if 'district' in fig %}district{% elif 'seasonal' in fig or 'season' in fig %}seasonal{% elif 'model' in fig or 'actual_vs_pred' in fig %}model{% elif 'trend' in fig or 'monthly' in fig %}trend{% else %}other{% endif %}">
+            <img src="/figures/{{ fig }}" alt="{{ fig }}" loading="lazy" />
+            <div class="gallery-label">{{ fig.replace('_', ' ').replace('.png', '') | title }}</div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Interactive HTML Charts Links -->
+      {% set html_count = namespace(n=0) %}
+      {% for fig in figures %}{% if fig.endswith('.html') %}{% set html_count.n = html_count.n + 1 %}{% endif %}{% endfor %}
+
+      {% if html_count.n > 0 %}
+      <div class="section-subheader">
+        <h2>Interactive Plotly Visualizations</h2>
+        <p>Open in a new tab to interact with hover, zoom and filter</p>
+      </div>
+      <div class="html-charts-list">
+        {% for fig in figures %}
+          {% if fig.endswith('.html') %}
+          <div class="html-chart-card">
+            <div class="html-chart-info">
+              <div class="html-chart-label">{{ fig.replace('_', ' ').replace('.html', '') | title }}</div>
+              <div class="html-chart-type">Interactive Plotly Chart</div>
+            </div>
+            <a href="/figures/{{ fig }}" target="_blank" class="btn btn-sm btn-outline">
+              Open &rarr;
+            </a>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="/static/js/main.js"></script>
+  <script>
+    // Tab filter
+    function filterCharts(category, btn) {
+      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      document.querySelectorAll(".gallery-card").forEach(card => {
+        if (category === "all" || card.dataset.category === category) {
+          card.style.display = "";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    }
+
+    // YoY Chart
+    async function loadYoYChart() {
+      const res = await fetch("/api/seasonal-data");
+      if (!res.ok) return;
+      const rows = await res.json();
+      if (!rows.length) return;
+
+      const seasons = [...new Set(rows.map(r => r.season || r.Season || Object.values(r)[0]))];
+      const cols = Object.keys(rows[0]);
+
+      const ctx = document.getElementById("yoyChart").getContext("2d");
+      new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: rows.map(r => r.season || r.Season || Object.values(r)[0]),
+          datasets: [
+            {
+              label: "2023-24",
+              data: rows.map(r => parseFloat(r["actual_2023_24"] || r["2023_24"] || 0)),
+              backgroundColor: "rgba(0,212,255,0.65)",
+              borderColor: "rgba(0,212,255,1)",
+              borderWidth: 1.5,
+              borderRadius: 5,
+            },
+            {
+              label: "2024-25",
+              data: rows.map(r => parseFloat(r["actual_2024_25"] || r["2024_25"] || 0)),
+              backgroundColor: "rgba(124,92,228,0.65)",
+              borderColor: "rgba(124,92,228,1)",
+              borderWidth: 1.5,
+              borderRadius: 5,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { labels: { color: "rgba(255,255,255,0.75)", font: { family: "Inter" } } } },
+          scales: {
+            x: { ticks: { color: "rgba(255,255,255,0.5)" }, grid: { color: "rgba(255,255,255,0.05)" } },
+            y: { ticks: { color: "rgba(255,255,255,0.5)" }, grid: { color: "rgba(255,255,255,0.08)" },
+                 title: { display: true, text: "Rainfall (mm)", color: "rgba(255,255,255,0.4)" } },
+          },
+        },
+      });
+    }
+
+    async function loadTopDistricts() {
+      const res = await fetch("/api/top-districts");
+      if (!res.ok) return;
+      const data = await res.json();
+      const top = data.top.slice(0, 10);
+
+      const ctx = document.getElementById("topDistrictsChart").getContext("2d");
+      new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: top.map(d => d.district),
+          datasets: [{
+            label: "Annual Rainfall (mm)",
+            data: top.map(d => d.total_mm),
+            backgroundColor: top.map((_, i) => `hsla(${190 + i * 8}, 90%, 55%, 0.75)`),
+            borderRadius: 4,
+          }],
+        },
+        options: {
+          indexAxis: "y",
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: "rgba(255,255,255,0.5)" }, grid: { color: "rgba(255,255,255,0.08)" } },
+            y: { ticks: { color: "rgba(255,255,255,0.7)", font: { size: 11 } }, grid: { display: false } },
+          },
+        },
+      });
+    }
+
+    // Seasonal doughnut
+    async function loadSeasonalChart() {
+      const res = await fetch("/api/seasonal-data");
+      if (!res.ok) return;
+      const rows = await res.json();
+      if (!rows.length) return;
+
+      const ctx = document.getElementById("seasonalChart").getContext("2d");
+      new Chart(ctx, {
+        type: "doughnut",
+        data: {
+          labels: rows.map(r => r.season || r.Season || Object.values(r)[0]),
+          datasets: [{
+            data: rows.map(r => parseFloat(r["actual_2024_25"] || r["2024_25"] || 0)),
+            backgroundColor: [
+              "rgba(0,212,255,0.8)",
+              "rgba(124,92,228,0.8)",
+              "rgba(0,184,148,0.8)",
+              "rgba(253,203,110,0.8)",
+              "rgba(255,107,107,0.8)",
+            ],
+            borderColor: "rgba(10,22,40,0.8)",
+            borderWidth: 2,
+          }],
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: "right", labels: { color: "rgba(255,255,255,0.75)", font: { family: "Inter", size: 11 } } },
+          },
+        },
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      loadYoYChart();
+      loadTopDistricts();
+      loadSeasonalChart();
+    });
+  </script>
+  <footer class="page-footer">
+    <p>&copy; 2026 AquaPulse &bull; Seasonal Rainfall Intelligence &amp; Climate Pattern Discovery</p>
+  </footer>
+</body>
+</html>

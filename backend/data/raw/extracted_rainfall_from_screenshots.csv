@@ -1,0 +1,664 @@
+District,District_Standardized,Year,Month,Period,Season,Actual Rainfall (mm),Normal Rainfall (mm),Percentage Deviation,Is_Aggregate,Source Screenshot
+Chennai,Chennai,2024-2025,June,Jun 2024,Southwest Monsoon,200.4,64.6,210.2,False,media_1794830394426_5950dd4e.jpg
+Chennai,Chennai,2024-2025,July,Jul 2024,Southwest Monsoon,144.6,107.3,34.8,False,media_1794830394426_5950dd4e.jpg
+Chennai,Chennai,2024-2025,August,Aug 2024,Southwest Monsoon,114.8,133.6,-14.1,False,media_1794830394426_5950dd4e.jpg
+Kancheepuram,Kancheepuram,2024-2025,June,Jun 2024,Southwest Monsoon,175.5,66.5,163.9,False,media_1794830394426_5950dd4e.jpg
+Kancheepuram,Kancheepuram,2024-2025,July,Jul 2024,Southwest Monsoon,149.8,109.1,37.3,False,media_1794830394426_5950dd4e.jpg
+Kancheepuram,Kancheepuram,2024-2025,August,Aug 2024,Southwest Monsoon,219.9,141.8,55.1,False,media_1794830394426_5950dd4e.jpg
+Chengalpattu,Chengalpattu,2024-2025,June,Jun 2024,Southwest Monsoon,158.9,55.7,185.3,False,media_1794830394426_5950dd4e.jpg
+Chengalpattu,Chengalpattu,2024-2025,July,Jul 2024,Southwest Monsoon,119.6,91.2,31.1,False,media_1794830394426_5950dd4e.jpg
+Chengalpattu,Chengalpattu,2024-2025,August,Aug 2024,Southwest Monsoon,162.5,127.6,27.4,False,media_1794830394426_5950dd4e.jpg
+Tiruvallur,Tiruvallur,2024-2025,June,Jun 2024,Southwest Monsoon,188.5,71.8,162.5,False,media_1794830394426_5950dd4e.jpg
+Tiruvallur,Tiruvallur,2024-2025,July,Jul 2024,Southwest Monsoon,171.7,106.7,60.9,False,media_1794830394426_5950dd4e.jpg
+Tiruvallur,Tiruvallur,2024-2025,August,Aug 2024,Southwest Monsoon,145.5,136.2,6.8,False,media_1794830394426_5950dd4e.jpg
+Cuddalore,Cuddalore,2024-2025,June,Jun 2024,Southwest Monsoon,123.8,45.7,170.9,False,media_1794830394426_5950dd4e.jpg
+Cuddalore,Cuddalore,2024-2025,July,Jul 2024,Southwest Monsoon,53.3,70.0,-23.9,False,media_1794830394426_5950dd4e.jpg
+Cuddalore,Cuddalore,2024-2025,August,Aug 2024,Southwest Monsoon,184.0,111.5,65.0,False,media_1794830394426_5950dd4e.jpg
+Villupuram,Viluppuram,2024-2025,June,Jun 2024,Southwest Monsoon,88.7,52.7,68.3,False,media_1794830394426_5950dd4e.jpg
+Villupuram,Viluppuram,2024-2025,July,Jul 2024,Southwest Monsoon,72.1,84.1,-14.3,False,media_1794830394426_5950dd4e.jpg
+Villupuram,Viluppuram,2024-2025,August,Aug 2024,Southwest Monsoon,319.3,127.8,149.8,False,media_1794830394426_5950dd4e.jpg
+Kallakurichi,Kallakurichi,2024-2025,June,Jun 2024,Southwest Monsoon,84.8,50.6,67.6,False,media_1794830394426_5950dd4e.jpg
+Kallakurichi,Kallakurichi,2024-2025,July,Jul 2024,Southwest Monsoon,33.1,78.3,-57.7,False,media_1794830394426_5950dd4e.jpg
+Kallakurichi,Kallakurichi,2024-2025,August,Aug 2024,Southwest Monsoon,168.9,120.3,40.4,False,media_1794830394426_5950dd4e.jpg
+Vellore,Vellore,2024-2025,June,Jun 2024,Southwest Monsoon,153.1,64.9,135.9,False,media_1794830394426_5950dd4e.jpg
+Vellore,Vellore,2024-2025,July,Jul 2024,Southwest Monsoon,104.3,97.4,7.1,False,media_1794830394426_5950dd4e.jpg
+Vellore,Vellore,2024-2025,August,Aug 2024,Southwest Monsoon,205.1,117.4,74.7,False,media_1794830394426_5950dd4e.jpg
+Ranipet,Ranipet,2024-2025,June,Jun 2024,Southwest Monsoon,206.7,69.6,197.0,False,media_1794830394426_5950dd4e.jpg
+Ranipet,Ranipet,2024-2025,July,Jul 2024,Southwest Monsoon,154.3,108.7,42.0,False,media_1794830394426_5950dd4e.jpg
+Ranipet,Ranipet,2024-2025,August,Aug 2024,Southwest Monsoon,223.4,125.9,77.4,False,media_1794830394426_5950dd4e.jpg
+Tirupathur,Tirupathur,2024-2025,June,Jun 2024,Southwest Monsoon,183.7,63.7,188.4,False,media_1794830394426_5950dd4e.jpg
+Tirupathur,Tirupathur,2024-2025,July,Jul 2024,Southwest Monsoon,31.7,86.4,-63.3,False,media_1794830394426_5950dd4e.jpg
+Tirupathur,Tirupathur,2024-2025,August,Aug 2024,Southwest Monsoon,190.0,117.6,61.6,False,media_1794830394426_5950dd4e.jpg
+Tiruvannamalai,Tiruvannamalai,2024-2025,June,Jun 2024,Southwest Monsoon,135.8,60.4,124.8,False,media_1794830394426_5950dd4e.jpg
+Tiruvannamalai,Tiruvannamalai,2024-2025,July,Jul 2024,Southwest Monsoon,81.4,94.1,-13.5,False,media_1794830394426_5950dd4e.jpg
+Tiruvannamalai,Tiruvannamalai,2024-2025,August,Aug 2024,Southwest Monsoon,289.4,131.3,120.4,False,media_1794830394426_5950dd4e.jpg
+Salem,Salem,2024-2025,June,Jun 2024,Southwest Monsoon,127.8,57.2,123.4,False,media_1794830394426_5950dd4e.jpg
+Salem,Salem,2024-2025,July,Jul 2024,Southwest Monsoon,40.3,80.3,-49.8,False,media_1794830394426_5950dd4e.jpg
+Salem,Salem,2024-2025,August,Aug 2024,Southwest Monsoon,242.8,115.0,111.1,False,media_1794830394426_5950dd4e.jpg
+Namakkal,Namakkal,2024-2025,June,Jun 2024,Southwest Monsoon,93.3,39.4,136.8,False,media_1794830394426_5950dd4e.jpg
+Namakkal,Namakkal,2024-2025,July,Jul 2024,Southwest Monsoon,17.5,61.1,-71.4,False,media_1794830394426_5950dd4e.jpg
+Namakkal,Namakkal,2024-2025,August,Aug 2024,Southwest Monsoon,142.7,96.7,47.6,False,media_1794830394426_5950dd4e.jpg
+Dharmapuri,Dharmapuri,2024-2025,June,Jun 2024,Southwest Monsoon,106.4,54.3,95.9,False,media_1794830394426_5950dd4e.jpg
+Dharmapuri,Dharmapuri,2024-2025,July,Jul 2024,Southwest Monsoon,32.1,67.3,-52.3,False,media_1794830394426_5950dd4e.jpg
+Dharmapuri,Dharmapuri,2024-2025,August,Aug 2024,Southwest Monsoon,184.7,99.3,86.0,False,media_1794830394426_5950dd4e.jpg
+Krishnagiri,Krishnagiri,2024-2025,June,Jun 2024,Southwest Monsoon,139.4,47.6,192.9,False,media_1794830394426_5950dd4e.jpg
+Krishnagiri,Krishnagiri,2024-2025,July,Jul 2024,Southwest Monsoon,29.8,62.6,-52.4,False,media_1794830394426_5950dd4e.jpg
+Krishnagiri,Krishnagiri,2024-2025,August,Aug 2024,Southwest Monsoon,190.8,94.5,101.9,False,media_1794830394426_5950dd4e.jpg
+Coimbatore,Coimbatore,2024-2025,June,Jun 2024,Southwest Monsoon,242.0,172.0,40.7,False,media_1794830394426_5950dd4e.jpg
+Coimbatore,Coimbatore,2024-2025,July,Jul 2024,Southwest Monsoon,459.2,220.8,108.0,False,media_1794830394426_5950dd4e.jpg
+Coimbatore,Coimbatore,2024-2025,August,Aug 2024,Southwest Monsoon,176.9,169.1,4.6,False,media_1794830394426_5950dd4e.jpg
+Tiruppur,Tiruppur,2024-2025,June,Jun 2024,Southwest Monsoon,42.2,20.5,105.9,False,media_1794830394426_5950dd4e.jpg
+Tiruppur,Tiruppur,2024-2025,July,Jul 2024,Southwest Monsoon,32.8,21.8,50.5,False,media_1794830394426_5950dd4e.jpg
+Tiruppur,Tiruppur,2024-2025,August,Aug 2024,Southwest Monsoon,106.3,33.4,218.3,False,media_1794830394426_5950dd4e.jpg
+Erode,Erode,2024-2025,June,Jun 2024,Southwest Monsoon,67.3,46.1,46.0,False,media_1794830394426_5950dd4e.jpg
+Erode,Erode,2024-2025,July,Jul 2024,Southwest Monsoon,38.9,46.2,-15.8,False,media_1794830394426_5950dd4e.jpg
+Erode,Erode,2024-2025,August,Aug 2024,Southwest Monsoon,129.2,63.6,103.1,False,media_1794830394426_5950dd4e.jpg
+Tiruchirapalli,Tiruchirappalli,2024-2025,June,Jun 2024,Southwest Monsoon,99.5,28.5,249.1,False,media_1794830394426_5950dd4e.jpg
+Tiruchirapalli,Tiruchirappalli,2024-2025,July,Jul 2024,Southwest Monsoon,10.5,46.1,-77.2,False,media_1794830394426_5950dd4e.jpg
+Tiruchirapalli,Tiruchirappalli,2024-2025,August,Aug 2024,Southwest Monsoon,98.0,76.8,27.6,False,media_1794830394426_5950dd4e.jpg
+Karur,Karur,2024-2025,June,Jun 2024,Southwest Monsoon,70.9,20.5,245.9,False,media_1794830394426_5950dd4e.jpg
+Karur,Karur,2024-2025,July,Jul 2024,Southwest Monsoon,0.4,29.6,-98.6,False,media_1794830394426_5950dd4e.jpg
+Karur,Karur,2024-2025,August,Aug 2024,Southwest Monsoon,126.9,48.4,162.2,False,media_1794830394426_5950dd4e.jpg
+Perambalur,Perambalur,2024-2025,June,Jun 2024,Southwest Monsoon,39.9,33.4,19.5,False,media_1794830394426_5950dd4e.jpg
+Perambalur,Perambalur,2024-2025,July,Jul 2024,Southwest Monsoon,17.4,39.6,-56.1,False,media_1794830394426_5950dd4e.jpg
+Perambalur,Perambalur,2024-2025,August,Aug 2024,Southwest Monsoon,196.2,83.4,135.3,False,media_1794830394426_5950dd4e.jpg
+Ariyalur,Ariyalur,2024-2025,June,Jun 2024,Southwest Monsoon,58.3,39.0,49.5,False,media_1794830394426_5950dd4e.jpg
+Ariyalur,Ariyalur,2024-2025,July,Jul 2024,Southwest Monsoon,17.3,54.2,-68.1,False,media_1794830394426_5950dd4e.jpg
+Ariyalur,Ariyalur,2024-2025,August,Aug 2024,Southwest Monsoon,144.0,102.8,40.1,False,media_1794830394426_5950dd4e.jpg
+Pudukkottai,Pudukkottai,2024-2025,June,Jun 2024,Southwest Monsoon,116.7,38.7,201.6,False,media_1794830394426_5950dd4e.jpg
+Pudukkottai,Pudukkottai,2024-2025,July,Jul 2024,Southwest Monsoon,37.5,57.7,-35.0,False,media_1794830394426_5950dd4e.jpg
+Pudukkottai,Pudukkottai,2024-2025,August,Aug 2024,Southwest Monsoon,160.6,89.7,79.0,False,media_1794830394426_5950dd4e.jpg
+Thanjavur,Thanjavur,2024-2025,June,Jun 2024,Southwest Monsoon,80.3,34.0,136.2,False,media_1794830394426_5950dd4e.jpg
+Thanjavur,Thanjavur,2024-2025,July,Jul 2024,Southwest Monsoon,25.8,58.3,-55.7,False,media_1794830394426_5950dd4e.jpg
+Thanjavur,Thanjavur,2024-2025,August,Aug 2024,Southwest Monsoon,108.7,97.8,11.1,False,media_1794830394426_5950dd4e.jpg
+Tiruvarur,Tiruvarur,2024-2025,June,Jun 2024,Southwest Monsoon,69.5,34.5,101.4,False,media_1794830394426_5950dd4e.jpg
+Tiruvarur,Tiruvarur,2024-2025,July,Jul 2024,Southwest Monsoon,15.4,58.9,-73.9,False,media_1794830394426_5950dd4e.jpg
+Tiruvarur,Tiruvarur,2024-2025,August,Aug 2024,Southwest Monsoon,97.6,91.2,7.0,False,media_1794830394426_5950dd4e.jpg
+Nagapattinam,Nagapattinam,2024-2025,June,Jun 2024,Southwest Monsoon,38.9,34.4,13.1,False,media_1794830394426_5950dd4e.jpg
+Nagapattinam,Nagapattinam,2024-2025,July,Jul 2024,Southwest Monsoon,9.3,47.1,-80.3,False,media_1794830394426_5950dd4e.jpg
+Nagapattinam,Nagapattinam,2024-2025,August,Aug 2024,Southwest Monsoon,56.9,74.8,-23.9,False,media_1794830394426_5950dd4e.jpg
+Mayiladuthurai,Mayiladuthurai,2024-2025,June,Jun 2024,Southwest Monsoon,58.5,39.5,48.1,False,media_1794830394426_5950dd4e.jpg
+Mayiladuthurai,Mayiladuthurai,2024-2025,July,Jul 2024,Southwest Monsoon,31.5,52.6,-40.1,False,media_1794830394426_5950dd4e.jpg
+Mayiladuthurai,Mayiladuthurai,2024-2025,August,Aug 2024,Southwest Monsoon,97.2,99.1,-1.9,False,media_1794830394426_5950dd4e.jpg
+Madurai,Madurai,2024-2025,June,Jun 2024,Southwest Monsoon,80.6,39.4,104.6,False,media_1794830394426_5950dd4e.jpg
+Madurai,Madurai,2024-2025,July,Jul 2024,Southwest Monsoon,27.0,56.0,-51.8,False,media_1794830394426_5950dd4e.jpg
+Madurai,Madurai,2024-2025,August,Aug 2024,Southwest Monsoon,185.6,77.0,141.0,False,media_1794830394426_5950dd4e.jpg
+Theni,Theni,2024-2025,June,Jun 2024,Southwest Monsoon,105.5,31.2,238.1,False,media_1794830394426_5950dd4e.jpg
+Theni,Theni,2024-2025,July,Jul 2024,Southwest Monsoon,99.8,50.3,98.4,False,media_1794830394426_5950dd4e.jpg
+Theni,Theni,2024-2025,August,Aug 2024,Southwest Monsoon,132.3,58.9,124.6,False,media_1794830394426_5950dd4e.jpg
+Dindigul,Dindigul,2024-2025,June,Jun 2024,Southwest Monsoon,70.6,41.0,72.2,False,media_1794830394426_5950dd4e.jpg
+Dindigul,Dindigul,2024-2025,July,Jul 2024,Southwest Monsoon,38.7,50.5,-23.4,False,media_1794830394426_5950dd4e.jpg
+Dindigul,Dindigul,2024-2025,August,Aug 2024,Southwest Monsoon,176.7,72.7,143.1,False,media_1794830394426_5950dd4e.jpg
+Ramanathapuram,Ramanathapuram,2024-2025,June,Jun 2024,Southwest Monsoon,48.1,15.2,216.4,False,media_1794830394426_5950dd4e.jpg
+Ramanathapuram,Ramanathapuram,2024-2025,July,Jul 2024,Southwest Monsoon,17.5,25.2,-30.6,False,media_1794830394426_5950dd4e.jpg
+Ramanathapuram,Ramanathapuram,2024-2025,August,Aug 2024,Southwest Monsoon,64.3,33.4,92.5,False,media_1794830394426_5950dd4e.jpg
+Virudhunagar,Virudhunagar,2024-2025,June,Jun 2024,Southwest Monsoon,79.3,20.2,292.6,False,media_1794830394426_5950dd4e.jpg
+Virudhunagar,Virudhunagar,2024-2025,July,Jul 2024,Southwest Monsoon,18.2,35.6,-48.9,False,media_1794830394426_5950dd4e.jpg
+Virudhunagar,Virudhunagar,2024-2025,August,Aug 2024,Southwest Monsoon,161.9,50.5,220.6,False,media_1794830394426_5950dd4e.jpg
+Sivagangai,Sivaganga,2024-2025,June,Jun 2024,Southwest Monsoon,105.4,45.4,132.2,False,media_1794830394426_5950dd4e.jpg
+Sivagangai,Sivaganga,2024-2025,July,Jul 2024,Southwest Monsoon,74.4,74.2,0.3,False,media_1794830394426_5950dd4e.jpg
+Sivagangai,Sivaganga,2024-2025,August,Aug 2024,Southwest Monsoon,199.0,87.7,126.9,False,media_1794830394426_5950dd4e.jpg
+Tirunelveli,Tirunelveli,2024-2025,June,Jun 2024,Southwest Monsoon,118.4,22.9,417.0,False,media_1794830394426_5950dd4e.jpg
+Tirunelveli,Tirunelveli,2024-2025,July,Jul 2024,Southwest Monsoon,109.7,16.5,564.8,False,media_1794830394426_5950dd4e.jpg
+Tirunelveli,Tirunelveli,2024-2025,August,Aug 2024,Southwest Monsoon,60.8,17.3,251.4,False,media_1794830394426_5950dd4e.jpg
+Tenkasi,Tenkasi,2024-2025,June,Jun 2024,Southwest Monsoon,71.6,47.3,51.4,False,media_1794830394426_5950dd4e.jpg
+Tenkasi,Tenkasi,2024-2025,July,Jul 2024,Southwest Monsoon,99.6,41.2,141.7,False,media_1794830394426_5950dd4e.jpg
+Tenkasi,Tenkasi,2024-2025,August,Aug 2024,Southwest Monsoon,45.5,35.7,27.5,False,media_1794830394426_5950dd4e.jpg
+Thoothukudi,Thoothukudi,2024-2025,June,Jun 2024,Southwest Monsoon,6.2,6.1,1.6,False,media_1794830394426_5950dd4e.jpg
+Thoothukudi,Thoothukudi,2024-2025,July,Jul 2024,Southwest Monsoon,1.3,10.7,-87.9,False,media_1794830394426_5950dd4e.jpg
+Thoothukudi,Thoothukudi,2024-2025,August,Aug 2024,Southwest Monsoon,42.9,15.3,180.4,False,media_1794830394426_5950dd4e.jpg
+The Nilgiris,The Nilgiris,2024-2025,June,Jun 2024,Southwest Monsoon,336.2,195.7,71.8,False,media_1794830394426_5950dd4e.jpg
+The Nilgiris,The Nilgiris,2024-2025,July,Jul 2024,Southwest Monsoon,617.0,245.6,151.2,False,media_1794830394426_5950dd4e.jpg
+The Nilgiris,The Nilgiris,2024-2025,August,Aug 2024,Southwest Monsoon,216.9,220.6,-1.7,False,media_1794830394426_5950dd4e.jpg
+Kanniyakumari,Kanniyakumari,2024-2025,June,Jun 2024,Southwest Monsoon,209.6,175.0,19.8,False,media_1794830394426_5950dd4e.jpg
+Kanniyakumari,Kanniyakumari,2024-2025,July,Jul 2024,Southwest Monsoon,116.3,108.0,7.7,False,media_1794830394426_5950dd4e.jpg
+Kanniyakumari,Kanniyakumari,2024-2025,August,Aug 2024,Southwest Monsoon,128.5,87.7,46.5,False,media_1794830394426_5950dd4e.jpg
+State Average,Tamil Nadu (State),2024-2025,June,Jun 2024,Southwest Monsoon,115.3,53.8,114.3,False,media_1794830394426_5950dd4e.jpg
+State Average,Tamil Nadu (State),2024-2025,July,Jul 2024,Southwest Monsoon,82.9,72.4,14.5,False,media_1794830394426_5950dd4e.jpg
+State Average,Tamil Nadu (State),2024-2025,August,Aug 2024,Southwest Monsoon,155.2,94.3,64.6,False,media_1794830394426_5950dd4e.jpg
+Chennai,Chennai,2024-2025,September,Sep 2024,Southwest Monsoon,181.9,143.0,27.2,False,media_1794830394440_63bfaa3d.jpg
+Chennai,Chennai,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,641.7,448.5,43.1,True,media_1794830394440_63bfaa3d.jpg
+Chennai,Chennai,2024-2025,October,Oct 2024,Northeast Monsoon,371.7,274.5,35.4,False,media_1794830394440_63bfaa3d.jpg
+Kancheepuram,Kancheepuram,2024-2025,September,Sep 2024,Southwest Monsoon,93.7,154.6,-39.4,False,media_1794830394440_63bfaa3d.jpg
+Kancheepuram,Kancheepuram,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,638.9,472.0,35.4,True,media_1794830394440_63bfaa3d.jpg
+Kancheepuram,Kancheepuram,2024-2025,October,Oct 2024,Northeast Monsoon,163.7,191.1,-14.3,False,media_1794830394440_63bfaa3d.jpg
+Chengalpattu,Chengalpattu,2024-2025,September,Sep 2024,Southwest Monsoon,107.5,123.8,-13.2,False,media_1794830394440_63bfaa3d.jpg
+Chengalpattu,Chengalpattu,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,548.5,398.3,37.7,True,media_1794830394440_63bfaa3d.jpg
+Chengalpattu,Chengalpattu,2024-2025,October,Oct 2024,Northeast Monsoon,218.6,234.4,-6.7,False,media_1794830394440_63bfaa3d.jpg
+Tiruvallur,Tiruvallur,2024-2025,September,Sep 2024,Southwest Monsoon,150.0,149.0,0.7,False,media_1794830394440_63bfaa3d.jpg
+Tiruvallur,Tiruvallur,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,655.7,463.7,41.4,True,media_1794830394440_63bfaa3d.jpg
+Tiruvallur,Tiruvallur,2024-2025,October,Oct 2024,Northeast Monsoon,260.2,216.2,20.4,False,media_1794830394440_63bfaa3d.jpg
+Cuddalore,Cuddalore,2024-2025,September,Sep 2024,Southwest Monsoon,45.1,128.5,-64.9,False,media_1794830394440_63bfaa3d.jpg
+Cuddalore,Cuddalore,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,406.2,355.7,14.2,True,media_1794830394440_63bfaa3d.jpg
+Cuddalore,Cuddalore,2024-2025,October,Oct 2024,Northeast Monsoon,204.5,209.9,-2.6,False,media_1794830394440_63bfaa3d.jpg
+Villupuram,Viluppuram,2024-2025,September,Sep 2024,Southwest Monsoon,58.5,130.4,-55.1,False,media_1794830394440_63bfaa3d.jpg
+Villupuram,Viluppuram,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,538.6,395.0,36.4,True,media_1794830394440_63bfaa3d.jpg
+Villupuram,Viluppuram,2024-2025,October,Oct 2024,Northeast Monsoon,162.4,176.4,-7.9,False,media_1794830394440_63bfaa3d.jpg
+Kallakurichi,Kallakurichi,2024-2025,September,Sep 2024,Southwest Monsoon,48.0,149.9,-68.0,False,media_1794830394440_63bfaa3d.jpg
+Kallakurichi,Kallakurichi,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,334.8,399.1,-16.1,True,media_1794830394440_63bfaa3d.jpg
+Kallakurichi,Kallakurichi,2024-2025,October,Oct 2024,Northeast Monsoon,171.9,160.0,7.4,False,media_1794830394440_63bfaa3d.jpg
+Vellore,Vellore,2024-2025,September,Sep 2024,Southwest Monsoon,64.9,151.6,-57.2,False,media_1794830394440_63bfaa3d.jpg
+Vellore,Vellore,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,527.4,431.3,22.3,True,media_1794830394440_63bfaa3d.jpg
+Vellore,Vellore,2024-2025,October,Oct 2024,Northeast Monsoon,212.0,151.8,39.7,False,media_1794830394440_63bfaa3d.jpg
+Ranipet,Ranipet,2024-2025,September,Sep 2024,Southwest Monsoon,88.4,137.5,-35.7,False,media_1794830394440_63bfaa3d.jpg
+Ranipet,Ranipet,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,672.8,441.7,52.3,True,media_1794830394440_63bfaa3d.jpg
+Ranipet,Ranipet,2024-2025,October,Oct 2024,Northeast Monsoon,165.4,150.5,9.9,False,media_1794830394440_63bfaa3d.jpg
+Tirupathur,Tirupathur,2024-2025,September,Sep 2024,Southwest Monsoon,28.4,158.0,-82.0,False,media_1794830394440_63bfaa3d.jpg
+Tirupathur,Tirupathur,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,433.8,425.7,1.9,True,media_1794830394440_63bfaa3d.jpg
+Tirupathur,Tirupathur,2024-2025,October,Oct 2024,Northeast Monsoon,281.6,129.1,118.1,False,media_1794830394440_63bfaa3d.jpg
+Tiruvannamalai,Tiruvannamalai,2024-2025,September,Sep 2024,Southwest Monsoon,47.7,164.7,-71.0,False,media_1794830394440_63bfaa3d.jpg
+Tiruvannamalai,Tiruvannamalai,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,554.3,450.5,23.0,True,media_1794830394440_63bfaa3d.jpg
+Tiruvannamalai,Tiruvannamalai,2024-2025,October,Oct 2024,Northeast Monsoon,188.7,173.2,8.9,False,media_1794830394440_63bfaa3d.jpg
+Salem,Salem,2024-2025,September,Sep 2024,Southwest Monsoon,45.5,153.9,-70.4,False,media_1794830394440_63bfaa3d.jpg
+Salem,Salem,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,456.4,406.4,12.3,True,media_1794830394440_63bfaa3d.jpg
+Salem,Salem,2024-2025,October,Oct 2024,Northeast Monsoon,230.4,164.6,40.0,False,media_1794830394440_63bfaa3d.jpg
+Namakkal,Namakkal,2024-2025,September,Sep 2024,Southwest Monsoon,27.4,134.6,-79.6,False,media_1794830394440_63bfaa3d.jpg
+Namakkal,Namakkal,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,280.9,331.8,-15.3,True,media_1794830394440_63bfaa3d.jpg
+Namakkal,Namakkal,2024-2025,October,Oct 2024,Northeast Monsoon,179.4,134.9,33.0,False,media_1794830394440_63bfaa3d.jpg
+Dharmapuri,Dharmapuri,2024-2025,September,Sep 2024,Southwest Monsoon,13.5,159.9,-91.6,False,media_1794830394440_63bfaa3d.jpg
+Dharmapuri,Dharmapuri,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,336.7,380.8,-11.6,True,media_1794830394440_63bfaa3d.jpg
+Dharmapuri,Dharmapuri,2024-2025,October,Oct 2024,Northeast Monsoon,218.8,161.8,35.2,False,media_1794830394440_63bfaa3d.jpg
+Krishnagiri,Krishnagiri,2024-2025,September,Sep 2024,Southwest Monsoon,16.6,151.5,-89.0,False,media_1794830394440_63bfaa3d.jpg
+Krishnagiri,Krishnagiri,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,376.6,356.2,5.7,True,media_1794830394440_63bfaa3d.jpg
+Krishnagiri,Krishnagiri,2024-2025,October,Oct 2024,Northeast Monsoon,261.3,161.0,62.3,False,media_1794830394440_63bfaa3d.jpg
+Coimbatore,Coimbatore,2024-2025,September,Sep 2024,Southwest Monsoon,90.3,127.2,-29.0,False,media_1794830394440_63bfaa3d.jpg
+Coimbatore,Coimbatore,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,968.4,689.1,40.5,True,media_1794830394440_63bfaa3d.jpg
+Coimbatore,Coimbatore,2024-2025,October,Oct 2024,Northeast Monsoon,331.7,161.9,104.9,False,media_1794830394440_63bfaa3d.jpg
+Tiruppur,Tiruppur,2024-2025,September,Sep 2024,Southwest Monsoon,25.6,80.2,-68.1,False,media_1794830394440_63bfaa3d.jpg
+Tiruppur,Tiruppur,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,206.9,155.9,32.7,True,media_1794830394440_63bfaa3d.jpg
+Tiruppur,Tiruppur,2024-2025,October,Oct 2024,Northeast Monsoon,265.2,139.3,90.4,False,media_1794830394440_63bfaa3d.jpg
+Erode,Erode,2024-2025,September,Sep 2024,Southwest Monsoon,26.2,111.7,-76.5,False,media_1794830394440_63bfaa3d.jpg
+Erode,Erode,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,261.6,267.6,-2.2,True,media_1794830394440_63bfaa3d.jpg
+Erode,Erode,2024-2025,October,Oct 2024,Northeast Monsoon,199.8,151.0,32.3,False,media_1794830394440_63bfaa3d.jpg
+Tiruchirapalli,Tiruchirappalli,2024-2025,September,Sep 2024,Southwest Monsoon,14.2,124.9,-88.6,False,media_1794830394440_63bfaa3d.jpg
+Tiruchirapalli,Tiruchirappalli,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,222.2,276.3,-19.6,True,media_1794830394440_63bfaa3d.jpg
+Tiruchirapalli,Tiruchirappalli,2024-2025,October,Oct 2024,Northeast Monsoon,215.9,145.8,48.1,False,media_1794830394440_63bfaa3d.jpg
+Karur,Karur,2024-2025,September,Sep 2024,Southwest Monsoon,13.7,103.1,-86.7,False,media_1794830394440_63bfaa3d.jpg
+Karur,Karur,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,211.9,201.6,5.1,True,media_1794830394440_63bfaa3d.jpg
+Karur,Karur,2024-2025,October,Oct 2024,Northeast Monsoon,203.5,129.5,57.1,False,media_1794830394440_63bfaa3d.jpg
+Perambalur,Perambalur,2024-2025,September,Sep 2024,Southwest Monsoon,9.2,121.4,-92.4,False,media_1794830394440_63bfaa3d.jpg
+Perambalur,Perambalur,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,262.7,277.8,-5.4,True,media_1794830394440_63bfaa3d.jpg
+Perambalur,Perambalur,2024-2025,October,Oct 2024,Northeast Monsoon,169.2,165.7,2.1,False,media_1794830394440_63bfaa3d.jpg
+Ariyalur,Ariyalur,2024-2025,September,Sep 2024,Southwest Monsoon,33.0,118.8,-72.2,False,media_1794830394440_63bfaa3d.jpg
+Ariyalur,Ariyalur,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,252.6,314.8,-19.8,True,media_1794830394440_63bfaa3d.jpg
+Ariyalur,Ariyalur,2024-2025,October,Oct 2024,Northeast Monsoon,163.0,158.2,3.0,False,media_1794830394440_63bfaa3d.jpg
+Pudukkottai,Pudukkottai,2024-2025,September,Sep 2024,Southwest Monsoon,23.3,108.7,-78.6,False,media_1794830394440_63bfaa3d.jpg
+Pudukkottai,Pudukkottai,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,338.1,294.8,14.7,True,media_1794830394440_63bfaa3d.jpg
+Pudukkottai,Pudukkottai,2024-2025,October,Oct 2024,Northeast Monsoon,228.3,139.3,63.9,False,media_1794830394440_63bfaa3d.jpg
+Thanjavur,Thanjavur,2024-2025,September,Sep 2024,Southwest Monsoon,29.2,112.7,-74.1,False,media_1794830394440_63bfaa3d.jpg
+Thanjavur,Thanjavur,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,244.0,302.8,-19.4,True,media_1794830394440_63bfaa3d.jpg
+Thanjavur,Thanjavur,2024-2025,October,Oct 2024,Northeast Monsoon,222.3,171.9,29.3,False,media_1794830394440_63bfaa3d.jpg
+Tiruvarur,Tiruvarur,2024-2025,September,Sep 2024,Southwest Monsoon,27.9,112.6,-75.2,False,media_1794830394440_63bfaa3d.jpg
+Tiruvarur,Tiruvarur,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,210.4,297.2,-29.2,True,media_1794830394440_63bfaa3d.jpg
+Tiruvarur,Tiruvarur,2024-2025,October,Oct 2024,Northeast Monsoon,199.7,198.7,0.5,False,media_1794830394440_63bfaa3d.jpg
+Nagapattinam,Nagapattinam,2024-2025,September,Sep 2024,Southwest Monsoon,17.9,90.3,-80.2,False,media_1794830394440_63bfaa3d.jpg
+Nagapattinam,Nagapattinam,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,123.0,246.6,-50.1,True,media_1794830394440_63bfaa3d.jpg
+Nagapattinam,Nagapattinam,2024-2025,October,Oct 2024,Northeast Monsoon,136.4,237.2,-42.5,False,media_1794830394440_63bfaa3d.jpg
+Mayiladuthurai,Mayiladuthurai,2024-2025,September,Sep 2024,Southwest Monsoon,17.9,113.5,-84.2,False,media_1794830394440_63bfaa3d.jpg
+Mayiladuthurai,Mayiladuthurai,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,205.1,304.7,-32.7,True,media_1794830394440_63bfaa3d.jpg
+Mayiladuthurai,Mayiladuthurai,2024-2025,October,Oct 2024,Northeast Monsoon,195.4,241.8,-19.2,False,media_1794830394440_63bfaa3d.jpg
+Madurai,Madurai,2024-2025,September,Sep 2024,Southwest Monsoon,18.5,123.7,-85.0,False,media_1794830394440_63bfaa3d.jpg
+Madurai,Madurai,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,311.7,296.1,5.3,True,media_1794830394440_63bfaa3d.jpg
+Madurai,Madurai,2024-2025,October,Oct 2024,Northeast Monsoon,320.8,174.3,84.1,False,media_1794830394440_63bfaa3d.jpg
+Theni,Theni,2024-2025,September,Sep 2024,Southwest Monsoon,38.5,97.5,-60.5,False,media_1794830394440_63bfaa3d.jpg
+Theni,Theni,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,376.1,237.9,58.1,True,media_1794830394440_63bfaa3d.jpg
+Theni,Theni,2024-2025,October,Oct 2024,Northeast Monsoon,191.3,170.4,12.3,False,media_1794830394440_63bfaa3d.jpg
+Dindigul,Dindigul,2024-2025,September,Sep 2024,Southwest Monsoon,46.7,137.3,-66.0,False,media_1794830394440_63bfaa3d.jpg
+Dindigul,Dindigul,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,332.7,301.5,10.3,True,media_1794830394440_63bfaa3d.jpg
+Dindigul,Dindigul,2024-2025,October,Oct 2024,Northeast Monsoon,305.6,194.9,56.8,False,media_1794830394440_63bfaa3d.jpg
+Ramanathapuram,Ramanathapuram,2024-2025,September,Sep 2024,Southwest Monsoon,19.9,58.3,-65.9,False,media_1794830394440_63bfaa3d.jpg
+Ramanathapuram,Ramanathapuram,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,149.8,132.1,13.4,True,media_1794830394440_63bfaa3d.jpg
+Ramanathapuram,Ramanathapuram,2024-2025,October,Oct 2024,Northeast Monsoon,195.3,189.9,2.8,False,media_1794830394440_63bfaa3d.jpg
+Virudhunagar,Virudhunagar,2024-2025,September,Sep 2024,Southwest Monsoon,29.7,90.1,-67.0,False,media_1794830394440_63bfaa3d.jpg
+Virudhunagar,Virudhunagar,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,289.1,196.4,47.2,True,media_1794830394440_63bfaa3d.jpg
+Virudhunagar,Virudhunagar,2024-2025,October,Oct 2024,Northeast Monsoon,152.4,172.6,-11.7,False,media_1794830394440_63bfaa3d.jpg
+Sivagangai,Sivaganga,2024-2025,September,Sep 2024,Southwest Monsoon,26.0,109.4,-76.2,False,media_1794830394440_63bfaa3d.jpg
+Sivagangai,Sivaganga,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,404.8,316.7,27.8,True,media_1794830394440_63bfaa3d.jpg
+Sivagangai,Sivaganga,2024-2025,October,Oct 2024,Northeast Monsoon,314.7,182.8,72.2,False,media_1794830394440_63bfaa3d.jpg
+Tirunelveli,Tirunelveli,2024-2025,September,Sep 2024,Southwest Monsoon,48.9,35.8,36.6,False,media_1794830394440_63bfaa3d.jpg
+Tirunelveli,Tirunelveli,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,337.8,92.5,265.2,True,media_1794830394440_63bfaa3d.jpg
+Tirunelveli,Tirunelveli,2024-2025,October,Oct 2024,Northeast Monsoon,115.2,153.9,-25.1,False,media_1794830394440_63bfaa3d.jpg
+Tenkasi,Tenkasi,2024-2025,September,Sep 2024,Southwest Monsoon,56.2,48.5,15.9,False,media_1794830394440_63bfaa3d.jpg
+Tenkasi,Tenkasi,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,272.9,172.7,58.0,True,media_1794830394440_63bfaa3d.jpg
+Tenkasi,Tenkasi,2024-2025,October,Oct 2024,Northeast Monsoon,98.5,173.8,-43.3,False,media_1794830394440_63bfaa3d.jpg
+Thoothukudi,Thoothukudi,2024-2025,September,Sep 2024,Southwest Monsoon,35.0,35.2,-0.6,False,media_1794830394440_63bfaa3d.jpg
+Thoothukudi,Thoothukudi,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,85.4,67.3,26.9,True,media_1794830394440_63bfaa3d.jpg
+Thoothukudi,Thoothukudi,2024-2025,October,Oct 2024,Northeast Monsoon,71.1,156.5,-54.6,False,media_1794830394440_63bfaa3d.jpg
+The Nilgiris,The Nilgiris,2024-2025,September,Sep 2024,Southwest Monsoon,103.8,180.5,-42.5,False,media_1794830394440_63bfaa3d.jpg
+The Nilgiris,The Nilgiris,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,1273.9,842.4,51.2,True,media_1794830394440_63bfaa3d.jpg
+The Nilgiris,The Nilgiris,2024-2025,October,Oct 2024,Northeast Monsoon,227.7,227.1,0.3,False,media_1794830394440_63bfaa3d.jpg
+Kanniyakumari,Kanniyakumari,2024-2025,September,Sep 2024,Southwest Monsoon,47.9,124.0,-61.4,False,media_1794830394440_63bfaa3d.jpg
+Kanniyakumari,Kanniyakumari,2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,502.3,494.7,1.5,True,media_1794830394440_63bfaa3d.jpg
+Kanniyakumari,Kanniyakumari,2024-2025,October,Oct 2024,Northeast Monsoon,270.2,249.3,8.4,False,media_1794830394440_63bfaa3d.jpg
+State Average,Tamil Nadu (State),2024-2025,September,Sep 2024,Southwest Monsoon,47.8,119.9,-60.1,False,media_1794830394440_63bfaa3d.jpg
+State Average,Tamil Nadu (State),2024-2025,Seasonal Total,SW Monsoon Total 2024,Southwest Monsoon,401.2,340.4,17.9,True,media_1794830394440_63bfaa3d.jpg
+State Average,Tamil Nadu (State),2024-2025,October,Oct 2024,Northeast Monsoon,212.7,178.3,19.3,False,media_1794830394440_63bfaa3d.jpg
+Chennai,Chennai,2023-2024,November,Nov 2023,Northeast Monsoon,518.2,370.5,39.9,False,media_1794830394435_cfa6b2be.jpg
+Chennai,Chennai,2023-2024,December,Dec 2023,Northeast Monsoon,496.4,164.6,201.6,False,media_1794830394435_cfa6b2be.jpg
+Chennai,Chennai,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,1088.9,809.6,34.5,True,media_1794830394435_cfa6b2be.jpg
+Kancheepuram,Kancheepuram,2023-2024,November,Nov 2023,Northeast Monsoon,307.9,260.3,18.3,False,media_1794830394435_cfa6b2be.jpg
+Kancheepuram,Kancheepuram,2023-2024,December,Dec 2023,Northeast Monsoon,314.4,140.3,124.1,False,media_1794830394435_cfa6b2be.jpg
+Kancheepuram,Kancheepuram,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,703.6,591.7,18.9,True,media_1794830394435_cfa6b2be.jpg
+Chengalpattu,Chengalpattu,2023-2024,November,Nov 2023,Northeast Monsoon,349.9,311.1,12.5,False,media_1794830394435_cfa6b2be.jpg
+Chengalpattu,Chengalpattu,2023-2024,December,Dec 2023,Northeast Monsoon,342.8,162.2,111.3,False,media_1794830394435_cfa6b2be.jpg
+Chengalpattu,Chengalpattu,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,747.1,707.7,5.6,True,media_1794830394435_cfa6b2be.jpg
+Tiruvallur,Tiruvallur,2023-2024,November,Nov 2023,Northeast Monsoon,331.0,276.0,19.9,False,media_1794830394435_cfa6b2be.jpg
+Tiruvallur,Tiruvallur,2023-2024,December,Dec 2023,Northeast Monsoon,368.2,131.7,179.6,False,media_1794830394435_cfa6b2be.jpg
+Tiruvallur,Tiruvallur,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,754.5,623.9,20.9,True,media_1794830394435_cfa6b2be.jpg
+Cuddalore,Cuddalore,2023-2024,November,Nov 2023,Northeast Monsoon,427.0,307.2,39.0,False,media_1794830394435_cfa6b2be.jpg
+Cuddalore,Cuddalore,2023-2024,December,Dec 2023,Northeast Monsoon,60.8,184.4,-67.0,False,media_1794830394435_cfa6b2be.jpg
+Cuddalore,Cuddalore,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,537.6,701.5,-23.4,True,media_1794830394435_cfa6b2be.jpg
+Villupuram,Viluppuram,2023-2024,November,Nov 2023,Northeast Monsoon,254.6,225.5,12.9,False,media_1794830394435_cfa6b2be.jpg
+Villupuram,Viluppuram,2023-2024,December,Dec 2023,Northeast Monsoon,33.3,129.4,-74.3,False,media_1794830394435_cfa6b2be.jpg
+Villupuram,Viluppuram,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,353.5,531.3,-33.5,True,media_1794830394435_cfa6b2be.jpg
+Kallakurichi,Kallakurichi,2023-2024,November,Nov 2023,Northeast Monsoon,144.4,189.0,-23.6,False,media_1794830394435_cfa6b2be.jpg
+Kallakurichi,Kallakurichi,2023-2024,December,Dec 2023,Northeast Monsoon,15.3,106.5,-85.6,False,media_1794830394435_cfa6b2be.jpg
+Kallakurichi,Kallakurichi,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,206.8,455.5,-54.6,True,media_1794830394435_cfa6b2be.jpg
+Vellore,Vellore,2023-2024,November,Nov 2023,Northeast Monsoon,123.7,150.9,-18.0,False,media_1794830394435_cfa6b2be.jpg
+Vellore,Vellore,2023-2024,December,Dec 2023,Northeast Monsoon,88.5,73.1,21.1,False,media_1794830394435_cfa6b2be.jpg
+Vellore,Vellore,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,286.7,375.8,-23.7,True,media_1794830394435_cfa6b2be.jpg
+Ranipet,Ranipet,2023-2024,November,Nov 2023,Northeast Monsoon,132.1,167.9,-21.3,False,media_1794830394435_cfa6b2be.jpg
+Ranipet,Ranipet,2023-2024,December,Dec 2023,Northeast Monsoon,153.1,87.6,74.8,False,media_1794830394435_cfa6b2be.jpg
+Ranipet,Ranipet,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,351.3,406.0,-13.5,True,media_1794830394435_cfa6b2be.jpg
+Tirupathur,Tirupathur,2023-2024,November,Nov 2023,Northeast Monsoon,78.9,95.1,-17.0,False,media_1794830394435_cfa6b2be.jpg
+Tirupathur,Tirupathur,2023-2024,December,Dec 2023,Northeast Monsoon,42.1,72.2,-41.7,False,media_1794830394435_cfa6b2be.jpg
+Tirupathur,Tirupathur,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,141.7,266.3,-46.8,True,media_1794830394435_cfa6b2be.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,November,Nov 2023,Northeast Monsoon,159.3,178.6,-10.8,False,media_1794830394435_cfa6b2be.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,December,Dec 2023,Northeast Monsoon,51.9,98.6,-47.4,False,media_1794830394435_cfa6b2be.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,276.5,450.4,-38.6,True,media_1794830394435_cfa6b2be.jpg
+Salem,Salem,2023-2024,November,Nov 2023,Northeast Monsoon,132.0,121.4,8.7,False,media_1794830394435_cfa6b2be.jpg
+Salem,Salem,2023-2024,December,Dec 2023,Northeast Monsoon,10.3,45.7,-77.5,False,media_1794830394435_cfa6b2be.jpg
+Salem,Salem,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,229.3,331.7,-30.9,True,media_1794830394435_cfa6b2be.jpg
+Namakkal,Namakkal,2023-2024,November,Nov 2023,Northeast Monsoon,124.3,101.2,22.8,False,media_1794830394435_cfa6b2be.jpg
+Namakkal,Namakkal,2023-2024,December,Dec 2023,Northeast Monsoon,8.0,34.3,-76.7,False,media_1794830394435_cfa6b2be.jpg
+Namakkal,Namakkal,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,230.5,270.4,-14.8,True,media_1794830394435_cfa6b2be.jpg
+Dharmapuri,Dharmapuri,2023-2024,November,Nov 2023,Northeast Monsoon,112.6,112.6,0.0,False,media_1794830394435_cfa6b2be.jpg
+Dharmapuri,Dharmapuri,2023-2024,December,Dec 2023,Northeast Monsoon,4.7,39.8,-88.2,False,media_1794830394435_cfa6b2be.jpg
+Dharmapuri,Dharmapuri,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,182.8,314.2,-41.8,True,media_1794830394435_cfa6b2be.jpg
+Krishnagiri,Krishnagiri,2023-2024,November,Nov 2023,Northeast Monsoon,81.8,86.4,-5.3,False,media_1794830394435_cfa6b2be.jpg
+Krishnagiri,Krishnagiri,2023-2024,December,Dec 2023,Northeast Monsoon,6.6,31.3,-78.9,False,media_1794830394435_cfa6b2be.jpg
+Krishnagiri,Krishnagiri,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,139.0,278.7,-50.1,True,media_1794830394435_cfa6b2be.jpg
+Coimbatore,Coimbatore,2023-2024,November,Nov 2023,Northeast Monsoon,254.5,130.8,94.6,False,media_1794830394435_cfa6b2be.jpg
+Coimbatore,Coimbatore,2023-2024,December,Dec 2023,Northeast Monsoon,86.9,44.9,93.5,False,media_1794830394435_cfa6b2be.jpg
+Coimbatore,Coimbatore,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,500.8,337.6,48.3,True,media_1794830394435_cfa6b2be.jpg
+Tiruppur,Tiruppur,2023-2024,November,Nov 2023,Northeast Monsoon,174.4,124.8,39.7,False,media_1794830394435_cfa6b2be.jpg
+Tiruppur,Tiruppur,2023-2024,December,Dec 2023,Northeast Monsoon,42.8,41.6,2.9,False,media_1794830394435_cfa6b2be.jpg
+Tiruppur,Tiruppur,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,329.8,305.7,7.9,True,media_1794830394435_cfa6b2be.jpg
+Erode,Erode,2023-2024,November,Nov 2023,Northeast Monsoon,267.6,117.6,127.6,False,media_1794830394435_cfa6b2be.jpg
+Erode,Erode,2023-2024,December,Dec 2023,Northeast Monsoon,30.2,38.5,-21.6,False,media_1794830394435_cfa6b2be.jpg
+Erode,Erode,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,396.1,307.1,29.0,True,media_1794830394435_cfa6b2be.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,November,Nov 2023,Northeast Monsoon,99.2,156.8,-36.7,False,media_1794830394435_cfa6b2be.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,December,Dec 2023,Northeast Monsoon,20.6,76.8,-73.2,False,media_1794830394435_cfa6b2be.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,202.6,379.4,-46.6,True,media_1794830394435_cfa6b2be.jpg
+Karur,Karur,2023-2024,November,Nov 2023,Northeast Monsoon,93.9,132.3,-29.0,False,media_1794830394435_cfa6b2be.jpg
+Karur,Karur,2023-2024,December,Dec 2023,Northeast Monsoon,11.5,51.4,-77.6,False,media_1794830394435_cfa6b2be.jpg
+Karur,Karur,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,181.4,313.2,-42.1,True,media_1794830394435_cfa6b2be.jpg
+Perambalur,Perambalur,2023-2024,November,Nov 2023,Northeast Monsoon,165.2,180.6,-8.5,False,media_1794830394435_cfa6b2be.jpg
+Perambalur,Perambalur,2023-2024,December,Dec 2023,Northeast Monsoon,22.7,85.7,-73.5,False,media_1794830394435_cfa6b2be.jpg
+Perambalur,Perambalur,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,232.5,432.0,-46.2,True,media_1794830394435_cfa6b2be.jpg
+Ariyalur,Ariyalur,2023-2024,November,Nov 2023,Northeast Monsoon,198.2,214.4,-7.6,False,media_1794830394435_cfa6b2be.jpg
+Ariyalur,Ariyalur,2023-2024,December,Dec 2023,Northeast Monsoon,49.2,129.3,-61.9,False,media_1794830394435_cfa6b2be.jpg
+Ariyalur,Ariyalur,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,284.2,501.9,-43.4,True,media_1794830394435_cfa6b2be.jpg
+Pudukkottai,Pudukkottai,2023-2024,November,Nov 2023,Northeast Monsoon,168.0,157.8,6.5,False,media_1794830394435_cfa6b2be.jpg
+Pudukkottai,Pudukkottai,2023-2024,December,Dec 2023,Northeast Monsoon,58.1,88.5,-34.4,False,media_1794830394435_cfa6b2be.jpg
+Pudukkottai,Pudukkottai,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,308.9,385.6,-19.9,True,media_1794830394435_cfa6b2be.jpg
+Thanjavur,Thanjavur,2023-2024,November,Nov 2023,Northeast Monsoon,201.2,252.9,-20.4,False,media_1794830394435_cfa6b2be.jpg
+Thanjavur,Thanjavur,2023-2024,December,Dec 2023,Northeast Monsoon,59.9,154.6,-61.3,False,media_1794830394435_cfa6b2be.jpg
+Thanjavur,Thanjavur,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,345.5,579.4,-40.4,True,media_1794830394435_cfa6b2be.jpg
+Tiruvarur,Tiruvarur,2023-2024,November,Nov 2023,Northeast Monsoon,405.0,321.2,26.1,False,media_1794830394435_cfa6b2be.jpg
+Tiruvarur,Tiruvarur,2023-2024,December,Dec 2023,Northeast Monsoon,127.2,205.5,-38.1,False,media_1794830394435_cfa6b2be.jpg
+Tiruvarur,Tiruvarur,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,597.9,725.4,-17.6,True,media_1794830394435_cfa6b2be.jpg
+Nagapattinam,Nagapattinam,2023-2024,November,Nov 2023,Northeast Monsoon,648.9,432.1,50.2,False,media_1794830394435_cfa6b2be.jpg
+Nagapattinam,Nagapattinam,2023-2024,December,Dec 2023,Northeast Monsoon,219.1,266.0,-17.6,False,media_1794830394435_cfa6b2be.jpg
+Nagapattinam,Nagapattinam,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,969.0,935.3,3.6,True,media_1794830394435_cfa6b2be.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,November,Nov 2023,Northeast Monsoon,540.8,401.3,34.8,False,media_1794830394435_cfa6b2be.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,December,Dec 2023,Northeast Monsoon,154.6,245.0,-36.9,False,media_1794830394435_cfa6b2be.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,752.5,888.1,-15.3,True,media_1794830394435_cfa6b2be.jpg
+Madurai,Madurai,2023-2024,November,Nov 2023,Northeast Monsoon,247.6,142.6,73.6,False,media_1794830394435_cfa6b2be.jpg
+Madurai,Madurai,2023-2024,December,Dec 2023,Northeast Monsoon,72.4,53.1,36.3,False,media_1794830394435_cfa6b2be.jpg
+Madurai,Madurai,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,475.5,370.0,28.5,True,media_1794830394435_cfa6b2be.jpg
+Theni,Theni,2023-2024,November,Nov 2023,Northeast Monsoon,216.0,141.0,53.2,False,media_1794830394435_cfa6b2be.jpg
+Theni,Theni,2023-2024,December,Dec 2023,Northeast Monsoon,129.5,52.9,144.8,False,media_1794830394435_cfa6b2be.jpg
+Theni,Theni,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,537.6,364.3,47.6,True,media_1794830394435_cfa6b2be.jpg
+Dindigul,Dindigul,2023-2024,November,Nov 2023,Northeast Monsoon,198.8,181.4,9.6,False,media_1794830394435_cfa6b2be.jpg
+Dindigul,Dindigul,2023-2024,December,Dec 2023,Northeast Monsoon,91.2,83.7,9.0,False,media_1794830394435_cfa6b2be.jpg
+Dindigul,Dindigul,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,416.3,460.0,-9.5,True,media_1794830394435_cfa6b2be.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,November,Nov 2023,Northeast Monsoon,374.3,205.5,82.1,False,media_1794830394435_cfa6b2be.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,December,Dec 2023,Northeast Monsoon,182.2,136.0,34.0,False,media_1794830394435_cfa6b2be.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,667.6,531.4,25.6,True,media_1794830394435_cfa6b2be.jpg
+Virudhunagar,Virudhunagar,2023-2024,November,Nov 2023,Northeast Monsoon,317.7,160.3,98.2,False,media_1794830394435_cfa6b2be.jpg
+Virudhunagar,Virudhunagar,2023-2024,December,Dec 2023,Northeast Monsoon,212.6,65.6,224.1,False,media_1794830394435_cfa6b2be.jpg
+Virudhunagar,Virudhunagar,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,660.0,398.5,65.6,True,media_1794830394435_cfa6b2be.jpg
+Sivagangai,Sivaganga,2023-2024,November,Nov 2023,Northeast Monsoon,262.3,156.2,67.9,False,media_1794830394435_cfa6b2be.jpg
+Sivagangai,Sivaganga,2023-2024,December,Dec 2023,Northeast Monsoon,85.3,83.7,1.9,False,media_1794830394435_cfa6b2be.jpg
+Sivagangai,Sivaganga,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,440.2,422.7,4.1,True,media_1794830394435_cfa6b2be.jpg
+Tirunelveli,Tirunelveli,2023-2024,November,Nov 2023,Northeast Monsoon,406.3,235.4,72.6,False,media_1794830394435_cfa6b2be.jpg
+Tirunelveli,Tirunelveli,2023-2024,December,Dec 2023,Northeast Monsoon,758.6,125.6,504.0,False,media_1794830394435_cfa6b2be.jpg
+Tirunelveli,Tirunelveli,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,1329.6,514.9,158.2,True,media_1794830394435_cfa6b2be.jpg
+Tenkasi,Tenkasi,2023-2024,November,Nov 2023,Northeast Monsoon,328.5,210.4,56.1,False,media_1794830394435_cfa6b2be.jpg
+Tenkasi,Tenkasi,2023-2024,December,Dec 2023,Northeast Monsoon,341.2,81.5,318.7,False,media_1794830394435_cfa6b2be.jpg
+Tenkasi,Tenkasi,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,821.4,465.7,76.4,True,media_1794830394435_cfa6b2be.jpg
+Thoothukudi,Thoothukudi,2023-2024,November,Nov 2023,Northeast Monsoon,48.3,156.5,-69.1,False,media_1794830394435_cfa6b2be.jpg
+Thoothukudi,Thoothukudi,2023-2024,December,Dec 2023,Northeast Monsoon,498.1,89.9,454.1,False,media_1794830394435_cfa6b2be.jpg
+Thoothukudi,Thoothukudi,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,594.7,402.9,47.6,True,media_1794830394435_cfa6b2be.jpg
+The Nilgiris,The Nilgiris,2023-2024,November,Nov 2023,Northeast Monsoon,265.3,195.6,35.6,False,media_1794830394435_cfa6b2be.jpg
+The Nilgiris,The Nilgiris,2023-2024,December,Dec 2023,Northeast Monsoon,82.2,78.6,4.6,False,media_1794830394435_cfa6b2be.jpg
+The Nilgiris,The Nilgiris,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,502.5,501.3,0.2,True,media_1794830394435_cfa6b2be.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,November,Nov 2023,Northeast Monsoon,302.8,220.2,37.5,False,media_1794830394435_cfa6b2be.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,December,Dec 2023,Northeast Monsoon,210.2,63.1,233.1,False,media_1794830394435_cfa6b2be.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,1050.9,532.6,97.3,True,media_1794830394435_cfa6b2be.jpg
+State Average,Tamil Nadu (State),2023-2024,November,Nov 2023,Northeast Monsoon,249.0,199.5,24.8,False,media_1794830394435_cfa6b2be.jpg
+State Average,Tamil Nadu (State),2023-2024,December,Dec 2023,Northeast Monsoon,145.1,100.3,44.6,False,media_1794830394435_cfa6b2be.jpg
+State Average,Tamil Nadu (State),2023-2024,Seasonal Total,NE Monsoon Total 2023,Northeast Monsoon,495.5,478.2,3.6,True,media_1794830394435_cfa6b2be.jpg
+Chennai,Chennai,2023-2024,January,Jan 2024,Winter,62.4,23.0,171.3,False,media_1794830394413_9208ce75.jpg
+Chennai,Chennai,2023-2024,February,Feb 2024,Winter,0.0,16.3,-100.0,False,media_1794830394413_9208ce75.jpg
+Chennai,Chennai,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,62.4,39.3,58.8,True,media_1794830394413_9208ce75.jpg
+Kancheepuram,Kancheepuram,2023-2024,January,Jan 2024,Winter,81.0,11.7,592.3,False,media_1794830394413_9208ce75.jpg
+Kancheepuram,Kancheepuram,2023-2024,February,Feb 2024,Winter,0.0,9.3,-100.0,False,media_1794830394413_9208ce75.jpg
+Kancheepuram,Kancheepuram,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,81.0,21.0,285.7,True,media_1794830394413_9208ce75.jpg
+Chengalpattu,Chengalpattu,2023-2024,January,Jan 2024,Winter,138.4,14.2,874.6,False,media_1794830394413_9208ce75.jpg
+Chengalpattu,Chengalpattu,2023-2024,February,Feb 2024,Winter,0.0,11.3,-100.0,False,media_1794830394413_9208ce75.jpg
+Chengalpattu,Chengalpattu,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,138.4,25.5,442.7,True,media_1794830394413_9208ce75.jpg
+Tiruvallur,Tiruvallur,2023-2024,January,Jan 2024,Winter,37.6,14.6,157.5,False,media_1794830394413_9208ce75.jpg
+Tiruvallur,Tiruvallur,2023-2024,February,Feb 2024,Winter,0.0,14.1,-100.0,False,media_1794830394413_9208ce75.jpg
+Tiruvallur,Tiruvallur,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,37.6,28.7,31.0,True,media_1794830394413_9208ce75.jpg
+Cuddalore,Cuddalore,2023-2024,January,Jan 2024,Winter,121.1,25.1,382.5,False,media_1794830394413_9208ce75.jpg
+Cuddalore,Cuddalore,2023-2024,February,Feb 2024,Winter,0.0,16.3,-100.0,False,media_1794830394413_9208ce75.jpg
+Cuddalore,Cuddalore,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,121.1,41.4,192.5,True,media_1794830394413_9208ce75.jpg
+Villupuram,Viluppuram,2023-2024,January,Jan 2024,Winter,122.0,10.7,1040.2,False,media_1794830394413_9208ce75.jpg
+Villupuram,Viluppuram,2023-2024,February,Feb 2024,Winter,0.0,12.4,-100.0,False,media_1794830394413_9208ce75.jpg
+Villupuram,Viluppuram,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,122.0,23.1,428.1,True,media_1794830394413_9208ce75.jpg
+Kallakurichi,Kallakurichi,2023-2024,January,Jan 2024,Winter,40.3,12.2,230.3,False,media_1794830394413_9208ce75.jpg
+Kallakurichi,Kallakurichi,2023-2024,February,Feb 2024,Winter,0.0,7.8,-100.0,False,media_1794830394413_9208ce75.jpg
+Kallakurichi,Kallakurichi,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,40.3,20.0,101.5,True,media_1794830394413_9208ce75.jpg
+Vellore,Vellore,2023-2024,January,Jan 2024,Winter,24.4,6.5,275.4,False,media_1794830394413_9208ce75.jpg
+Vellore,Vellore,2023-2024,February,Feb 2024,Winter,0.0,8.0,-100.0,False,media_1794830394413_9208ce75.jpg
+Vellore,Vellore,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,24.4,14.5,68.3,True,media_1794830394413_9208ce75.jpg
+Ranipet,Ranipet,2023-2024,January,Jan 2024,Winter,42.8,8.0,435.0,False,media_1794830394413_9208ce75.jpg
+Ranipet,Ranipet,2023-2024,February,Feb 2024,Winter,0.0,8.3,-100.0,False,media_1794830394413_9208ce75.jpg
+Ranipet,Ranipet,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,42.8,16.3,162.6,True,media_1794830394413_9208ce75.jpg
+Tirupathur,Tirupathur,2023-2024,January,Jan 2024,Winter,9.4,3.0,213.3,False,media_1794830394413_9208ce75.jpg
+Tirupathur,Tirupathur,2023-2024,February,Feb 2024,Winter,0.0,6.3,-100.0,False,media_1794830394413_9208ce75.jpg
+Tirupathur,Tirupathur,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,9.4,9.3,1.1,True,media_1794830394413_9208ce75.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,January,Jan 2024,Winter,42.4,9.0,371.1,False,media_1794830394413_9208ce75.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,February,Feb 2024,Winter,0.0,10.8,-100.0,False,media_1794830394413_9208ce75.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,42.4,19.8,114.1,True,media_1794830394413_9208ce75.jpg
+Salem,Salem,2023-2024,January,Jan 2024,Winter,10.9,4.0,172.5,False,media_1794830394413_9208ce75.jpg
+Salem,Salem,2023-2024,February,Feb 2024,Winter,0.0,5.9,-100.0,False,media_1794830394413_9208ce75.jpg
+Salem,Salem,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,10.9,9.9,10.1,True,media_1794830394413_9208ce75.jpg
+Namakkal,Namakkal,2023-2024,January,Jan 2024,Winter,10.2,4.2,142.9,False,media_1794830394413_9208ce75.jpg
+Namakkal,Namakkal,2023-2024,February,Feb 2024,Winter,0.0,6.1,-100.0,False,media_1794830394413_9208ce75.jpg
+Namakkal,Namakkal,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,10.2,10.3,-1.0,True,media_1794830394413_9208ce75.jpg
+Dharmapuri,Dharmapuri,2023-2024,January,Jan 2024,Winter,9.4,4.0,135.0,False,media_1794830394413_9208ce75.jpg
+Dharmapuri,Dharmapuri,2023-2024,February,Feb 2024,Winter,0.0,7.7,-100.0,False,media_1794830394413_9208ce75.jpg
+Dharmapuri,Dharmapuri,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,9.4,11.7,-19.7,True,media_1794830394413_9208ce75.jpg
+Krishnagiri,Krishnagiri,2023-2024,January,Jan 2024,Winter,5.6,2.7,107.4,False,media_1794830394413_9208ce75.jpg
+Krishnagiri,Krishnagiri,2023-2024,February,Feb 2024,Winter,0.0,5.2,-100.0,False,media_1794830394413_9208ce75.jpg
+Krishnagiri,Krishnagiri,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,5.6,7.9,-29.1,True,media_1794830394413_9208ce75.jpg
+Coimbatore,Coimbatore,2023-2024,January,Jan 2024,Winter,44.3,7.0,532.9,False,media_1794830394413_9208ce75.jpg
+Coimbatore,Coimbatore,2023-2024,February,Feb 2024,Winter,0.0,10.7,-100.0,False,media_1794830394413_9208ce75.jpg
+Coimbatore,Coimbatore,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,44.3,17.7,150.3,True,media_1794830394413_9208ce75.jpg
+Tiruppur,Tiruppur,2023-2024,January,Jan 2024,Winter,41.2,3.7,1013.5,False,media_1794830394413_9208ce75.jpg
+Tiruppur,Tiruppur,2023-2024,February,Feb 2024,Winter,0.0,6.0,-100.0,False,media_1794830394413_9208ce75.jpg
+Tiruppur,Tiruppur,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,41.2,9.7,324.7,True,media_1794830394413_9208ce75.jpg
+Erode,Erode,2023-2024,January,Jan 2024,Winter,11.8,3.9,202.6,False,media_1794830394413_9208ce75.jpg
+Erode,Erode,2023-2024,February,Feb 2024,Winter,5.3,7.4,-28.4,False,media_1794830394413_9208ce75.jpg
+Erode,Erode,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,17.1,11.3,51.3,True,media_1794830394413_9208ce75.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,January,Jan 2024,Winter,16.8,7.6,121.1,False,media_1794830394413_9208ce75.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,February,Feb 2024,Winter,0.0,6.6,-100.0,False,media_1794830394413_9208ce75.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,16.8,14.2,18.3,True,media_1794830394413_9208ce75.jpg
+Karur,Karur,2023-2024,January,Jan 2024,Winter,8.1,4.3,88.4,False,media_1794830394413_9208ce75.jpg
+Karur,Karur,2023-2024,February,Feb 2024,Winter,0.0,6.0,-100.0,False,media_1794830394413_9208ce75.jpg
+Karur,Karur,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,8.1,10.3,-21.4,True,media_1794830394413_9208ce75.jpg
+Perambalur,Perambalur,2023-2024,January,Jan 2024,Winter,29.2,9.3,214.0,False,media_1794830394413_9208ce75.jpg
+Perambalur,Perambalur,2023-2024,February,Feb 2024,Winter,0.0,7.0,-100.0,False,media_1794830394413_9208ce75.jpg
+Perambalur,Perambalur,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,29.2,16.3,79.1,True,media_1794830394413_9208ce75.jpg
+Ariyalur,Ariyalur,2023-2024,January,Jan 2024,Winter,72.1,16.3,342.3,False,media_1794830394413_9208ce75.jpg
+Ariyalur,Ariyalur,2023-2024,February,Feb 2024,Winter,0.0,7.9,-100.0,False,media_1794830394413_9208ce75.jpg
+Ariyalur,Ariyalur,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,72.1,24.2,197.9,True,media_1794830394413_9208ce75.jpg
+Pudukkottai,Pudukkottai,2023-2024,January,Jan 2024,Winter,13.3,9.8,35.7,False,media_1794830394413_9208ce75.jpg
+Pudukkottai,Pudukkottai,2023-2024,February,Feb 2024,Winter,3.8,9.7,-60.8,False,media_1794830394413_9208ce75.jpg
+Pudukkottai,Pudukkottai,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,17.1,19.5,-12.3,True,media_1794830394413_9208ce75.jpg
+Thanjavur,Thanjavur,2023-2024,January,Jan 2024,Winter,67.2,20.5,227.8,False,media_1794830394413_9208ce75.jpg
+Thanjavur,Thanjavur,2023-2024,February,Feb 2024,Winter,1.1,16.4,-93.3,False,media_1794830394413_9208ce75.jpg
+Thanjavur,Thanjavur,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,68.3,36.9,85.1,True,media_1794830394413_9208ce75.jpg
+Tiruvarur,Tiruvarur,2023-2024,January,Jan 2024,Winter,138.0,28.5,384.2,False,media_1794830394413_9208ce75.jpg
+Tiruvarur,Tiruvarur,2023-2024,February,Feb 2024,Winter,0.0,17.2,-100.0,False,media_1794830394413_9208ce75.jpg
+Tiruvarur,Tiruvarur,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,138.0,45.7,202.0,True,media_1794830394413_9208ce75.jpg
+Nagapattinam,Nagapattinam,2023-2024,January,Jan 2024,Winter,175.5,42.0,317.9,False,media_1794830394413_9208ce75.jpg
+Nagapattinam,Nagapattinam,2023-2024,February,Feb 2024,Winter,0.0,22.2,-100.0,False,media_1794830394413_9208ce75.jpg
+Nagapattinam,Nagapattinam,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,175.5,64.2,173.4,True,media_1794830394413_9208ce75.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,January,Jan 2024,Winter,196.7,33.1,494.3,False,media_1794830394413_9208ce75.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,February,Feb 2024,Winter,0.0,20.4,-100.0,False,media_1794830394413_9208ce75.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,196.7,53.5,267.7,True,media_1794830394413_9208ce75.jpg
+Madurai,Madurai,2023-2024,January,Jan 2024,Winter,24.0,10.0,140.0,False,media_1794830394413_9208ce75.jpg
+Madurai,Madurai,2023-2024,February,Feb 2024,Winter,0.0,10.5,-100.0,False,media_1794830394413_9208ce75.jpg
+Madurai,Madurai,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,24.0,20.5,17.1,True,media_1794830394413_9208ce75.jpg
+Theni,Theni,2023-2024,January,Jan 2024,Winter,76.5,12.8,497.7,False,media_1794830394413_9208ce75.jpg
+Theni,Theni,2023-2024,February,Feb 2024,Winter,0.9,16.7,-94.6,False,media_1794830394413_9208ce75.jpg
+Theni,Theni,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,77.4,29.5,162.4,True,media_1794830394413_9208ce75.jpg
+Dindigul,Dindigul,2023-2024,January,Jan 2024,Winter,65.6,11.9,451.3,False,media_1794830394413_9208ce75.jpg
+Dindigul,Dindigul,2023-2024,February,Feb 2024,Winter,0.0,11.4,-100.0,False,media_1794830394413_9208ce75.jpg
+Dindigul,Dindigul,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,65.6,23.3,181.5,True,media_1794830394413_9208ce75.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,January,Jan 2024,Winter,46.0,27.8,65.5,False,media_1794830394413_9208ce75.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,February,Feb 2024,Winter,3.8,19.1,-80.1,False,media_1794830394413_9208ce75.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,49.8,46.9,6.2,True,media_1794830394413_9208ce75.jpg
+Virudhunagar,Virudhunagar,2023-2024,January,Jan 2024,Winter,78.2,14.6,435.6,False,media_1794830394413_9208ce75.jpg
+Virudhunagar,Virudhunagar,2023-2024,February,Feb 2024,Winter,13.6,17.2,-20.9,False,media_1794830394413_9208ce75.jpg
+Virudhunagar,Virudhunagar,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,91.8,31.8,188.7,True,media_1794830394413_9208ce75.jpg
+Sivagangai,Sivaganga,2023-2024,January,Jan 2024,Winter,10.8,12.6,-14.3,False,media_1794830394413_9208ce75.jpg
+Sivagangai,Sivaganga,2023-2024,February,Feb 2024,Winter,0.0,12.7,-100.0,False,media_1794830394413_9208ce75.jpg
+Sivagangai,Sivaganga,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,10.8,25.3,-57.3,True,media_1794830394413_9208ce75.jpg
+Tirunelveli,Tirunelveli,2023-2024,January,Jan 2024,Winter,157.0,27.8,464.7,False,media_1794830394413_9208ce75.jpg
+Tirunelveli,Tirunelveli,2023-2024,February,Feb 2024,Winter,11.7,30.4,-61.5,False,media_1794830394413_9208ce75.jpg
+Tirunelveli,Tirunelveli,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,168.7,58.2,189.9,True,media_1794830394413_9208ce75.jpg
+Tenkasi,Tenkasi,2023-2024,January,Jan 2024,Winter,51.7,20.6,151.0,False,media_1794830394413_9208ce75.jpg
+Tenkasi,Tenkasi,2023-2024,February,Feb 2024,Winter,9.4,33.9,-72.3,False,media_1794830394413_9208ce75.jpg
+Tenkasi,Tenkasi,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,61.1,54.5,12.1,True,media_1794830394413_9208ce75.jpg
+Thoothukudi,Thoothukudi,2023-2024,January,Jan 2024,Winter,19.8,15.6,26.9,False,media_1794830394413_9208ce75.jpg
+Thoothukudi,Thoothukudi,2023-2024,February,Feb 2024,Winter,11.3,19.6,-42.3,False,media_1794830394413_9208ce75.jpg
+Thoothukudi,Thoothukudi,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,31.1,35.2,-11.6,True,media_1794830394413_9208ce75.jpg
+The Nilgiris,The Nilgiris,2023-2024,January,Jan 2024,Winter,64.7,18.1,257.5,False,media_1794830394413_9208ce75.jpg
+The Nilgiris,The Nilgiris,2023-2024,February,Feb 2024,Winter,1.4,21.0,-93.3,False,media_1794830394413_9208ce75.jpg
+The Nilgiris,The Nilgiris,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,66.1,39.1,69.1,True,media_1794830394413_9208ce75.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,January,Jan 2024,Winter,10.1,15.0,-32.7,False,media_1794830394413_9208ce75.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,February,Feb 2024,Winter,6.3,23.8,-73.5,False,media_1794830394413_9208ce75.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,16.4,38.8,-57.7,True,media_1794830394413_9208ce75.jpg
+State Average,Tamil Nadu (State),2023-2024,January,Jan 2024,Winter,57.3,13.8,314.0,False,media_1794830394413_9208ce75.jpg
+State Average,Tamil Nadu (State),2023-2024,February,Feb 2024,Winter,1.8,13.1,-86.3,False,media_1794830394413_9208ce75.jpg
+State Average,Tamil Nadu (State),2023-2024,Seasonal Total,Winter Monsoon Total 2024,Winter,59.1,27.0,119.0,True,media_1794830394413_9208ce75.jpg
+Chennai,Chennai,2023-2024,March,Mar 2024,Summer,0.0,5.2,-100.0,False,media_1794830394431_f49b6665.jpg
+Chennai,Chennai,2023-2024,April,Apr 2024,Summer,0.0,10.1,-100.0,False,media_1794830394431_f49b6665.jpg
+Chennai,Chennai,2023-2024,May,May 2024,Summer,20.9,33.5,-37.6,False,media_1794830394431_f49b6665.jpg
+Kancheepuram,Kancheepuram,2023-2024,March,Mar 2024,Summer,0.0,6.8,-100.0,False,media_1794830394431_f49b6665.jpg
+Kancheepuram,Kancheepuram,2023-2024,April,Apr 2024,Summer,0.0,17.4,-100.0,False,media_1794830394431_f49b6665.jpg
+Kancheepuram,Kancheepuram,2023-2024,May,May 2024,Summer,22.3,46.2,-51.7,False,media_1794830394431_f49b6665.jpg
+Chengalpattu,Chengalpattu,2023-2024,March,Mar 2024,Summer,0.0,6.5,-100.0,False,media_1794830394431_f49b6665.jpg
+Chengalpattu,Chengalpattu,2023-2024,April,Apr 2024,Summer,0.0,14.2,-100.0,False,media_1794830394431_f49b6665.jpg
+Chengalpattu,Chengalpattu,2023-2024,May,May 2024,Summer,31.6,34.5,-8.4,False,media_1794830394431_f49b6665.jpg
+Tiruvallur,Tiruvallur,2023-2024,March,Mar 2024,Summer,0.3,7.5,-96.0,False,media_1794830394431_f49b6665.jpg
+Tiruvallur,Tiruvallur,2023-2024,April,Apr 2024,Summer,0.0,16.7,-100.0,False,media_1794830394431_f49b6665.jpg
+Tiruvallur,Tiruvallur,2023-2024,May,May 2024,Summer,15.8,41.6,-62.0,False,media_1794830394431_f49b6665.jpg
+Cuddalore,Cuddalore,2023-2024,March,Mar 2024,Summer,0.0,19.1,-100.0,False,media_1794830394431_f49b6665.jpg
+Cuddalore,Cuddalore,2023-2024,April,Apr 2024,Summer,0.0,16.5,-100.0,False,media_1794830394431_f49b6665.jpg
+Cuddalore,Cuddalore,2023-2024,May,May 2024,Summer,80.6,44.4,81.5,False,media_1794830394431_f49b6665.jpg
+Villupuram,Viluppuram,2023-2024,March,Mar 2024,Summer,0.0,8.0,-100.0,False,media_1794830394431_f49b6665.jpg
+Villupuram,Viluppuram,2023-2024,April,Apr 2024,Summer,0.0,16.2,-100.0,False,media_1794830394431_f49b6665.jpg
+Villupuram,Viluppuram,2023-2024,May,May 2024,Summer,71.1,39.0,82.3,False,media_1794830394431_f49b6665.jpg
+Kallakurichi,Kallakurichi,2023-2024,March,Mar 2024,Summer,0.0,10.4,-100.0,False,media_1794830394431_f49b6665.jpg
+Kallakurichi,Kallakurichi,2023-2024,April,Apr 2024,Summer,0.0,18.9,-100.0,False,media_1794830394431_f49b6665.jpg
+Kallakurichi,Kallakurichi,2023-2024,May,May 2024,Summer,55.3,52.8,4.7,False,media_1794830394431_f49b6665.jpg
+Vellore,Vellore,2023-2024,March,Mar 2024,Summer,0.0,12.0,-100.0,False,media_1794830394431_f49b6665.jpg
+Vellore,Vellore,2023-2024,April,Apr 2024,Summer,0.0,26.2,-100.0,False,media_1794830394431_f49b6665.jpg
+Vellore,Vellore,2023-2024,May,May 2024,Summer,74.2,65.7,12.9,False,media_1794830394431_f49b6665.jpg
+Ranipet,Ranipet,2023-2024,March,Mar 2024,Summer,0.0,10.0,-100.0,False,media_1794830394431_f49b6665.jpg
+Ranipet,Ranipet,2023-2024,April,Apr 2024,Summer,0.0,19.6,-100.0,False,media_1794830394431_f49b6665.jpg
+Ranipet,Ranipet,2023-2024,May,May 2024,Summer,9.0,51.1,-82.4,False,media_1794830394431_f49b6665.jpg
+Tirupathur,Tirupathur,2023-2024,March,Mar 2024,Summer,0.0,11.1,-100.0,False,media_1794830394431_f49b6665.jpg
+Tirupathur,Tirupathur,2023-2024,April,Apr 2024,Summer,0.0,28.4,-100.0,False,media_1794830394431_f49b6665.jpg
+Tirupathur,Tirupathur,2023-2024,May,May 2024,Summer,128.9,76.8,67.8,False,media_1794830394431_f49b6665.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,March,Mar 2024,Summer,0.0,12.2,-100.0,False,media_1794830394431_f49b6665.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,April,Apr 2024,Summer,0.0,21.4,-100.0,False,media_1794830394431_f49b6665.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,May,May 2024,Summer,87.2,65.4,33.3,False,media_1794830394431_f49b6665.jpg
+Salem,Salem,2023-2024,March,Mar 2024,Summer,0.0,17.2,-100.0,False,media_1794830394431_f49b6665.jpg
+Salem,Salem,2023-2024,April,Apr 2024,Summer,0.1,48.5,-99.8,False,media_1794830394431_f49b6665.jpg
+Salem,Salem,2023-2024,May,May 2024,Summer,175.7,98.8,77.8,False,media_1794830394431_f49b6665.jpg
+Namakkal,Namakkal,2023-2024,March,Mar 2024,Summer,0.0,12.3,-100.0,False,media_1794830394431_f49b6665.jpg
+Namakkal,Namakkal,2023-2024,April,Apr 2024,Summer,0.0,43.3,-100.0,False,media_1794830394431_f49b6665.jpg
+Namakkal,Namakkal,2023-2024,May,May 2024,Summer,160.9,90.4,78.0,False,media_1794830394431_f49b6665.jpg
+Dharmapuri,Dharmapuri,2023-2024,March,Mar 2024,Summer,0.0,15.9,-100.0,False,media_1794830394431_f49b6665.jpg
+Dharmapuri,Dharmapuri,2023-2024,April,Apr 2024,Summer,0.0,46.5,-100.0,False,media_1794830394431_f49b6665.jpg
+Dharmapuri,Dharmapuri,2023-2024,May,May 2024,Summer,211.6,107.3,97.2,False,media_1794830394431_f49b6665.jpg
+Krishnagiri,Krishnagiri,2023-2024,March,Mar 2024,Summer,0.0,14.7,-100.0,False,media_1794830394431_f49b6665.jpg
+Krishnagiri,Krishnagiri,2023-2024,April,Apr 2024,Summer,0.0,39.9,-100.0,False,media_1794830394431_f49b6665.jpg
+Krishnagiri,Krishnagiri,2023-2024,May,May 2024,Summer,135.6,98.2,38.1,False,media_1794830394431_f49b6665.jpg
+Coimbatore,Coimbatore,2023-2024,March,Mar 2024,Summer,0.4,22.7,-98.2,False,media_1794830394431_f49b6665.jpg
+Coimbatore,Coimbatore,2023-2024,April,Apr 2024,Summer,7.6,57.2,-86.7,False,media_1794830394431_f49b6665.jpg
+Coimbatore,Coimbatore,2023-2024,May,May 2024,Summer,282.6,81.5,246.7,False,media_1794830394431_f49b6665.jpg
+Tiruppur,Tiruppur,2023-2024,March,Mar 2024,Summer,0.0,12.0,-100.0,False,media_1794830394431_f49b6665.jpg
+Tiruppur,Tiruppur,2023-2024,April,Apr 2024,Summer,0.0,43.5,-100.0,False,media_1794830394431_f49b6665.jpg
+Tiruppur,Tiruppur,2023-2024,May,May 2024,Summer,148.8,72.7,104.7,False,media_1794830394431_f49b6665.jpg
+Erode,Erode,2023-2024,March,Mar 2024,Summer,0.0,18.9,-100.0,False,media_1794830394431_f49b6665.jpg
+Erode,Erode,2023-2024,April,Apr 2024,Summer,4.5,47.9,-90.6,False,media_1794830394431_f49b6665.jpg
+Erode,Erode,2023-2024,May,May 2024,Summer,172.4,79.7,116.3,False,media_1794830394431_f49b6665.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,March,Mar 2024,Summer,0.0,11.5,-100.0,False,media_1794830394431_f49b6665.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,April,Apr 2024,Summer,3.0,28.3,-89.4,False,media_1794830394431_f49b6665.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,May,May 2024,Summer,136.0,65.2,108.6,False,media_1794830394431_f49b6665.jpg
+Karur,Karur,2023-2024,March,Mar 2024,Summer,0.0,13.2,-100.0,False,media_1794830394431_f49b6665.jpg
+Karur,Karur,2023-2024,April,Apr 2024,Summer,0.0,32.3,-100.0,False,media_1794830394431_f49b6665.jpg
+Karur,Karur,2023-2024,May,May 2024,Summer,139.0,65.6,111.9,False,media_1794830394431_f49b6665.jpg
+Perambalur,Perambalur,2023-2024,March,Mar 2024,Summer,0.0,9.5,-100.0,False,media_1794830394431_f49b6665.jpg
+Perambalur,Perambalur,2023-2024,April,Apr 2024,Summer,0.0,24.5,-100.0,False,media_1794830394431_f49b6665.jpg
+Perambalur,Perambalur,2023-2024,May,May 2024,Summer,81.2,55.9,45.3,False,media_1794830394431_f49b6665.jpg
+Ariyalur,Ariyalur,2023-2024,March,Mar 2024,Summer,0.0,13.3,-100.0,False,media_1794830394431_f49b6665.jpg
+Ariyalur,Ariyalur,2023-2024,April,Apr 2024,Summer,1.9,17.0,-88.8,False,media_1794830394431_f49b6665.jpg
+Ariyalur,Ariyalur,2023-2024,May,May 2024,Summer,95.2,54.6,74.4,False,media_1794830394431_f49b6665.jpg
+Pudukkottai,Pudukkottai,2023-2024,March,Mar 2024,Summer,3.2,15.3,-79.1,False,media_1794830394431_f49b6665.jpg
+Pudukkottai,Pudukkottai,2023-2024,April,Apr 2024,Summer,5.3,23.2,-77.2,False,media_1794830394431_f49b6665.jpg
+Pudukkottai,Pudukkottai,2023-2024,May,May 2024,Summer,110.5,49.3,124.1,False,media_1794830394431_f49b6665.jpg
+Thanjavur,Thanjavur,2023-2024,March,Mar 2024,Summer,0.5,17.5,-97.1,False,media_1794830394431_f49b6665.jpg
+Thanjavur,Thanjavur,2023-2024,April,Apr 2024,Summer,9.6,27.0,-64.4,False,media_1794830394431_f49b6665.jpg
+Thanjavur,Thanjavur,2023-2024,May,May 2024,Summer,108.8,53.7,102.6,False,media_1794830394431_f49b6665.jpg
+Tiruvarur,Tiruvarur,2023-2024,March,Mar 2024,Summer,1.5,19.5,-92.3,False,media_1794830394431_f49b6665.jpg
+Tiruvarur,Tiruvarur,2023-2024,April,Apr 2024,Summer,5.0,30.1,-83.4,False,media_1794830394431_f49b6665.jpg
+Tiruvarur,Tiruvarur,2023-2024,May,May 2024,Summer,144.3,54.3,165.7,False,media_1794830394431_f49b6665.jpg
+Nagapattinam,Nagapattinam,2023-2024,March,Mar 2024,Summer,17.0,26.1,-34.9,False,media_1794830394431_f49b6665.jpg
+Nagapattinam,Nagapattinam,2023-2024,April,Apr 2024,Summer,0.1,22.9,-99.6,False,media_1794830394431_f49b6665.jpg
+Nagapattinam,Nagapattinam,2023-2024,May,May 2024,Summer,86.5,41.8,106.9,False,media_1794830394431_f49b6665.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,March,Mar 2024,Summer,0.0,24.4,-100.0,False,media_1794830394431_f49b6665.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,April,Apr 2024,Summer,0.0,16.4,-100.0,False,media_1794830394431_f49b6665.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,May,May 2024,Summer,87.4,45.1,93.8,False,media_1794830394431_f49b6665.jpg
+Madurai,Madurai,2023-2024,March,Mar 2024,Summer,1.7,22.5,-92.4,False,media_1794830394431_f49b6665.jpg
+Madurai,Madurai,2023-2024,April,Apr 2024,Summer,15.6,47.5,-67.2,False,media_1794830394431_f49b6665.jpg
+Madurai,Madurai,2023-2024,May,May 2024,Summer,134.5,70.8,90.0,False,media_1794830394431_f49b6665.jpg
+Theni,Theni,2023-2024,March,Mar 2024,Summer,1.5,35.3,-95.8,False,media_1794830394431_f49b6665.jpg
+Theni,Theni,2023-2024,April,Apr 2024,Summer,21.2,66.8,-68.3,False,media_1794830394431_f49b6665.jpg
+Theni,Theni,2023-2024,May,May 2024,Summer,188.3,68.9,173.3,False,media_1794830394431_f49b6665.jpg
+Dindigul,Dindigul,2023-2024,March,Mar 2024,Summer,0.2,26.1,-99.2,False,media_1794830394431_f49b6665.jpg
+Dindigul,Dindigul,2023-2024,April,Apr 2024,Summer,12.5,58.1,-78.5,False,media_1794830394431_f49b6665.jpg
+Dindigul,Dindigul,2023-2024,May,May 2024,Summer,190.2,87.5,117.4,False,media_1794830394431_f49b6665.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,March,Mar 2024,Summer,2.2,25.5,-91.4,False,media_1794830394431_f49b6665.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,April,Apr 2024,Summer,12.3,42.6,-71.1,False,media_1794830394431_f49b6665.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,May,May 2024,Summer,99.5,39.3,153.2,False,media_1794830394431_f49b6665.jpg
+Virudhunagar,Virudhunagar,2023-2024,March,Mar 2024,Summer,0.2,29.9,-99.3,False,media_1794830394431_f49b6665.jpg
+Virudhunagar,Virudhunagar,2023-2024,April,Apr 2024,Summer,31.6,51.8,-39.0,False,media_1794830394431_f49b6665.jpg
+Virudhunagar,Virudhunagar,2023-2024,May,May 2024,Summer,133.2,65.5,103.4,False,media_1794830394431_f49b6665.jpg
+Sivagangai,Sivaganga,2023-2024,March,Mar 2024,Summer,1.0,22.1,-95.5,False,media_1794830394431_f49b6665.jpg
+Sivagangai,Sivaganga,2023-2024,April,Apr 2024,Summer,7.1,39.3,-81.9,False,media_1794830394431_f49b6665.jpg
+Sivagangai,Sivaganga,2023-2024,May,May 2024,Summer,125.2,69.8,79.4,False,media_1794830394431_f49b6665.jpg
+Tirunelveli,Tirunelveli,2023-2024,March,Mar 2024,Summer,7.1,40.6,-82.5,False,media_1794830394431_f49b6665.jpg
+Tirunelveli,Tirunelveli,2023-2024,April,Apr 2024,Summer,68.1,51.8,31.5,False,media_1794830394431_f49b6665.jpg
+Tirunelveli,Tirunelveli,2023-2024,May,May 2024,Summer,148.1,37.8,291.8,False,media_1794830394431_f49b6665.jpg
+Tenkasi,Tenkasi,2023-2024,March,Mar 2024,Summer,2.2,55.4,-96.0,False,media_1794830394431_f49b6665.jpg
+Tenkasi,Tenkasi,2023-2024,April,Apr 2024,Summer,27.9,70.7,-60.5,False,media_1794830394431_f49b6665.jpg
+Tenkasi,Tenkasi,2023-2024,May,May 2024,Summer,125.2,53.5,134.0,False,media_1794830394431_f49b6665.jpg
+Thoothukudi,Thoothukudi,2023-2024,March,Mar 2024,Summer,6.9,32.5,-78.8,False,media_1794830394431_f49b6665.jpg
+Thoothukudi,Thoothukudi,2023-2024,April,Apr 2024,Summer,7.9,43.8,-82.0,False,media_1794830394431_f49b6665.jpg
+Thoothukudi,Thoothukudi,2023-2024,May,May 2024,Summer,51.6,30.5,69.2,False,media_1794830394431_f49b6665.jpg
+The Nilgiris,The Nilgiris,2023-2024,March,Mar 2024,Summer,1.5,39.0,-96.2,False,media_1794830394431_f49b6665.jpg
+The Nilgiris,The Nilgiris,2023-2024,April,Apr 2024,Summer,29.2,67.2,-56.5,False,media_1794830394431_f49b6665.jpg
+The Nilgiris,The Nilgiris,2023-2024,May,May 2024,Summer,286.4,106.7,168.4,False,media_1794830394431_f49b6665.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,March,Mar 2024,Summer,7.2,41.5,-82.7,False,media_1794830394431_f49b6665.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,April,Apr 2024,Summer,56.7,104.8,-45.9,False,media_1794830394431_f49b6665.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,May,May 2024,Summer,421.4,125.9,234.7,False,media_1794830394431_f49b6665.jpg
+State Average,Tamil Nadu (State),2023-2024,March,Mar 2024,Summer,1.4,19.6,-92.7,False,media_1794830394431_f49b6665.jpg
+State Average,Tamil Nadu (State),2023-2024,April,Apr 2024,Summer,8.6,36.8,-76.6,False,media_1794830394431_f49b6665.jpg
+State Average,Tamil Nadu (State),2023-2024,May,May 2024,Summer,125.7,63.7,97.3,False,media_1794830394431_f49b6665.jpg
+Chennai,Chennai,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,20.9,48.8,-57.2,True,media_1794830394455_dc134852.jpg
+Chennai,Chennai,2023-2024,Annual Total,Whole Year 2023-24,Annual,1950.9,1346.2,44.9,True,media_1794830394455_dc134852.jpg
+Kancheepuram,Kancheepuram,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,125.0,70.4,77.6,True,media_1794830394455_dc134852.jpg
+Kancheepuram,Kancheepuram,2023-2024,Annual Total,Whole Year 2023-24,Annual,1716.7,1155.1,48.6,True,media_1794830394455_dc134852.jpg
+Chengalpattu,Chengalpattu,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,95.2,55.2,72.5,True,media_1794830394455_dc134852.jpg
+Chengalpattu,Chengalpattu,2023-2024,Annual Total,Whole Year 2023-24,Annual,1600.5,1186.7,34.9,True,media_1794830394455_dc134852.jpg
+Tiruvallur,Tiruvallur,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,136.8,65.8,107.9,True,media_1794830394455_dc134852.jpg
+Tiruvallur,Tiruvallur,2023-2024,Annual Total,Whole Year 2023-24,Annual,1665.2,1182.1,40.9,True,media_1794830394455_dc134852.jpg
+Cuddalore,Cuddalore,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,212.8,80.0,166.0,True,media_1794830394455_dc134852.jpg
+Cuddalore,Cuddalore,2023-2024,Annual Total,Whole Year 2023-24,Annual,1247.8,1178.6,5.9,True,media_1794830394455_dc134852.jpg
+Villupuram,Viluppuram,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,145.6,63.2,130.4,True,media_1794830394455_dc134852.jpg
+Villupuram,Viluppuram,2023-2024,Annual Total,Whole Year 2023-24,Annual,1177.2,1012.6,16.3,True,media_1794830394455_dc134852.jpg
+Kallakurichi,Kallakurichi,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,188.9,82.1,130.1,True,media_1794830394455_dc134852.jpg
+Kallakurichi,Kallakurichi,2023-2024,Annual Total,Whole Year 2023-24,Annual,820.4,956.7,-14.2,True,media_1794830394455_dc134852.jpg
+Vellore,Vellore,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,215.5,103.9,107.4,True,media_1794830394455_dc134852.jpg
+Vellore,Vellore,2023-2024,Annual Total,Whole Year 2023-24,Annual,1100.2,925.5,18.9,True,media_1794830394455_dc134852.jpg
+Ranipet,Ranipet,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,231.5,80.7,186.9,True,media_1794830394455_dc134852.jpg
+Ranipet,Ranipet,2023-2024,Annual Total,Whole Year 2023-24,Annual,1208.4,944.7,27.9,True,media_1794830394455_dc134852.jpg
+Tirupathur,Tirupathur,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,179.4,116.3,54.3,True,media_1794830394455_dc134852.jpg
+Tirupathur,Tirupathur,2023-2024,Annual Total,Whole Year 2023-24,Annual,817.7,817.6,0.0,True,media_1794830394455_dc134852.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,256.5,99.0,159.1,True,media_1794830394455_dc134852.jpg
+Tiruvannamalai,Tiruvannamalai,2023-2024,Annual Total,Whole Year 2023-24,Annual,1203.4,1019.7,18.0,True,media_1794830394455_dc134852.jpg
+Salem,Salem,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,217.7,164.5,32.3,True,media_1794830394455_dc134852.jpg
+Salem,Salem,2023-2024,Annual Total,Whole Year 2023-24,Annual,837.5,912.5,-8.2,True,media_1794830394455_dc134852.jpg
+Namakkal,Namakkal,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,192.3,146.0,31.7,True,media_1794830394455_dc134852.jpg
+Namakkal,Namakkal,2023-2024,Annual Total,Whole Year 2023-24,Annual,731.8,758.5,-3.5,True,media_1794830394455_dc134852.jpg
+Dharmapuri,Dharmapuri,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,250.1,169.7,47.4,True,media_1794830394455_dc134852.jpg
+Dharmapuri,Dharmapuri,2023-2024,Annual Total,Whole Year 2023-24,Annual,803.5,876.4,-8.3,True,media_1794830394455_dc134852.jpg
+Krishnagiri,Krishnagiri,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,221.3,152.8,44.8,True,media_1794830394455_dc134852.jpg
+Krishnagiri,Krishnagiri,2023-2024,Annual Total,Whole Year 2023-24,Annual,734.4,795.6,-7.7,True,media_1794830394455_dc134852.jpg
+Coimbatore,Coimbatore,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,377.0,161.4,133.6,True,media_1794830394455_dc134852.jpg
+Coimbatore,Coimbatore,2023-2024,Annual Total,Whole Year 2023-24,Annual,1510.2,1205.8,25.2,True,media_1794830394455_dc134852.jpg
+Tiruppur,Tiruppur,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,159.1,128.2,24.1,True,media_1794830394455_dc134852.jpg
+Tiruppur,Tiruppur,2023-2024,Annual Total,Whole Year 2023-24,Annual,603.7,599.5,0.7,True,media_1794830394455_dc134852.jpg
+Erode,Erode,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,218.9,146.5,49.4,True,media_1794830394455_dc134852.jpg
+Erode,Erode,2023-2024,Annual Total,Whole Year 2023-24,Annual,849.5,732.5,16.0,True,media_1794830394455_dc134852.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,151.6,105.0,44.4,True,media_1794830394455_dc134852.jpg
+Tiruchirapalli,Tiruchirappalli,2023-2024,Annual Total,Whole Year 2023-24,Annual,641.2,774.9,-17.3,True,media_1794830394455_dc134852.jpg
+Karur,Karur,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,132.8,111.1,19.5,True,media_1794830394455_dc134852.jpg
+Karur,Karur,2023-2024,Annual Total,Whole Year 2023-24,Annual,549.6,636.2,-13.6,True,media_1794830394455_dc134852.jpg
+Perambalur,Perambalur,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,193.3,89.9,115.0,True,media_1794830394455_dc134852.jpg
+Perambalur,Perambalur,2023-2024,Annual Total,Whole Year 2023-24,Annual,752.4,816.0,-7.8,True,media_1794830394455_dc134852.jpg
+Ariyalur,Ariyalur,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,146.1,84.9,72.1,True,media_1794830394455_dc134852.jpg
+Ariyalur,Ariyalur,2023-2024,Annual Total,Whole Year 2023-24,Annual,756.9,925.8,-18.2,True,media_1794830394455_dc134852.jpg
+Pudukkottai,Pudukkottai,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,170.7,87.8,94.4,True,media_1794830394455_dc134852.jpg
+Pudukkottai,Pudukkottai,2023-2024,Annual Total,Whole Year 2023-24,Annual,795.3,787.7,1.0,True,media_1794830394455_dc134852.jpg
+Thanjavur,Thanjavur,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,179.6,98.2,82.9,True,media_1794830394455_dc134852.jpg
+Thanjavur,Thanjavur,2023-2024,Annual Total,Whole Year 2023-24,Annual,915.8,1017.3,-10.0,True,media_1794830394455_dc134852.jpg
+Tiruvarur,Tiruvarur,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,166.3,103.9,60.1,True,media_1794830394455_dc134852.jpg
+Tiruvarur,Tiruvarur,2023-2024,Annual Total,Whole Year 2023-24,Annual,1131.3,1172.2,-3.5,True,media_1794830394455_dc134852.jpg
+Nagapattinam,Nagapattinam,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,178.1,90.8,96.1,True,media_1794830394455_dc134852.jpg
+Nagapattinam,Nagapattinam,2023-2024,Annual Total,Whole Year 2023-24,Annual,1480.3,1336.9,10.7,True,media_1794830394455_dc134852.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,70.6,85.9,-17.8,True,media_1794830394455_dc134852.jpg
+Mayiladuthurai,Mayiladuthurai,2023-2024,Annual Total,Whole Year 2023-24,Annual,1216.3,1332.2,-8.7,True,media_1794830394455_dc134852.jpg
+Madurai,Madurai,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,187.6,140.8,33.2,True,media_1794830394455_dc134852.jpg
+Madurai,Madurai,2023-2024,Annual Total,Whole Year 2023-24,Annual,993.9,827.4,20.1,True,media_1794830394455_dc134852.jpg
+Theni,Theni,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,226.5,171.0,32.5,True,media_1794830394455_dc134852.jpg
+Theni,Theni,2023-2024,Annual Total,Whole Year 2023-24,Annual,1094.5,802.7,36.4,True,media_1794830394455_dc134852.jpg
+Dindigul,Dindigul,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,317.2,171.7,84.7,True,media_1794830394455_dc134852.jpg
+Dindigul,Dindigul,2023-2024,Annual Total,Whole Year 2023-24,Annual,1171.8,956.5,22.5,True,media_1794830394455_dc134852.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,165.3,107.4,53.9,True,media_1794830394455_dc134852.jpg
+Ramanathapuram,Ramanathapuram,2023-2024,Annual Total,Whole Year 2023-24,Annual,975.7,817.8,19.3,True,media_1794830394455_dc134852.jpg
+Virudhunagar,Virudhunagar,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,250.7,147.2,70.3,True,media_1794830394455_dc134852.jpg
+Virudhunagar,Virudhunagar,2023-2024,Annual Total,Whole Year 2023-24,Annual,1242.7,773.9,60.6,True,media_1794830394455_dc134852.jpg
+Sivagangai,Sivaganga,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,200.7,131.2,53.0,True,media_1794830394455_dc134852.jpg
+Sivagangai,Sivaganga,2023-2024,Annual Total,Whole Year 2023-24,Annual,987.0,895.9,10.2,True,media_1794830394455_dc134852.jpg
+Tirunelveli,Tirunelveli,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,165.0,130.2,26.7,True,media_1794830394455_dc134852.jpg
+Tirunelveli,Tirunelveli,2023-2024,Annual Total,Whole Year 2023-24,Annual,1872.2,795.8,135.3,True,media_1794830394455_dc134852.jpg
+Tenkasi,Tenkasi,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,225.2,179.6,25.4,True,media_1794830394455_dc134852.jpg
+Tenkasi,Tenkasi,2023-2024,Annual Total,Whole Year 2023-24,Annual,1280.3,872.5,46.7,True,media_1794830394455_dc134852.jpg
+Thoothukudi,Thoothukudi,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,118.9,106.8,11.3,True,media_1794830394455_dc134852.jpg
+Thoothukudi,Thoothukudi,2023-2024,Annual Total,Whole Year 2023-24,Annual,801.1,612.2,30.9,True,media_1794830394455_dc134852.jpg
+The Nilgiris,The Nilgiris,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,267.1,212.9,25.5,True,media_1794830394455_dc134852.jpg
+The Nilgiris,The Nilgiris,2023-2024,Annual Total,Whole Year 2023-24,Annual,1608.7,1595.7,0.8,True,media_1794830394455_dc134852.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,238.2,272.2,-12.5,True,media_1794830394455_dc134852.jpg
+Kanniyakumari,Kanniyakumari,2023-2024,Annual Total,Whole Year 2023-24,Annual,1635.9,1338.3,22.2,True,media_1794830394455_dc134852.jpg
+State Average,Tamil Nadu (State),2023-2024,Seasonal Total,Hot Weather Total 2024,Summer,189.4,120.1,57.7,True,media_1794830394455_dc134852.jpg
+State Average,Tamil Nadu (State),2023-2024,Annual Total,Whole Year 2023-24,Annual,1117.9,965.6,15.8,True,media_1794830394455_dc134852.jpg

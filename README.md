@@ -1,14 +1,11 @@
 # AquaPulse: Seasonal Rainfall Intelligence & Climate Pattern Discovery
 ### Tamil Nadu District-Wise Rainfall Analysis and Prediction Platform
 
-[![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aquapulse.streamlit.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-devops941%2Faquapulse-181717.svg?logo=github)](https://github.com/devops941/aquapulse)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.40%2B-FF4B4B.svg)](https://streamlit.io/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.4%2B-F7931E.svg)](https://scikit-learn.org/)
 [![Verification](https://img.shields.io/badge/Verification-17%2F17_Passed-success.svg)](#)
-
-🌐 **Production Live URL:** [https://aquapulse.streamlit.app/](https://aquapulse.streamlit.app/)
+[![License: Academic](https://img.shields.io/badge/License-Academic_Research-green.svg)](#)
 
 AquaPulse is a professional, modular Python data science and machine learning platform for exploratory climate analysis, seasonal pattern discovery, spatial benchmarking, and multi-year rainfall prediction across all **38 administrative districts of Tamil Nadu** for meteorological reporting cycles (2023–2024, 2024–2025, and experimental 2025–2026 projections).
 

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About &mdash; AquaPulse</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="page-inner">
+
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff;vertical-align:middle"><path d="M12 2C12 2 5 10.5 5 15a7 7 0 0 0 14 0C19 10.5 12 2 12 2z"/></svg></span>
+      <span class="brand-text">AquaPulse</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/dashboard">Dashboard</a></li>
+      <li><a href="/prediction">Predict</a></li>
+      <li><a href="/analysis">Analysis</a></li>
+      <li><a href="/about" class="active">About</a></li>
+    </ul>
+    <div class="nav-badge">Tamil Nadu &bull; 2024&ndash;25</div>
+  </nav>
+
+  <div class="inner-layout">
+    <div class="container">
+
+      <!-- Project Hero -->
+      <div class="about-hero">
+        <div class="about-hero-icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff"><path d="M12 2C12 2 5 10.5 5 15a7 7 0 0 0 14 0C19 10.5 12 2 12 2z"/></svg></div>
+        <h1 class="about-title">AquaPulse</h1>
+        <p class="about-tagline">Seasonal Rainfall Intelligence &amp; Climate Pattern Discovery</p>
+        <p class="about-desc">
+          An undergraduate ML research project analyzing district-wise rainfall across Tamil Nadu
+          using IMD meteorological data (2023&ndash;2025) with ensemble models for seasonal prediction.
+        </p>
+      </div>
+
+      <!-- Key Stats Row -->
+      <div class="about-stats-row">
+        <div class="about-stat"><div class="about-stat-value">38</div><div class="about-stat-label">Districts</div></div>
+        <div class="about-stat"><div class="about-stat-value">456</div><div class="about-stat-label">Records</div></div>
+        <div class="about-stat"><div class="about-stat-value">5</div><div class="about-stat-label">ML Models</div></div>
+        <div class="about-stat"><div class="about-stat-value">87%</div><div class="about-stat-label">RF Accuracy</div></div>
+        <div class="about-stat"><div class="about-stat-value">2 Yrs</div><div class="about-stat-label">Data Coverage</div></div>
+      </div>
+
+      <!-- Tech Stack -->
+      <div class="section-subheader">
+        <h2>Technology Stack</h2>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card"><div class="tech-logo tech-python">Py</div><div class="tech-name">Python 3.11</div><div class="tech-role">Core Language</div></div>
+        <div class="tech-card"><div class="tech-logo tech-flask">Fl</div><div class="tech-name">Flask</div><div class="tech-role">Web Framework</div></div>
+        <div class="tech-card"><div class="tech-logo tech-pandas">Pd</div><div class="tech-name">Pandas</div><div class="tech-role">Data Processing</div></div>
+        <div class="tech-card"><div class="tech-logo tech-sklearn">Sk</div><div class="tech-name">Scikit-learn</div><div class="tech-role">Machine Learning</div></div>
+        <div class="tech-card"><div class="tech-logo tech-plotly">Pl</div><div class="tech-name">Plotly</div><div class="tech-role">Interactive Charts</div></div>
+        <div class="tech-card"><div class="tech-logo tech-chartjs">Cj</div><div class="tech-name">Chart.js</div><div class="tech-role">Live Charts</div></div>
+        <div class="tech-card"><div class="tech-logo tech-numpy">Np</div><div class="tech-name">NumPy</div><div class="tech-role">Numerical Computing</div></div>
+        <div class="tech-card"><div class="tech-logo tech-joblib">Jb</div><div class="tech-name">Joblib</div><div class="tech-role">Model Serialization</div></div>
+      </div>
+
+      <!-- Model Performance Table -->
+      <div class="section-subheader" style="margin-top:2rem">
+        <h2>Model Performance</h2>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr><th>Model</th><th>R&sup2;</th><th>MAE (mm)</th><th>Use Case</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="badge badge-best">Random Forest</span></td><td class="metric-good">0.87</td><td>18.4</td><td>Primary prediction</td></tr>
+            <tr><td>Ridge Regression</td><td class="metric-ok">0.82</td><td>24.1</td><td>Interpretable baseline</td></tr>
+            <tr><td>Climatological Baseline</td><td class="metric-warn">0.74</td><td>31.6</td><td>Historical benchmark</td></tr>
+            <tr><td>2025&ndash;26 Estimator</td><td>&mdash;</td><td>&mdash;</td><td>Future projection</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Academic Context -->
+      <div class="about-two-col" style="margin-top:2rem">
+        <div class="about-section-card">
+          <div class="about-section-icon icon-purple">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          </div>
+          <h3>Academic Context</h3>
+          <ul class="about-list">
+            <li>Dept: Computer Science &amp; Engineering</li>
+            <li>Level: Undergraduate Final Year Project</li>
+            <li>Course: Data Science &amp; Machine Learning</li>
+            <li>Dataset: IMD Tamil Nadu, June 2023 – May 2025</li>
+          </ul>
+        </div>
+        <div class="about-section-card">
+          <div class="about-section-icon icon-teal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Platform Highlights</h3>
+          <ul class="about-list">
+            <li>Flask REST API with real-time ML inference</li>
+            <li>38-district prediction with 3 model choices</li>
+            <li>Interactive Plotly &amp; Chart.js visualizations</li>
+            <li>No login — open-access dashboard</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="about-disclaimer">
+        <strong>Disclaimer:</strong> Predictions are experimental estimates from IMD data (Jun 2024 – May 2025),
+        intended solely for academic research — not operational weather forecasts.
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/static/js/main.js"></script>
+  <footer class="page-footer">
+    <p>&copy; 2026 AquaPulse &bull; Seasonal Rainfall Intelligence &amp; Climate Pattern Discovery</p>
+  </footer>
+</body>
+</html>

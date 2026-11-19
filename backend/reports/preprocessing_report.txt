@@ -1,0 +1,104 @@
+================================================================================
+TAMIL NADU RAINFALL DATA PREPROCESSING & CLEANING REPORT (2024–2025)
+================================================================================
+Source Dataset      : data\raw\rainfall_by_district_2024_25.csv
+Initial SHA256 Hash : 4b71b8c80dd6f3058f9b623b2b5d91e159400de3439ea5d19b198f6f89f55237
+Post-run SHA256 Hash: 4b71b8c80dd6f3058f9b623b2b5d91e159400de3439ea5d19b198f6f89f55237
+Raw Data Integrity  : 100% UNCHANGED & VERIFIED
+
+1. RECORD COUNTS & PIPELINE BREAKDOWN
+--------------------------------------------------------------------------------
+Original Raw Dataset Records          : 663
+District Monthly Cleaned Records (456): 456 (38 districts × 12 months)
+State Monthly Cleaned Records (12)    : 12 (1 state total × 12 months)
+Total Excluded Aggregate Records (195): 195
+  - District Seasonal Totals Excluded : 152 (38 districts × 4 seasons)
+  - District Annual Totals Excluded   : 38 (38 districts × 1 annual total)
+  - State Seasonal Totals Excluded    : 4 (1 state entity × 4 seasons)
+  - State Annual Total Excluded       : 1 (1 state entity × 1 annual total)
+Verification Sum: 456 + 12 + 195 = 663 (Matches raw record count: 663)
+
+2. TEMPORAL & GEOGRAPHICAL COVERAGE
+--------------------------------------------------------------------------------
+Official Administrative Districts (38): 38
+District Codes Range                  : 1 to 38 (Unique, non-null, integer)
+1-to-1 District-Code Mapping Verified : PASS
+Available Months (12): Jun 2024, Jul 2024, Aug 2024, Sep 2024, Oct 2024, Nov 2024, Dec 2024, Jan 2025, Feb 2025, Mar 2025, Apr 2025, May 2025
+Date Conversion Status                : Converted to datetime64 and serialized as YYYY-MM-01
+All 38 Districts have all 12 Months   : PASS (100% complete coverage)
+
+3. MISSING VALUES AUDIT (BEFORE VS AFTER)
+--------------------------------------------------------------------------------
+Before Preprocessing (Raw Dataset - 663 rows):
+  - report_year    :   0 missing
+  - district_code  :  17 missing
+  - district       :   0 missing
+  - season         :   0 missing
+  - period         :   0 missing
+  - actual_mm      :   0 missing
+  - normal_mm      :   0 missing
+  - pct_deviation  :   0 missing
+  - printed_page   :   0 missing
+
+After Preprocessing - District Monthly Dataset (456 rows):
+  - report_year    :   0 missing
+  - district_code  :   0 missing
+  - district       :   0 missing
+  - season         :   0 missing
+  - period         :   0 missing
+  - actual_mm      :   0 missing
+  - normal_mm      :   0 missing
+  - pct_deviation  :   0 missing
+  - printed_page   :   0 missing
+
+After Preprocessing - State Monthly Dataset (12 rows):
+  - report_year    :   0 missing
+  - district_code  :  12 missing (Expected: state entity has no administrative district code)
+  - district       :   0 missing
+  - season         :   0 missing
+  - period         :   0 missing
+  - actual_mm      :   0 missing
+  - normal_mm      :   0 missing
+  - pct_deviation  :   0 missing
+  - printed_page   :   0 missing
+
+4. DUPLICATE RECORDS AUDIT
+--------------------------------------------------------------------------------
+Raw Dataset Duplicates                      : 0
+District Cleaned Duplicates [district, period]: 0
+State Cleaned Duplicates [district, period]   : 0
+
+5. NUMERICAL VALIDATION (DISTRICT MONTHLY)
+--------------------------------------------------------------------------------
+Actual Rainfall (mm) : Min=0.0, Max=767.5, Mean=108.29
+Normal Rainfall (mm) : Min=2.7, Max=432.1, Mean=80.56
+Negative Values Validation: 0 negative values found in actual or normal rainfall (PASS)
+Value Preservation       : All valid original floats preserved with exact precision (PASS)
+
+6. VALIDATION CRITERIA CHECKLIST
+--------------------------------------------------------------------------------
+  - district_row_count_valid (456)          : PASSED [OK]
+  - state_row_count_valid (12)              : PASSED [OK]
+  - negative_actual_dist (0)                : PASSED [OK]
+  - negative_normal_dist (0)                : PASSED [OK]
+  - negative_actual_state (0)               : PASSED [OK]
+  - negative_normal_state (0)               : PASSED [OK]
+  - all_districts_complete (12 months)      : PASSED [OK]
+  - zero_district_nulls                     : PASSED [OK]
+  - zero_duplicates                         : PASSED [OK]
+
+7. DATA QUALITY RESOLUTIONS
+--------------------------------------------------------------------------------
+1. Elimination of Double-Counting:
+   Separating 195 seasonal and annual totals guarantees that downstream analytics
+   and future machine learning models will not suffer from aggregate inflation.
+2. Entity Disambiguation:
+   Isolating Tamil Nadu (State) from the 38 administrative districts ensures clean
+   district-level granularity without artificial skew from state-level sums.
+3. Standardized Temporal Index:
+   Converting textual dates (e.g., 'Jun 2024') to standard ISO dates ('2024-06-01')
+   enables chronological ordering and datetime-aware operations.
+
+================================================================================
+END OF PREPROCESSING REPORT
+================================================================================

@@ -1,0 +1,128 @@
+=====================================================================================
+TAMIL NADU DISTRICT-WISE RAINFALL EXPLORATORY DATA ANALYSIS (EDA) REPORT
+REPORTING PERIOD: JUNE 2024 – MAY 2025 (12 METEOROLOGICAL MONTHS)
+=====================================================================================
+
+1. EXECUTIVE SUMMARY & KEY METEOROLOGICAL FINDINGS
+-------------------------------------------------------------------------------------
+• Highest Rainfall District : The Nilgiris with 2382.9 mm (Normal: 1595.7 mm, Departure: +49.33%)
+• Lowest Rainfall District  : Thoothukudi with 681.3 mm (Normal: 651.2 mm, Departure: +4.62%)
+• Highest % Surplus District: Tirunelveli (+140.55%, Excess: +1118.5 mm above normal)
+• Lowest % Surplus District : Thoothukudi (+4.62%, Excess: +30.1 mm above normal)
+• Wettest Month State-wide  : Dec 2024 with 246.3 mm state avg (Normal: 100.3 mm, Departure: +145.5%)
+• Driest Month State-wide   : Feb 2025 with 2.8 mm state avg (Normal: 13.1 mm, Departure: -79.0%)
+• Highest Rainfall Season   : North-East Monsoon with 623.4 mm state total (Departure: +30.12%)
+• Lowest Rainfall Season    : Winter with 29.6 mm state total (Departure: +10.04%)
+• Highest Surplus Season (%) : Hot-Weather (+104.25% departure from normal)
+• Annual Surplus Districts  : 38 of 38 districts (100% net surplus for whole reporting year)
+• Annual Deficit Districts  : 0 of 38 districts
+
+2. TOP 5 HIGHEST AND LOWEST RAINFALL DISTRICTS
+-------------------------------------------------------------------------------------
+TOP 5 HIGHEST RAINFALL DISTRICTS (ANNUAL TOTAL ACTUAL):
+Rank  District            Actual (mm)    Normal (mm)    Excess (mm)    Departure (%)  
+-------------------------------------------------------------------------------------
+1     The Nilgiris        2382.9         1595.7         787.2          +49.33%        
+2     Coimbatore          1989.6         1205.8         783.8          +65.00%        
+3     Tirunelveli         1914.3         795.8          1118.5         +140.55%       
+4     Chennai             1870.6         1346.2         524.4          +38.95%        
+5     Tiruvallur          1682.9         1182.1         500.8          +42.37%        
+
+TOP 5 LOWEST RAINFALL DISTRICTS (ANNUAL TOTAL ACTUAL):
+Rank  District            Actual (mm)    Normal (mm)    Excess (mm)    Departure (%)  
+-------------------------------------------------------------------------------------
+34    Perambalur          922.8          816.0          106.8          +13.09%        
+35    Tiruppur            846.7          599.5          247.2          +41.23%        
+36    Erode               807.5          732.5          75.0           +10.24%        
+37    Karur               796.5          636.2          160.3          +25.20%        
+38    Thoothukudi         681.3          651.2          30.1           +4.62%         
+
+3. MONTHLY RAINFALL PROGRESSION (STATE LEVEL - JUNE 2024 TO MAY 2025)
+-------------------------------------------------------------------------------------
+Month       Season                Actual (mm)   Normal (mm)   Departure (mm)  Deviation (%)  
+-------------------------------------------------------------------------------------
+Jun 2024    South-West Monsoon    115.3         53.8          61.5            +114.3%        
+Jul 2024    South-West Monsoon    82.9          72.4          10.5            +14.5%         
+Aug 2024    South-West Monsoon    155.2         94.3          60.9            +64.6%         
+Sep 2024    South-West Monsoon    47.8          119.9         -72.1           -60.1%         
+Oct 2024    North-East Monsoon    212.7         178.3         34.4            +19.3%         
+Nov 2024    North-East Monsoon    164.4         200.5         -36.1           -18.0%         
+Dec 2024    North-East Monsoon    246.3         100.3         146.0           +145.5%        
+Jan 2025    Winter                26.8          13.8          13.0            +93.6%         
+Feb 2025    Winter                2.8           13.1          -10.3           -79.0%         
+Mar 2025    Hot-Weather           47.2          19.6          27.6            +141.4%        
+Apr 2025    Hot-Weather           57.2          36.8          20.4            +55.3%         
+May 2025    Hot-Weather           140.9         63.7          77.2            +121.2%        
+
+4. SEASONAL RAINFALL PERFORMANCE
+-------------------------------------------------------------------------------------
+(Calculated strictly by aggregating the 12 monthly observations per season without double-counting)
+
+STATE-LEVEL SEASONAL TOTALS:
+Season                Months  Actual (mm)   Normal (mm)   Departure (mm)  Deviation (%)  
+-------------------------------------------------------------------------------------
+South-West Monsoon    4       401.2         340.4         60.8            +17.86%        
+North-East Monsoon    3       623.4         479.1         144.3           +30.12%        
+Winter                2       29.6          26.9          2.7             +10.04%        
+Hot-Weather           3       245.3         120.1         125.2           +104.25%       
+
+5. PARAMETRIC AND NON-PARAMETRIC STATISTICAL SUMMARY
+-------------------------------------------------------------------------------------
+A. District-Month Observations (N = 456 pooled district-months):
+   • Actual Rainfall (mm) : Mean=108.29, Std=106.95, Median=77.15, Min=0.0, Max=767.5, Sum=49381.5
+   • Normal Rainfall (mm) : Mean=80.56, Std=71.46, Median=55.95, Min=2.7, Max=432.1, Sum=36733.2
+
+B. State-Level Monthly Observations (N = 12 calendar months):
+   • Actual Rainfall (mm) : Mean=108.29, Std=76.77, Median=99.10, Min=2.8, Max=246.3, Sum=1299.5
+   • Normal Rainfall (mm) : Mean=80.54, Std=61.62, Median=68.05, Min=13.1, Max=200.5, Sum=966.5
+
+C. District Annual Totals (N = 38 administrative districts):
+   • Actual Rainfall (mm) : Mean=1299.51, Std=363.23, Median=1246.20, Min=681.3, Max=2382.9
+   • Normal Rainfall (mm) : Mean=966.66, Std=231.28, Median=919.00, Min=599.5, Max=1595.7
+
+6. COMPLETE DISTRICT-WISE RANKING TABLE (1 TO 38)
+-------------------------------------------------------------------------------------
+Rank  District            Actual (mm)   Normal (mm)   Monthly Avg   Departure (%)  Status    
+-------------------------------------------------------------------------------------
+1     The Nilgiris        2382.9        1595.7        198.6         +49.33%        Surplus   
+2     Coimbatore          1989.6        1205.8        165.8         +65.00%        Surplus   
+3     Tirunelveli         1914.3        795.8         159.5         +140.55%       Surplus   
+4     Chennai             1870.6        1346.2        155.9         +38.95%        Surplus   
+5     Tiruvallur          1682.9        1182.1        140.2         +42.37%        Surplus   
+6     Nagapattinam        1675.8        1336.9        139.7         +25.35%        Surplus   
+7     Viluppuram          1622.7        1012.6        135.2         +60.25%        Surplus   
+8     Kanniyakumari       1566.5        1338.3        130.5         +17.05%        Surplus   
+9     Tiruvarur           1478.4        1172.2        123.2         +26.12%        Surplus   
+10    Tiruvannamalai      1470.9        1019.7        122.6         +44.25%        Surplus   
+11    Ranipet             1457.8        944.7         121.5         +54.31%        Surplus   
+12    Cuddalore           1454.4        1178.6        121.2         +23.40%        Surplus   
+13    Mayiladuthurai      1438.1        1332.2        119.8         +7.95%         Surplus   
+14    Kancheepuram        1428.9        1155.1        119.1         +23.70%        Surplus   
+15    Chengalpattu        1392.4        1186.7        116.0         +17.33%        Surplus   
+16    Kallakurichi        1290.6        956.7         107.5         +34.90%        Surplus   
+17    Vellore             1288.0        925.5         107.3         +39.17%        Surplus   
+18    Thanjavur           1276.3        1017.3        106.4         +25.46%        Surplus   
+19    Sivaganga           1246.3        895.9         103.9         +39.11%        Surplus   
+20    Tenkasi             1246.1        872.5         103.8         +42.82%        Surplus   
+21    Salem               1245.4        912.5         103.8         +36.48%        Surplus   
+22    Dindigul            1175.3        956.5         97.9          +22.88%        Surplus   
+23    Krishnagiri         1146.9        795.6         95.6          +44.16%        Surplus   
+24    Tirupathur          1143.3        817.6         95.3          +39.84%        Surplus   
+25    Dharmapuri          1139.7        876.4         95.0          +30.04%        Surplus   
+26    Ariyalur            1137.9        925.8         94.8          +22.91%        Surplus   
+27    Ramanathapuram      1107.6        817.8         92.3          +35.44%        Surplus   
+28    Theni               1087.2        802.7         90.6          +35.44%        Surplus   
+29    Pudukkottai         1050.8        787.7         87.6          +33.40%        Surplus   
+30    Madurai             1038.9        827.4         86.6          +25.56%        Surplus   
+31    Virudhunagar        998.9         773.9         83.2          +29.07%        Surplus   
+32    Tiruchirappalli     952.6         774.9         79.4          +22.93%        Surplus   
+33    Namakkal            928.7         758.5         77.4          +22.44%        Surplus   
+34    Perambalur          922.8         816.0         76.9          +13.09%        Surplus   
+35    Tiruppur            846.7         599.5         70.6          +41.23%        Surplus   
+36    Erode               807.5         732.5         67.3          +10.24%        Surplus   
+37    Karur               796.5         636.2         66.4          +25.20%        Surplus   
+38    Thoothukudi         681.3         651.2         56.8          +4.62%         Surplus   
+
+=====================================================================================
+END OF EXPLORATORY DATA ANALYSIS REPORT
+=====================================================================================

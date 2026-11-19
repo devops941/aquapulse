@@ -1,0 +1,742 @@
+District,District_Standardized,Year,Month,Period,Season,Actual Rainfall,Normal Rainfall,Percentage Deviation,Source,Is_State_Aggregate
+Ariyalur,Ariyalur,2024–2025,June,2024-06-01,Southwest Monsoon,58.3,39.0,49.5,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,July,2024-07-01,Southwest Monsoon,17.3,54.2,-68.1,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,August,2024-08-01,Southwest Monsoon,144.0,102.8,40.1,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,September,2024-09-01,Southwest Monsoon,33.0,118.8,-72.2,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,October,2024-10-01,Northeast Monsoon,163.0,158.2,3.0,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,November,2024-11-01,Northeast Monsoon,147.8,214.4,-31.1,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,December,2024-12-01,Northeast Monsoon,306.3,129.3,136.9,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,January,2025-01-01,Winter,20.5,16.3,25.8,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,February,2025-02-01,Winter,0.0,7.9,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,March,2025-03-01,Hot Weather / Summer,44.1,13.3,231.6,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,April,2025-04-01,Hot Weather / Summer,56.6,17.0,232.9,Official TN Meteorological Report 2024–25 (CSV),False
+Ariyalur,Ariyalur,2024–2025,May,2025-05-01,Hot Weather / Summer,147.0,54.6,169.2,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,June,2024-06-01,Southwest Monsoon,200.4,64.6,210.2,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,July,2024-07-01,Southwest Monsoon,144.6,107.3,34.8,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,August,2024-08-01,Southwest Monsoon,114.8,133.6,-14.1,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,September,2024-09-01,Southwest Monsoon,181.9,143.0,27.2,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,October,2024-10-01,Northeast Monsoon,371.7,274.5,35.4,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,November,2024-11-01,Northeast Monsoon,347.9,370.5,-6.1,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,December,2024-12-01,Northeast Monsoon,358.0,164.6,117.5,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,January,2025-01-01,Winter,39.6,23.0,72.2,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,February,2025-02-01,Winter,0.0,16.3,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,March,2025-03-01,Hot Weather / Summer,16.4,5.2,215.4,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,April,2025-04-01,Hot Weather / Summer,39.5,10.1,291.1,Official TN Meteorological Report 2024–25 (CSV),False
+Chennai,Chennai,2024–2025,May,2025-05-01,Hot Weather / Summer,55.8,33.5,66.6,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,June,2024-06-01,Southwest Monsoon,242.0,172.0,40.7,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,July,2024-07-01,Southwest Monsoon,459.2,220.8,108.0,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,August,2024-08-01,Southwest Monsoon,176.9,169.1,4.6,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,September,2024-09-01,Southwest Monsoon,90.3,127.2,-29.0,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,October,2024-10-01,Northeast Monsoon,331.7,161.9,104.9,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,November,2024-11-01,Northeast Monsoon,103.0,130.8,-21.3,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,December,2024-12-01,Northeast Monsoon,69.4,44.9,54.6,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,January,2025-01-01,Winter,5.7,7.0,-18.6,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,February,2025-02-01,Winter,0.0,10.7,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,March,2025-03-01,Hot Weather / Summer,41.8,22.7,84.1,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,April,2025-04-01,Hot Weather / Summer,101.8,57.2,78.0,Official TN Meteorological Report 2024–25 (CSV),False
+Coimbatore,Coimbatore,2024–2025,May,2025-05-01,Hot Weather / Summer,367.8,81.5,351.3,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,June,2024-06-01,Southwest Monsoon,123.8,45.7,170.9,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,July,2024-07-01,Southwest Monsoon,53.3,70.0,-23.9,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,August,2024-08-01,Southwest Monsoon,184.0,111.5,65.0,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,September,2024-09-01,Southwest Monsoon,45.1,128.5,-64.9,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,October,2024-10-01,Northeast Monsoon,204.5,209.9,-2.6,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,November,2024-11-01,Northeast Monsoon,204.9,307.2,-33.3,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,December,2024-12-01,Northeast Monsoon,371.3,184.4,101.4,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,January,2025-01-01,Winter,4.3,25.1,-82.9,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,February,2025-02-01,Winter,5.0,16.3,-69.3,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,March,2025-03-01,Hot Weather / Summer,73.0,19.1,282.2,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,April,2025-04-01,Hot Weather / Summer,26.5,16.5,60.6,Official TN Meteorological Report 2024–25 (CSV),False
+Cuddalore,Cuddalore,2024–2025,May,2025-05-01,Hot Weather / Summer,158.7,44.4,257.4,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,June,2024-06-01,Southwest Monsoon,106.4,54.3,95.9,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,July,2024-07-01,Southwest Monsoon,32.1,67.3,-52.3,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,August,2024-08-01,Southwest Monsoon,184.7,99.3,86.0,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,September,2024-09-01,Southwest Monsoon,13.5,159.9,-91.6,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,October,2024-10-01,Northeast Monsoon,218.8,161.8,35.2,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,November,2024-11-01,Northeast Monsoon,44.4,112.6,-60.6,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,December,2024-12-01,Northeast Monsoon,244.9,39.8,515.3,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,January,2025-01-01,Winter,2.9,4.0,-27.5,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,February,2025-02-01,Winter,0.0,7.7,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,March,2025-03-01,Hot Weather / Summer,13.4,15.9,-15.7,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,April,2025-04-01,Hot Weather / Summer,50.2,46.5,8.0,Official TN Meteorological Report 2024–25 (CSV),False
+Dharmapuri,Dharmapuri,2024–2025,May,2025-05-01,Hot Weather / Summer,228.4,107.3,112.9,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,June,2024-06-01,Southwest Monsoon,70.6,41.0,72.2,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,July,2024-07-01,Southwest Monsoon,38.7,50.5,-23.4,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,August,2024-08-01,Southwest Monsoon,176.7,72.7,143.1,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,September,2024-09-01,Southwest Monsoon,46.7,137.3,-66.0,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,October,2024-10-01,Northeast Monsoon,305.6,194.9,56.8,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,November,2024-11-01,Northeast Monsoon,131.8,181.4,-27.3,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,December,2024-12-01,Northeast Monsoon,161.1,83.7,92.5,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,January,2025-01-01,Winter,37.6,11.9,216.0,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,February,2025-02-01,Winter,0.3,11.4,-97.4,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,March,2025-03-01,Hot Weather / Summer,39.2,26.1,50.2,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,April,2025-04-01,Hot Weather / Summer,79.9,58.1,37.5,Official TN Meteorological Report 2024–25 (CSV),False
+Dindigul,Dindigul,2024–2025,May,2025-05-01,Hot Weather / Summer,87.1,87.5,-0.5,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,June,2024-06-01,Southwest Monsoon,67.3,46.1,46.0,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,July,2024-07-01,Southwest Monsoon,38.9,46.2,-15.8,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,August,2024-08-01,Southwest Monsoon,129.2,63.6,103.1,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,September,2024-09-01,Southwest Monsoon,26.2,111.7,-76.5,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,October,2024-10-01,Northeast Monsoon,199.8,151.0,32.3,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,November,2024-11-01,Northeast Monsoon,66.1,117.6,-43.8,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,December,2024-12-01,Northeast Monsoon,62.3,38.5,61.8,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,January,2025-01-01,Winter,9.4,3.9,141.0,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,February,2025-02-01,Winter,0.0,7.4,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,March,2025-03-01,Hot Weather / Summer,30.9,18.9,63.5,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,April,2025-04-01,Hot Weather / Summer,90.5,47.9,88.9,Official TN Meteorological Report 2024–25 (CSV),False
+Erode,Erode,2024–2025,May,2025-05-01,Hot Weather / Summer,86.9,79.7,9.0,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,June,2024-06-01,Southwest Monsoon,175.5,66.5,163.9,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,July,2024-07-01,Southwest Monsoon,149.8,109.1,37.3,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,August,2024-08-01,Southwest Monsoon,219.9,141.8,55.1,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,September,2024-09-01,Southwest Monsoon,93.7,154.6,-39.4,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,October,2024-10-01,Northeast Monsoon,163.7,191.1,-14.3,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,November,2024-11-01,Northeast Monsoon,122.3,260.3,-53.0,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,December,2024-12-01,Northeast Monsoon,358.5,140.3,155.5,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,January,2025-01-01,Winter,40.4,11.7,245.3,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,February,2025-02-01,Winter,0.0,9.3,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,March,2025-03-01,Hot Weather / Summer,9.8,6.8,44.1,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,April,2025-04-01,Hot Weather / Summer,7.0,17.4,-59.8,Official TN Meteorological Report 2024–25 (CSV),False
+Kancheepuram,Kancheepuram,2024–2025,May,2025-05-01,Hot Weather / Summer,88.3,46.2,91.1,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,June,2024-06-01,Southwest Monsoon,209.6,175.0,19.8,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,July,2024-07-01,Southwest Monsoon,116.3,108.0,7.7,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,August,2024-08-01,Southwest Monsoon,128.5,87.7,46.5,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,September,2024-09-01,Southwest Monsoon,47.9,124.0,-61.4,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,October,2024-10-01,Northeast Monsoon,270.2,249.3,8.4,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,November,2024-11-01,Northeast Monsoon,242.7,220.2,10.2,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,December,2024-12-01,Northeast Monsoon,27.1,63.1,-57.1,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,January,2025-01-01,Winter,5.8,15.0,-61.3,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,February,2025-02-01,Winter,0.7,23.8,-97.1,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,March,2025-03-01,Hot Weather / Summer,65.7,41.5,58.3,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,April,2025-04-01,Hot Weather / Summer,221.1,104.8,111.0,Official TN Meteorological Report 2024–25 (CSV),False
+Kanniyakumari,Kanniyakumari,2024–2025,May,2025-05-01,Hot Weather / Summer,230.9,125.9,83.4,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,June,2024-06-01,Southwest Monsoon,70.9,20.5,245.9,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,July,2024-07-01,Southwest Monsoon,0.4,29.6,-98.6,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,August,2024-08-01,Southwest Monsoon,126.9,48.4,162.2,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,September,2024-09-01,Southwest Monsoon,13.7,103.1,-86.7,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,October,2024-10-01,Northeast Monsoon,203.5,129.5,57.1,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,November,2024-11-01,Northeast Monsoon,48.6,132.3,-63.3,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,December,2024-12-01,Northeast Monsoon,172.0,51.4,234.6,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,January,2025-01-01,Winter,8.5,4.3,97.7,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,February,2025-02-01,Winter,0.0,6.0,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,March,2025-03-01,Hot Weather / Summer,21.5,13.2,62.9,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,April,2025-04-01,Hot Weather / Summer,64.3,32.3,99.1,Official TN Meteorological Report 2024–25 (CSV),False
+Karur,Karur,2024–2025,May,2025-05-01,Hot Weather / Summer,66.2,65.6,0.9,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,June,2024-06-01,Southwest Monsoon,139.4,47.6,192.9,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,July,2024-07-01,Southwest Monsoon,29.8,62.6,-52.4,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,August,2024-08-01,Southwest Monsoon,190.8,94.5,101.9,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,September,2024-09-01,Southwest Monsoon,16.6,151.5,-89.0,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,October,2024-10-01,Northeast Monsoon,261.3,161.0,62.3,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,November,2024-11-01,Northeast Monsoon,40.5,86.4,-53.1,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,December,2024-12-01,Northeast Monsoon,216.9,31.3,593.0,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,January,2025-01-01,Winter,3.9,2.7,44.4,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,February,2025-02-01,Winter,0.0,5.2,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,March,2025-03-01,Hot Weather / Summer,13.5,14.7,-8.2,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,April,2025-04-01,Hot Weather / Summer,58.0,39.9,45.4,Official TN Meteorological Report 2024–25 (CSV),False
+Krishnagiri,Krishnagiri,2024–2025,May,2025-05-01,Hot Weather / Summer,176.2,98.2,79.4,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,June,2024-06-01,Southwest Monsoon,80.6,39.4,104.6,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,July,2024-07-01,Southwest Monsoon,27.0,56.0,-51.8,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,August,2024-08-01,Southwest Monsoon,185.6,77.0,141.0,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,September,2024-09-01,Southwest Monsoon,18.5,123.7,-85.0,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,October,2024-10-01,Northeast Monsoon,320.8,174.3,84.1,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,November,2024-11-01,Northeast Monsoon,77.5,142.6,-45.7,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,December,2024-12-01,Northeast Monsoon,137.4,53.1,158.8,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,January,2025-01-01,Winter,3.3,10.0,-67.0,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,February,2025-02-01,Winter,3.8,10.5,-63.8,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,March,2025-03-01,Hot Weather / Summer,30.3,22.5,34.7,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,April,2025-04-01,Hot Weather / Summer,80.1,47.5,68.6,Official TN Meteorological Report 2024–25 (CSV),False
+Madurai,Madurai,2024–2025,May,2025-05-01,Hot Weather / Summer,74.0,70.8,4.5,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,June,2024-06-01,Southwest Monsoon,38.9,34.4,13.1,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,July,2024-07-01,Southwest Monsoon,9.3,47.1,-80.3,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,August,2024-08-01,Southwest Monsoon,56.9,74.8,-23.9,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,September,2024-09-01,Southwest Monsoon,17.9,90.3,-80.2,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,October,2024-10-01,Northeast Monsoon,136.4,237.2,-42.5,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,November,2024-11-01,Northeast Monsoon,767.5,432.1,77.6,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,December,2024-12-01,Northeast Monsoon,321.0,266.0,20.7,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,January,2025-01-01,Winter,72.7,42.0,73.1,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,February,2025-02-01,Winter,10.0,22.2,-55.0,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,March,2025-03-01,Hot Weather / Summer,101.9,26.1,290.4,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,April,2025-04-01,Hot Weather / Summer,10.7,22.9,-53.3,Official TN Meteorological Report 2024–25 (CSV),False
+Nagapattinam,Nagapattinam,2024–2025,May,2025-05-01,Hot Weather / Summer,132.6,41.8,217.2,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,June,2024-06-01,Southwest Monsoon,93.3,39.4,136.8,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,July,2024-07-01,Southwest Monsoon,17.5,61.1,-71.4,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,August,2024-08-01,Southwest Monsoon,142.7,96.7,47.6,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,September,2024-09-01,Southwest Monsoon,27.4,134.6,-79.6,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,October,2024-10-01,Northeast Monsoon,179.4,134.9,33.0,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,November,2024-11-01,Northeast Monsoon,78.4,101.2,-22.5,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,December,2024-12-01,Northeast Monsoon,149.0,34.3,334.4,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,January,2025-01-01,Winter,10.0,4.2,138.1,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,February,2025-02-01,Winter,0.0,6.1,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,March,2025-03-01,Hot Weather / Summer,28.1,12.3,128.5,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,April,2025-04-01,Hot Weather / Summer,47.2,43.3,9.0,Official TN Meteorological Report 2024–25 (CSV),False
+Namakkal,Namakkal,2024–2025,May,2025-05-01,Hot Weather / Summer,155.7,90.4,72.2,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,June,2024-06-01,Southwest Monsoon,39.9,33.4,19.5,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,July,2024-07-01,Southwest Monsoon,17.4,39.6,-56.1,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,August,2024-08-01,Southwest Monsoon,196.2,83.4,135.3,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,September,2024-09-01,Southwest Monsoon,9.2,121.4,-92.4,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,October,2024-10-01,Northeast Monsoon,169.2,165.7,2.1,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,November,2024-11-01,Northeast Monsoon,81.5,180.6,-54.9,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,December,2024-12-01,Northeast Monsoon,242.1,85.7,182.5,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,January,2025-01-01,Winter,11.5,9.3,23.7,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,February,2025-02-01,Winter,0.0,7.0,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,March,2025-03-01,Hot Weather / Summer,22.6,9.5,137.9,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,April,2025-04-01,Hot Weather / Summer,24.7,24.5,0.8,Official TN Meteorological Report 2024–25 (CSV),False
+Perambalur,Perambalur,2024–2025,May,2025-05-01,Hot Weather / Summer,108.5,55.9,94.1,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,June,2024-06-01,Southwest Monsoon,116.7,38.7,201.6,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,July,2024-07-01,Southwest Monsoon,37.5,57.7,-35.0,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,August,2024-08-01,Southwest Monsoon,160.6,89.7,79.0,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,September,2024-09-01,Southwest Monsoon,23.3,108.7,-78.6,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,October,2024-10-01,Northeast Monsoon,228.3,139.3,63.9,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,November,2024-11-01,Northeast Monsoon,162.2,157.8,2.8,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,December,2024-12-01,Northeast Monsoon,166.0,88.5,87.6,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,January,2025-01-01,Winter,8.1,9.8,-17.3,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,February,2025-02-01,Winter,5.0,9.7,-48.5,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,March,2025-03-01,Hot Weather / Summer,41.5,15.3,171.2,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,April,2025-04-01,Hot Weather / Summer,38.7,23.2,66.8,Official TN Meteorological Report 2024–25 (CSV),False
+Pudukkottai,Pudukkottai,2024–2025,May,2025-05-01,Hot Weather / Summer,62.9,49.3,27.6,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,June,2024-06-01,Southwest Monsoon,48.1,15.2,216.4,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,July,2024-07-01,Southwest Monsoon,17.5,25.2,-30.6,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,August,2024-08-01,Southwest Monsoon,64.3,33.4,92.5,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,September,2024-09-01,Southwest Monsoon,19.9,58.3,-65.9,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,October,2024-10-01,Northeast Monsoon,195.3,189.9,2.8,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,November,2024-11-01,Northeast Monsoon,327.4,205.5,59.3,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,December,2024-12-01,Northeast Monsoon,134.8,136.0,-0.9,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,January,2025-01-01,Winter,66.4,27.8,138.8,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,February,2025-02-01,Winter,14.6,19.1,-23.6,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,March,2025-03-01,Hot Weather / Summer,85.8,25.5,236.5,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,April,2025-04-01,Hot Weather / Summer,72.2,42.6,69.5,Official TN Meteorological Report 2024–25 (CSV),False
+Ramanathapuram,Ramanathapuram,2024–2025,May,2025-05-01,Hot Weather / Summer,61.3,39.3,56.0,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,June,2024-06-01,Southwest Monsoon,127.8,57.2,123.4,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,July,2024-07-01,Southwest Monsoon,40.3,80.3,-49.8,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,August,2024-08-01,Southwest Monsoon,242.8,115.0,111.1,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,September,2024-09-01,Southwest Monsoon,45.5,153.9,-70.4,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,October,2024-10-01,Northeast Monsoon,230.4,164.6,40.0,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,November,2024-11-01,Northeast Monsoon,65.1,121.4,-46.4,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,December,2024-12-01,Northeast Monsoon,244.5,45.7,435.0,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,January,2025-01-01,Winter,4.8,4.0,20.0,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,February,2025-02-01,Winter,0.0,5.9,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,March,2025-03-01,Hot Weather / Summer,37.2,17.2,116.3,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,April,2025-04-01,Hot Weather / Summer,38.0,48.5,-21.6,Official TN Meteorological Report 2024–25 (CSV),False
+Salem,Salem,2024–2025,May,2025-05-01,Hot Weather / Summer,169.0,98.8,71.1,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,June,2024-06-01,Southwest Monsoon,105.4,45.4,132.2,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,July,2024-07-01,Southwest Monsoon,74.4,74.2,0.3,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,August,2024-08-01,Southwest Monsoon,199.0,87.7,126.9,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,September,2024-09-01,Southwest Monsoon,26.0,109.4,-76.2,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,October,2024-10-01,Northeast Monsoon,314.7,182.8,72.2,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,November,2024-11-01,Northeast Monsoon,126.4,156.2,-19.1,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,December,2024-12-01,Northeast Monsoon,176.3,83.7,110.6,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,January,2025-01-01,Winter,5.9,12.6,-53.2,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,February,2025-02-01,Winter,7.6,12.7,-40.2,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,March,2025-03-01,Hot Weather / Summer,62.0,22.1,180.5,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,April,2025-04-01,Hot Weather / Summer,61.6,39.3,56.7,Official TN Meteorological Report 2024–25 (CSV),False
+Sivaganga,Sivaganga,2024–2025,May,2025-05-01,Hot Weather / Summer,87.0,69.8,24.6,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,June,2024-06-01,Southwest Monsoon,80.3,34.0,136.2,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,July,2024-07-01,Southwest Monsoon,25.8,58.3,-55.7,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,August,2024-08-01,Southwest Monsoon,108.7,97.8,11.1,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,September,2024-09-01,Southwest Monsoon,29.2,112.7,-74.1,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,October,2024-10-01,Northeast Monsoon,222.3,171.9,29.3,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,November,2024-11-01,Northeast Monsoon,248.9,252.9,-1.6,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,December,2024-12-01,Northeast Monsoon,272.5,154.6,76.3,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,January,2025-01-01,Winter,28.9,20.5,41.0,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,February,2025-02-01,Winter,6.4,16.4,-61.0,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,March,2025-03-01,Hot Weather / Summer,65.7,17.5,275.4,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,April,2025-04-01,Hot Weather / Summer,57.4,27.0,112.6,Official TN Meteorological Report 2024–25 (CSV),False
+Thanjavur,Thanjavur,2024–2025,May,2025-05-01,Hot Weather / Summer,130.2,53.7,142.5,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,June,2024-06-01,Southwest Monsoon,336.2,195.7,71.8,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,July,2024-07-01,Southwest Monsoon,617.0,245.6,151.2,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,August,2024-08-01,Southwest Monsoon,216.9,220.6,-1.7,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,September,2024-09-01,Southwest Monsoon,103.8,180.5,-42.5,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,October,2024-10-01,Northeast Monsoon,227.7,227.1,0.3,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,November,2024-11-01,Northeast Monsoon,157.2,195.6,-19.6,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,December,2024-12-01,Northeast Monsoon,111.2,78.6,41.5,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,January,2025-01-01,Winter,11.8,18.1,-34.8,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,February,2025-02-01,Winter,0.1,21.0,-99.5,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,March,2025-03-01,Hot Weather / Summer,88.4,39.0,126.7,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,April,2025-04-01,Hot Weather / Summer,82.5,67.2,22.8,Official TN Meteorological Report 2024–25 (CSV),False
+The Nilgiris,The Nilgiris,2024–2025,May,2025-05-01,Hot Weather / Summer,430.1,106.7,303.1,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,June,2024-06-01,Southwest Monsoon,105.5,31.2,238.1,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,July,2024-07-01,Southwest Monsoon,99.8,50.3,98.4,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,August,2024-08-01,Southwest Monsoon,132.3,58.9,124.6,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,September,2024-09-01,Southwest Monsoon,38.5,97.5,-60.5,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,October,2024-10-01,Northeast Monsoon,191.3,170.4,12.3,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,November,2024-11-01,Northeast Monsoon,92.8,141.0,-34.2,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,December,2024-12-01,Northeast Monsoon,120.1,52.9,127.0,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,January,2025-01-01,Winter,17.3,12.8,35.2,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,February,2025-02-01,Winter,1.6,16.7,-90.4,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,March,2025-03-01,Hot Weather / Summer,26.9,35.3,-23.8,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,April,2025-04-01,Hot Weather / Summer,120.2,66.8,79.9,Official TN Meteorological Report 2024–25 (CSV),False
+Theni,Theni,2024–2025,May,2025-05-01,Hot Weather / Summer,140.9,68.9,104.5,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,June,2024-06-01,Southwest Monsoon,188.5,71.8,162.5,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,July,2024-07-01,Southwest Monsoon,171.7,106.7,60.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,August,2024-08-01,Southwest Monsoon,145.5,136.2,6.8,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,September,2024-09-01,Southwest Monsoon,150.0,149.0,0.7,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,October,2024-10-01,Northeast Monsoon,260.2,216.2,20.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,November,2024-11-01,Northeast Monsoon,203.6,276.0,-26.2,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,December,2024-12-01,Northeast Monsoon,379.8,131.7,188.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,January,2025-01-01,Winter,47.9,14.6,228.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,February,2025-02-01,Winter,0.0,14.1,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,March,2025-03-01,Hot Weather / Summer,12.5,7.5,66.7,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,April,2025-04-01,Hot Weather / Summer,23.7,16.7,41.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvallur,Tiruvallur,2024–2025,May,2025-05-01,Hot Weather / Summer,99.5,41.6,139.2,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,June,2024-06-01,Southwest Monsoon,135.8,60.4,124.8,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,July,2024-07-01,Southwest Monsoon,81.4,94.1,-13.5,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,August,2024-08-01,Southwest Monsoon,289.4,131.3,120.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,September,2024-09-01,Southwest Monsoon,47.7,164.7,-71.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,October,2024-10-01,Northeast Monsoon,188.7,173.2,8.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,November,2024-11-01,Northeast Monsoon,89.8,178.6,-49.7,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,December,2024-12-01,Northeast Monsoon,389.3,98.6,294.8,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,January,2025-01-01,Winter,16.6,9.0,84.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,February,2025-02-01,Winter,0.0,10.8,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,March,2025-03-01,Hot Weather / Summer,22.9,12.2,87.7,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,April,2025-04-01,Hot Weather / Summer,26.8,21.4,25.2,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvannamalai,Tiruvannamalai,2024–2025,May,2025-05-01,Hot Weather / Summer,182.5,65.4,179.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,June,2024-06-01,Southwest Monsoon,69.5,34.5,101.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,July,2024-07-01,Southwest Monsoon,15.4,58.9,-73.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,August,2024-08-01,Southwest Monsoon,97.6,91.2,7.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,September,2024-09-01,Southwest Monsoon,27.9,112.6,-75.2,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,October,2024-10-01,Northeast Monsoon,199.7,198.7,0.5,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,November,2024-11-01,Northeast Monsoon,402.7,321.2,25.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,December,2024-12-01,Northeast Monsoon,291.7,205.5,41.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,January,2025-01-01,Winter,31.8,28.5,11.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,February,2025-02-01,Winter,15.8,17.2,-8.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,March,2025-03-01,Hot Weather / Summer,126.7,19.5,549.7,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,April,2025-04-01,Hot Weather / Summer,61.2,30.1,103.3,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruvarur,Tiruvarur,2024–2025,May,2025-05-01,Hot Weather / Summer,138.4,54.3,154.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,June,2024-06-01,Southwest Monsoon,118.4,22.9,417.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,July,2024-07-01,Southwest Monsoon,109.7,16.5,564.8,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,August,2024-08-01,Southwest Monsoon,60.8,17.3,251.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,September,2024-09-01,Southwest Monsoon,48.9,35.8,36.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,October,2024-10-01,Northeast Monsoon,115.2,153.9,-25.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,November,2024-11-01,Northeast Monsoon,314.6,235.4,33.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,December,2024-12-01,Northeast Monsoon,432.4,125.6,244.3,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,January,2025-01-01,Winter,226.4,27.8,714.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,February,2025-02-01,Winter,19.6,30.4,-35.5,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,March,2025-03-01,Hot Weather / Summer,167.2,40.6,311.8,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,April,2025-04-01,Hot Weather / Summer,100.8,51.8,94.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tirunelveli,Tirunelveli,2024–2025,May,2025-05-01,Hot Weather / Summer,200.3,37.8,429.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,June,2024-06-01,Southwest Monsoon,99.5,28.5,249.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,July,2024-07-01,Southwest Monsoon,10.5,46.1,-77.2,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,August,2024-08-01,Southwest Monsoon,98.0,76.8,27.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,September,2024-09-01,Southwest Monsoon,14.2,124.9,-88.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,October,2024-10-01,Northeast Monsoon,215.9,145.8,48.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,November,2024-11-01,Northeast Monsoon,101.7,156.8,-35.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,December,2024-12-01,Northeast Monsoon,223.6,76.8,191.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,January,2025-01-01,Winter,13.5,7.6,77.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,February,2025-02-01,Winter,0.0,6.6,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,March,2025-03-01,Hot Weather / Summer,25.5,11.5,121.7,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,April,2025-04-01,Hot Weather / Summer,29.4,28.3,3.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruchirappalli,Tiruchirappalli,2024–2025,May,2025-05-01,Hot Weather / Summer,120.8,65.2,85.3,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,June,2024-06-01,Southwest Monsoon,42.2,20.5,105.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,July,2024-07-01,Southwest Monsoon,32.8,21.8,50.5,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,August,2024-08-01,Southwest Monsoon,106.3,33.4,218.3,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,September,2024-09-01,Southwest Monsoon,25.6,80.2,-68.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,October,2024-10-01,Northeast Monsoon,265.2,139.3,90.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,November,2024-11-01,Northeast Monsoon,77.1,124.8,-38.2,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,December,2024-12-01,Northeast Monsoon,99.3,41.6,138.7,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,January,2025-01-01,Winter,14.3,3.7,286.5,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,February,2025-02-01,Winter,0.0,6.0,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,March,2025-03-01,Hot Weather / Summer,30.6,12.0,155.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,April,2025-04-01,Hot Weather / Summer,72.4,43.5,66.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tiruppur,Tiruppur,2024–2025,May,2025-05-01,Hot Weather / Summer,80.9,72.7,11.3,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,June,2024-06-01,Southwest Monsoon,6.2,6.1,1.6,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,July,2024-07-01,Southwest Monsoon,1.3,10.7,-87.9,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,August,2024-08-01,Southwest Monsoon,42.9,15.3,180.4,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,September,2024-09-01,Southwest Monsoon,35.0,35.2,-0.6,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,October,2024-10-01,Northeast Monsoon,71.1,156.5,-54.6,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,November,2024-11-01,Northeast Monsoon,147.6,195.5,-24.5,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,December,2024-12-01,Northeast Monsoon,189.1,89.9,110.3,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,January,2025-01-01,Winter,26.5,15.6,69.9,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,February,2025-02-01,Winter,2.4,19.6,-87.8,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,March,2025-03-01,Hot Weather / Summer,76.5,32.5,135.4,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,April,2025-04-01,Hot Weather / Summer,64.6,43.8,47.5,Official TN Meteorological Report 2024–25 (CSV),False
+Thoothukudi,Thoothukudi,2024–2025,May,2025-05-01,Hot Weather / Summer,18.1,30.5,-40.7,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,June,2024-06-01,Southwest Monsoon,153.1,64.9,135.9,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,July,2024-07-01,Southwest Monsoon,104.3,97.4,7.1,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,August,2024-08-01,Southwest Monsoon,205.1,117.4,74.7,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,September,2024-09-01,Southwest Monsoon,64.9,151.6,-57.2,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,October,2024-10-01,Northeast Monsoon,212.0,151.8,39.7,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,November,2024-11-01,Northeast Monsoon,60.0,150.9,-60.2,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,December,2024-12-01,Northeast Monsoon,243.7,73.1,233.4,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,January,2025-01-01,Winter,28.1,6.5,332.3,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,February,2025-02-01,Winter,0.0,8.0,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,March,2025-03-01,Hot Weather / Summer,1.1,12.0,-90.8,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,April,2025-04-01,Hot Weather / Summer,39.1,26.2,49.2,Official TN Meteorological Report 2024–25 (CSV),False
+Vellore,Vellore,2024–2025,May,2025-05-01,Hot Weather / Summer,176.6,65.7,168.8,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,June,2024-06-01,Southwest Monsoon,88.7,52.7,68.3,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,July,2024-07-01,Southwest Monsoon,72.1,84.1,-14.3,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,August,2024-08-01,Southwest Monsoon,319.3,127.8,149.8,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,September,2024-09-01,Southwest Monsoon,58.5,130.4,-55.1,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,October,2024-10-01,Northeast Monsoon,162.4,176.4,-7.9,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,November,2024-11-01,Northeast Monsoon,142.5,225.5,-36.8,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,December,2024-12-01,Northeast Monsoon,572.5,129.4,342.4,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,January,2025-01-01,Winter,6.3,10.7,-41.1,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,February,2025-02-01,Winter,0.0,12.4,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,March,2025-03-01,Hot Weather / Summer,37.0,8.0,362.5,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,April,2025-04-01,Hot Weather / Summer,19.3,16.2,19.1,Official TN Meteorological Report 2024–25 (CSV),False
+Viluppuram,Viluppuram,2024–2025,May,2025-05-01,Hot Weather / Summer,144.1,39.0,269.5,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,June,2024-06-01,Southwest Monsoon,79.3,20.2,292.6,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,July,2024-07-01,Southwest Monsoon,18.2,35.6,-48.9,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,August,2024-08-01,Southwest Monsoon,161.9,50.5,220.6,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,September,2024-09-01,Southwest Monsoon,29.7,90.1,-67.0,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,October,2024-10-01,Northeast Monsoon,152.4,172.6,-11.7,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,November,2024-11-01,Northeast Monsoon,84.9,160.3,-47.0,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,December,2024-12-01,Northeast Monsoon,224.3,65.6,241.9,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,January,2025-01-01,Winter,20.3,14.6,39.0,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,February,2025-02-01,Winter,4.4,17.2,-74.4,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,March,2025-03-01,Hot Weather / Summer,41.3,29.9,38.1,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,April,2025-04-01,Hot Weather / Summer,105.0,51.8,102.7,Official TN Meteorological Report 2024–25 (CSV),False
+Virudhunagar,Virudhunagar,2024–2025,May,2025-05-01,Hot Weather / Summer,77.2,65.5,17.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,June,2024-06-01,Southwest Monsoon,71.6,47.3,51.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,July,2024-07-01,Southwest Monsoon,99.6,41.2,141.7,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,August,2024-08-01,Southwest Monsoon,45.5,35.7,27.5,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,September,2024-09-01,Southwest Monsoon,56.2,48.5,15.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,October,2024-10-01,Northeast Monsoon,98.5,173.8,-43.3,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,November,2024-11-01,Northeast Monsoon,131.9,210.4,-37.3,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,December,2024-12-01,Northeast Monsoon,333.8,81.5,309.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,January,2025-01-01,Winter,31.7,20.6,53.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,February,2025-02-01,Winter,2.7,33.9,-92.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,March,2025-03-01,Hot Weather / Summer,113.2,55.4,104.3,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,April,2025-04-01,Hot Weather / Summer,74.3,70.7,5.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tenkasi,Tenkasi,2024–2025,May,2025-05-01,Hot Weather / Summer,187.1,53.5,249.7,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,June,2024-06-01,Southwest Monsoon,84.8,50.6,67.6,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,July,2024-07-01,Southwest Monsoon,33.1,78.3,-57.7,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,August,2024-08-01,Southwest Monsoon,168.9,120.3,40.4,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,September,2024-09-01,Southwest Monsoon,48.0,149.9,-68.0,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,October,2024-10-01,Northeast Monsoon,171.9,160.0,7.4,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,November,2024-11-01,Northeast Monsoon,70.6,189.0,-62.6,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,December,2024-12-01,Northeast Monsoon,402.6,106.5,278.0,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,January,2025-01-01,Winter,1.7,12.2,-86.1,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,February,2025-02-01,Winter,0.0,7.8,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,March,2025-03-01,Hot Weather / Summer,93.8,10.4,801.9,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,April,2025-04-01,Hot Weather / Summer,29.5,18.9,56.1,Official TN Meteorological Report 2024–25 (CSV),False
+Kallakurichi,Kallakurichi,2024–2025,May,2025-05-01,Hot Weather / Summer,185.7,52.8,251.7,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,June,2024-06-01,Southwest Monsoon,158.9,55.7,185.3,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,July,2024-07-01,Southwest Monsoon,119.6,91.2,31.1,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,August,2024-08-01,Southwest Monsoon,162.5,127.6,27.4,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,September,2024-09-01,Southwest Monsoon,107.5,123.8,-13.2,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,October,2024-10-01,Northeast Monsoon,218.6,234.4,-6.7,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,November,2024-11-01,Northeast Monsoon,214.9,311.1,-30.9,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,December,2024-12-01,Northeast Monsoon,290.9,162.2,79.3,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,January,2025-01-01,Winter,15.7,14.2,10.6,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,February,2025-02-01,Winter,0.0,11.3,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,March,2025-03-01,Hot Weather / Summer,12.5,6.5,92.3,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,April,2025-04-01,Hot Weather / Summer,17.9,14.2,26.1,Official TN Meteorological Report 2024–25 (CSV),False
+Chengalpattu,Chengalpattu,2024–2025,May,2025-05-01,Hot Weather / Summer,73.4,34.5,112.8,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,June,2024-06-01,Southwest Monsoon,183.7,63.7,188.4,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,July,2024-07-01,Southwest Monsoon,31.7,86.4,-63.3,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,August,2024-08-01,Southwest Monsoon,190.0,117.6,61.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,September,2024-09-01,Southwest Monsoon,28.4,158.0,-82.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,October,2024-10-01,Northeast Monsoon,281.6,129.1,118.1,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,November,2024-11-01,Northeast Monsoon,23.8,95.1,-75.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,December,2024-12-01,Northeast Monsoon,188.7,42.1,348.2,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,January,2025-01-01,Winter,12.3,3.0,310.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,February,2025-02-01,Winter,0.0,6.3,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,March,2025-03-01,Hot Weather / Summer,0.9,11.1,-91.9,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,April,2025-04-01,Hot Weather / Summer,40.5,28.4,42.6,Official TN Meteorological Report 2024–25 (CSV),False
+Tirupathur,Tirupathur,2024–2025,May,2025-05-01,Hot Weather / Summer,161.7,76.8,110.5,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,June,2024-06-01,Southwest Monsoon,206.7,69.6,197.0,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,July,2024-07-01,Southwest Monsoon,154.3,108.7,42.0,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,August,2024-08-01,Southwest Monsoon,223.4,125.9,77.4,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,September,2024-09-01,Southwest Monsoon,88.4,137.5,-35.7,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,October,2024-10-01,Northeast Monsoon,165.4,150.5,9.9,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,November,2024-11-01,Northeast Monsoon,73.5,167.9,-56.2,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,December,2024-12-01,Northeast Monsoon,369.1,87.6,321.3,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,January,2025-01-01,Winter,25.8,8.0,222.5,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,February,2025-02-01,Winter,0.0,8.3,-100.0,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,March,2025-03-01,Hot Weather / Summer,6.3,10.0,-37.0,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,April,2025-04-01,Hot Weather / Summer,3.3,19.6,-83.2,Official TN Meteorological Report 2024–25 (CSV),False
+Ranipet,Ranipet,2024–2025,May,2025-05-01,Hot Weather / Summer,141.6,51.1,177.1,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,June,2024-06-01,Southwest Monsoon,58.5,39.5,48.1,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,July,2024-07-01,Southwest Monsoon,31.5,52.6,-40.1,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,August,2024-08-01,Southwest Monsoon,97.2,99.1,-1.9,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,September,2024-09-01,Southwest Monsoon,17.9,113.5,-84.2,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,October,2024-10-01,Northeast Monsoon,195.4,241.8,-19.2,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,November,2024-11-01,Northeast Monsoon,422.4,401.3,5.3,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,December,2024-12-01,Northeast Monsoon,306.8,245.0,25.2,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,January,2025-01-01,Winter,79.6,33.1,140.5,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,February,2025-02-01,Winter,4.9,20.4,-76.0,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,March,2025-03-01,Hot Weather / Summer,66.3,24.4,171.7,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,April,2025-04-01,Hot Weather / Summer,35.9,16.4,118.9,Official TN Meteorological Report 2024–25 (CSV),False
+Mayiladuthurai,Mayiladuthurai,2024–2025,May,2025-05-01,Hot Weather / Summer,121.7,45.1,169.8,Official TN Meteorological Report 2024–25 (CSV),False
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,June,2024-06-01,Southwest Monsoon,115.3,53.8,114.3,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,July,2024-07-01,Southwest Monsoon,82.9,72.4,14.5,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,August,2024-08-01,Southwest Monsoon,155.2,94.3,64.6,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,September,2024-09-01,Southwest Monsoon,47.8,119.9,-60.1,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,October,2024-10-01,Northeast Monsoon,212.7,178.3,19.3,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,November,2024-11-01,Northeast Monsoon,164.4,200.5,-18.0,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,December,2024-12-01,Northeast Monsoon,246.3,100.3,145.5,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,January,2025-01-01,Winter,26.8,13.8,93.6,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,February,2025-02-01,Winter,2.8,13.1,-79.0,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,March,2025-03-01,Hot Weather / Summer,47.2,19.6,141.4,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,April,2025-04-01,Hot Weather / Summer,57.2,36.8,55.3,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Tamil Nadu (State),Tamil Nadu (State),2024–2025,May,2025-05-01,Hot Weather / Summer,140.9,63.7,121.2,Official TN Meteorological Report 2024–25 (State Aggregate),True
+Chennai,Chennai,2023–2024,November,Nov 2023,Northeast Monsoon,518.2,370.5,39.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Chennai,Chennai,2023–2024,December,Dec 2023,Northeast Monsoon,496.4,164.6,201.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Kancheepuram,Kancheepuram,2023–2024,November,Nov 2023,Northeast Monsoon,307.9,260.3,18.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Kancheepuram,Kancheepuram,2023–2024,December,Dec 2023,Northeast Monsoon,314.4,140.3,124.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Chengalpattu,Chengalpattu,2023–2024,November,Nov 2023,Northeast Monsoon,349.9,311.1,12.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Chengalpattu,Chengalpattu,2023–2024,December,Dec 2023,Northeast Monsoon,342.8,162.2,111.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruvallur,Tiruvallur,2023–2024,November,Nov 2023,Northeast Monsoon,331.0,276.0,19.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruvallur,Tiruvallur,2023–2024,December,Dec 2023,Northeast Monsoon,368.2,131.7,179.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Cuddalore,Cuddalore,2023–2024,November,Nov 2023,Northeast Monsoon,427.0,307.2,39.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Cuddalore,Cuddalore,2023–2024,December,Dec 2023,Northeast Monsoon,60.8,184.4,-67.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Villupuram,Viluppuram,2023–2024,November,Nov 2023,Northeast Monsoon,254.6,225.5,12.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Villupuram,Viluppuram,2023–2024,December,Dec 2023,Northeast Monsoon,33.3,129.4,-74.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Kallakurichi,Kallakurichi,2023–2024,November,Nov 2023,Northeast Monsoon,144.4,189.0,-23.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Kallakurichi,Kallakurichi,2023–2024,December,Dec 2023,Northeast Monsoon,15.3,106.5,-85.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Vellore,Vellore,2023–2024,November,Nov 2023,Northeast Monsoon,123.7,150.9,-18.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Vellore,Vellore,2023–2024,December,Dec 2023,Northeast Monsoon,88.5,73.1,21.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Ranipet,Ranipet,2023–2024,November,Nov 2023,Northeast Monsoon,132.1,167.9,-21.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Ranipet,Ranipet,2023–2024,December,Dec 2023,Northeast Monsoon,153.1,87.6,74.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tirupathur,Tirupathur,2023–2024,November,Nov 2023,Northeast Monsoon,78.9,95.1,-17.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tirupathur,Tirupathur,2023–2024,December,Dec 2023,Northeast Monsoon,42.1,72.2,-41.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruvannamalai,Tiruvannamalai,2023–2024,November,Nov 2023,Northeast Monsoon,159.3,178.6,-10.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruvannamalai,Tiruvannamalai,2023–2024,December,Dec 2023,Northeast Monsoon,51.9,98.6,-47.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Salem,Salem,2023–2024,November,Nov 2023,Northeast Monsoon,132.0,121.4,8.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Salem,Salem,2023–2024,December,Dec 2023,Northeast Monsoon,10.3,45.7,-77.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Namakkal,Namakkal,2023–2024,November,Nov 2023,Northeast Monsoon,124.3,101.2,22.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Namakkal,Namakkal,2023–2024,December,Dec 2023,Northeast Monsoon,8.0,34.3,-76.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Dharmapuri,Dharmapuri,2023–2024,November,Nov 2023,Northeast Monsoon,112.6,112.6,0.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Dharmapuri,Dharmapuri,2023–2024,December,Dec 2023,Northeast Monsoon,4.7,39.8,-88.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Krishnagiri,Krishnagiri,2023–2024,November,Nov 2023,Northeast Monsoon,81.8,86.4,-5.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Krishnagiri,Krishnagiri,2023–2024,December,Dec 2023,Northeast Monsoon,6.6,31.3,-78.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Coimbatore,Coimbatore,2023–2024,November,Nov 2023,Northeast Monsoon,254.5,130.8,94.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Coimbatore,Coimbatore,2023–2024,December,Dec 2023,Northeast Monsoon,86.9,44.9,93.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruppur,Tiruppur,2023–2024,November,Nov 2023,Northeast Monsoon,174.4,124.8,39.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruppur,Tiruppur,2023–2024,December,Dec 2023,Northeast Monsoon,42.8,41.6,2.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Erode,Erode,2023–2024,November,Nov 2023,Northeast Monsoon,267.6,117.6,127.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Erode,Erode,2023–2024,December,Dec 2023,Northeast Monsoon,30.2,38.5,-21.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruchirapalli,Tiruchirappalli,2023–2024,November,Nov 2023,Northeast Monsoon,99.2,156.8,-36.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruchirapalli,Tiruchirappalli,2023–2024,December,Dec 2023,Northeast Monsoon,20.6,76.8,-73.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Karur,Karur,2023–2024,November,Nov 2023,Northeast Monsoon,93.9,132.3,-29.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Karur,Karur,2023–2024,December,Dec 2023,Northeast Monsoon,11.5,51.4,-77.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Perambalur,Perambalur,2023–2024,November,Nov 2023,Northeast Monsoon,165.2,180.6,-8.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Perambalur,Perambalur,2023–2024,December,Dec 2023,Northeast Monsoon,22.7,85.7,-73.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Ariyalur,Ariyalur,2023–2024,November,Nov 2023,Northeast Monsoon,198.2,214.4,-7.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Ariyalur,Ariyalur,2023–2024,December,Dec 2023,Northeast Monsoon,49.2,129.3,-61.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Pudukkottai,Pudukkottai,2023–2024,November,Nov 2023,Northeast Monsoon,168.0,157.8,6.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Pudukkottai,Pudukkottai,2023–2024,December,Dec 2023,Northeast Monsoon,58.1,88.5,-34.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Thanjavur,Thanjavur,2023–2024,November,Nov 2023,Northeast Monsoon,201.2,252.9,-20.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Thanjavur,Thanjavur,2023–2024,December,Dec 2023,Northeast Monsoon,59.9,154.6,-61.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruvarur,Tiruvarur,2023–2024,November,Nov 2023,Northeast Monsoon,405.0,321.2,26.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tiruvarur,Tiruvarur,2023–2024,December,Dec 2023,Northeast Monsoon,127.2,205.5,-38.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Nagapattinam,Nagapattinam,2023–2024,November,Nov 2023,Northeast Monsoon,648.9,432.1,50.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Nagapattinam,Nagapattinam,2023–2024,December,Dec 2023,Northeast Monsoon,219.1,266.0,-17.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Mayiladuthurai,Mayiladuthurai,2023–2024,November,Nov 2023,Northeast Monsoon,540.8,401.3,34.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Mayiladuthurai,Mayiladuthurai,2023–2024,December,Dec 2023,Northeast Monsoon,154.6,245.0,-36.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Madurai,Madurai,2023–2024,November,Nov 2023,Northeast Monsoon,247.6,142.6,73.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Madurai,Madurai,2023–2024,December,Dec 2023,Northeast Monsoon,72.4,53.1,36.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Theni,Theni,2023–2024,November,Nov 2023,Northeast Monsoon,216.0,141.0,53.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Theni,Theni,2023–2024,December,Dec 2023,Northeast Monsoon,129.5,52.9,144.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Dindigul,Dindigul,2023–2024,November,Nov 2023,Northeast Monsoon,198.8,181.4,9.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Dindigul,Dindigul,2023–2024,December,Dec 2023,Northeast Monsoon,91.2,83.7,9.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Ramanathapuram,Ramanathapuram,2023–2024,November,Nov 2023,Northeast Monsoon,374.3,205.5,82.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Ramanathapuram,Ramanathapuram,2023–2024,December,Dec 2023,Northeast Monsoon,182.2,136.0,34.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Virudhunagar,Virudhunagar,2023–2024,November,Nov 2023,Northeast Monsoon,317.7,160.3,98.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Virudhunagar,Virudhunagar,2023–2024,December,Dec 2023,Northeast Monsoon,212.6,65.6,224.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Sivagangai,Sivaganga,2023–2024,November,Nov 2023,Northeast Monsoon,262.3,156.2,67.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Sivagangai,Sivaganga,2023–2024,December,Dec 2023,Northeast Monsoon,85.3,83.7,1.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tirunelveli,Tirunelveli,2023–2024,November,Nov 2023,Northeast Monsoon,406.3,235.4,72.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tirunelveli,Tirunelveli,2023–2024,December,Dec 2023,Northeast Monsoon,758.6,125.6,504.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tenkasi,Tenkasi,2023–2024,November,Nov 2023,Northeast Monsoon,328.5,210.4,56.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tenkasi,Tenkasi,2023–2024,December,Dec 2023,Northeast Monsoon,341.2,81.5,318.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Thoothukudi,Thoothukudi,2023–2024,November,Nov 2023,Northeast Monsoon,48.3,156.5,-69.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Thoothukudi,Thoothukudi,2023–2024,December,Dec 2023,Northeast Monsoon,498.1,89.9,454.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+The Nilgiris,The Nilgiris,2023–2024,November,Nov 2023,Northeast Monsoon,265.3,195.6,35.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+The Nilgiris,The Nilgiris,2023–2024,December,Dec 2023,Northeast Monsoon,82.2,78.6,4.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Kanniyakumari,Kanniyakumari,2023–2024,November,Nov 2023,Northeast Monsoon,302.8,220.2,37.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Kanniyakumari,Kanniyakumari,2023–2024,December,Dec 2023,Northeast Monsoon,210.2,63.1,233.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),False
+Tamil Nadu (State),Tamil Nadu (State),2023–2024,November,Nov 2023,Northeast Monsoon,249.0,199.5,24.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),True
+Tamil Nadu (State),Tamil Nadu (State),2023–2024,December,Dec 2023,Northeast Monsoon,145.1,100.3,44.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394435_cfa6b2be.jpg),True
+Chennai,Chennai,2023–2024,January,Jan 2024,Winter,62.4,23.0,171.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Chennai,Chennai,2023–2024,February,Feb 2024,Winter,0.0,16.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Kancheepuram,Kancheepuram,2023–2024,January,Jan 2024,Winter,81.0,11.7,592.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Kancheepuram,Kancheepuram,2023–2024,February,Feb 2024,Winter,0.0,9.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Chengalpattu,Chengalpattu,2023–2024,January,Jan 2024,Winter,138.4,14.2,874.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Chengalpattu,Chengalpattu,2023–2024,February,Feb 2024,Winter,0.0,11.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruvallur,Tiruvallur,2023–2024,January,Jan 2024,Winter,37.6,14.6,157.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruvallur,Tiruvallur,2023–2024,February,Feb 2024,Winter,0.0,14.1,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Cuddalore,Cuddalore,2023–2024,January,Jan 2024,Winter,121.1,25.1,382.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Cuddalore,Cuddalore,2023–2024,February,Feb 2024,Winter,0.0,16.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Villupuram,Viluppuram,2023–2024,January,Jan 2024,Winter,122.0,10.7,1040.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Villupuram,Viluppuram,2023–2024,February,Feb 2024,Winter,0.0,12.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Kallakurichi,Kallakurichi,2023–2024,January,Jan 2024,Winter,40.3,12.2,230.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Kallakurichi,Kallakurichi,2023–2024,February,Feb 2024,Winter,0.0,7.8,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Vellore,Vellore,2023–2024,January,Jan 2024,Winter,24.4,6.5,275.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Vellore,Vellore,2023–2024,February,Feb 2024,Winter,0.0,8.0,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Ranipet,Ranipet,2023–2024,January,Jan 2024,Winter,42.8,8.0,435.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Ranipet,Ranipet,2023–2024,February,Feb 2024,Winter,0.0,8.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tirupathur,Tirupathur,2023–2024,January,Jan 2024,Winter,9.4,3.0,213.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tirupathur,Tirupathur,2023–2024,February,Feb 2024,Winter,0.0,6.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruvannamalai,Tiruvannamalai,2023–2024,January,Jan 2024,Winter,42.4,9.0,371.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruvannamalai,Tiruvannamalai,2023–2024,February,Feb 2024,Winter,0.0,10.8,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Salem,Salem,2023–2024,January,Jan 2024,Winter,10.9,4.0,172.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Salem,Salem,2023–2024,February,Feb 2024,Winter,0.0,5.9,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Namakkal,Namakkal,2023–2024,January,Jan 2024,Winter,10.2,4.2,142.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Namakkal,Namakkal,2023–2024,February,Feb 2024,Winter,0.0,6.1,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Dharmapuri,Dharmapuri,2023–2024,January,Jan 2024,Winter,9.4,4.0,135.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Dharmapuri,Dharmapuri,2023–2024,February,Feb 2024,Winter,0.0,7.7,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Krishnagiri,Krishnagiri,2023–2024,January,Jan 2024,Winter,5.6,2.7,107.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Krishnagiri,Krishnagiri,2023–2024,February,Feb 2024,Winter,0.0,5.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Coimbatore,Coimbatore,2023–2024,January,Jan 2024,Winter,44.3,7.0,532.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Coimbatore,Coimbatore,2023–2024,February,Feb 2024,Winter,0.0,10.7,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruppur,Tiruppur,2023–2024,January,Jan 2024,Winter,41.2,3.7,1013.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruppur,Tiruppur,2023–2024,February,Feb 2024,Winter,0.0,6.0,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Erode,Erode,2023–2024,January,Jan 2024,Winter,11.8,3.9,202.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Erode,Erode,2023–2024,February,Feb 2024,Winter,5.3,7.4,-28.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruchirapalli,Tiruchirappalli,2023–2024,January,Jan 2024,Winter,16.8,7.6,121.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruchirapalli,Tiruchirappalli,2023–2024,February,Feb 2024,Winter,0.0,6.6,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Karur,Karur,2023–2024,January,Jan 2024,Winter,8.1,4.3,88.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Karur,Karur,2023–2024,February,Feb 2024,Winter,0.0,6.0,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Perambalur,Perambalur,2023–2024,January,Jan 2024,Winter,29.2,9.3,214.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Perambalur,Perambalur,2023–2024,February,Feb 2024,Winter,0.0,7.0,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Ariyalur,Ariyalur,2023–2024,January,Jan 2024,Winter,72.1,16.3,342.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Ariyalur,Ariyalur,2023–2024,February,Feb 2024,Winter,0.0,7.9,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Pudukkottai,Pudukkottai,2023–2024,January,Jan 2024,Winter,13.3,9.8,35.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Pudukkottai,Pudukkottai,2023–2024,February,Feb 2024,Winter,3.8,9.7,-60.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Thanjavur,Thanjavur,2023–2024,January,Jan 2024,Winter,67.2,20.5,227.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Thanjavur,Thanjavur,2023–2024,February,Feb 2024,Winter,1.1,16.4,-93.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruvarur,Tiruvarur,2023–2024,January,Jan 2024,Winter,138.0,28.5,384.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tiruvarur,Tiruvarur,2023–2024,February,Feb 2024,Winter,0.0,17.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Nagapattinam,Nagapattinam,2023–2024,January,Jan 2024,Winter,175.5,42.0,317.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Nagapattinam,Nagapattinam,2023–2024,February,Feb 2024,Winter,0.0,22.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Mayiladuthurai,Mayiladuthurai,2023–2024,January,Jan 2024,Winter,196.7,33.1,494.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Mayiladuthurai,Mayiladuthurai,2023–2024,February,Feb 2024,Winter,0.0,20.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Madurai,Madurai,2023–2024,January,Jan 2024,Winter,24.0,10.0,140.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Madurai,Madurai,2023–2024,February,Feb 2024,Winter,0.0,10.5,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Theni,Theni,2023–2024,January,Jan 2024,Winter,76.5,12.8,497.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Theni,Theni,2023–2024,February,Feb 2024,Winter,0.9,16.7,-94.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Dindigul,Dindigul,2023–2024,January,Jan 2024,Winter,65.6,11.9,451.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Dindigul,Dindigul,2023–2024,February,Feb 2024,Winter,0.0,11.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Ramanathapuram,Ramanathapuram,2023–2024,January,Jan 2024,Winter,46.0,27.8,65.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Ramanathapuram,Ramanathapuram,2023–2024,February,Feb 2024,Winter,3.8,19.1,-80.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Virudhunagar,Virudhunagar,2023–2024,January,Jan 2024,Winter,78.2,14.6,435.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Virudhunagar,Virudhunagar,2023–2024,February,Feb 2024,Winter,13.6,17.2,-20.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Sivagangai,Sivaganga,2023–2024,January,Jan 2024,Winter,10.8,12.6,-14.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Sivagangai,Sivaganga,2023–2024,February,Feb 2024,Winter,0.0,12.7,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tirunelveli,Tirunelveli,2023–2024,January,Jan 2024,Winter,157.0,27.8,464.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tirunelveli,Tirunelveli,2023–2024,February,Feb 2024,Winter,11.7,30.4,-61.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tenkasi,Tenkasi,2023–2024,January,Jan 2024,Winter,51.7,20.6,151.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tenkasi,Tenkasi,2023–2024,February,Feb 2024,Winter,9.4,33.9,-72.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Thoothukudi,Thoothukudi,2023–2024,January,Jan 2024,Winter,19.8,15.6,26.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Thoothukudi,Thoothukudi,2023–2024,February,Feb 2024,Winter,11.3,19.6,-42.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+The Nilgiris,The Nilgiris,2023–2024,January,Jan 2024,Winter,64.7,18.1,257.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+The Nilgiris,The Nilgiris,2023–2024,February,Feb 2024,Winter,1.4,21.0,-93.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Kanniyakumari,Kanniyakumari,2023–2024,January,Jan 2024,Winter,10.1,15.0,-32.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Kanniyakumari,Kanniyakumari,2023–2024,February,Feb 2024,Winter,6.3,23.8,-73.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),False
+Tamil Nadu (State),Tamil Nadu (State),2023–2024,January,Jan 2024,Winter,57.3,13.8,314.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),True
+Tamil Nadu (State),Tamil Nadu (State),2023–2024,February,Feb 2024,Winter,1.8,13.1,-86.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394413_9208ce75.jpg),True
+Chennai,Chennai,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,5.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Chennai,Chennai,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,10.1,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Chennai,Chennai,2023–2024,May,May 2024,Hot Weather / Summer,20.9,33.5,-37.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kancheepuram,Kancheepuram,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,6.8,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kancheepuram,Kancheepuram,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,17.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kancheepuram,Kancheepuram,2023–2024,May,May 2024,Hot Weather / Summer,22.3,46.2,-51.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Chengalpattu,Chengalpattu,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,6.5,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Chengalpattu,Chengalpattu,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,14.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Chengalpattu,Chengalpattu,2023–2024,May,May 2024,Hot Weather / Summer,31.6,34.5,-8.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvallur,Tiruvallur,2023–2024,March,Mar 2024,Hot Weather / Summer,0.3,7.5,-96.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvallur,Tiruvallur,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,16.7,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvallur,Tiruvallur,2023–2024,May,May 2024,Hot Weather / Summer,15.8,41.6,-62.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Cuddalore,Cuddalore,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,19.1,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Cuddalore,Cuddalore,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,16.5,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Cuddalore,Cuddalore,2023–2024,May,May 2024,Hot Weather / Summer,80.6,44.4,81.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Villupuram,Viluppuram,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,8.0,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Villupuram,Viluppuram,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,16.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Villupuram,Viluppuram,2023–2024,May,May 2024,Hot Weather / Summer,71.1,39.0,82.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kallakurichi,Kallakurichi,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,10.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kallakurichi,Kallakurichi,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,18.9,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kallakurichi,Kallakurichi,2023–2024,May,May 2024,Hot Weather / Summer,55.3,52.8,4.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Vellore,Vellore,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,12.0,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Vellore,Vellore,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,26.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Vellore,Vellore,2023–2024,May,May 2024,Hot Weather / Summer,74.2,65.7,12.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ranipet,Ranipet,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,10.0,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ranipet,Ranipet,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,19.6,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ranipet,Ranipet,2023–2024,May,May 2024,Hot Weather / Summer,9.0,51.1,-82.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tirupathur,Tirupathur,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,11.1,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tirupathur,Tirupathur,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,28.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tirupathur,Tirupathur,2023–2024,May,May 2024,Hot Weather / Summer,128.9,76.8,67.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvannamalai,Tiruvannamalai,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,12.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvannamalai,Tiruvannamalai,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,21.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvannamalai,Tiruvannamalai,2023–2024,May,May 2024,Hot Weather / Summer,87.2,65.4,33.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Salem,Salem,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,17.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Salem,Salem,2023–2024,April,Apr 2024,Hot Weather / Summer,0.1,48.5,-99.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Salem,Salem,2023–2024,May,May 2024,Hot Weather / Summer,175.7,98.8,77.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Namakkal,Namakkal,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,12.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Namakkal,Namakkal,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,43.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Namakkal,Namakkal,2023–2024,May,May 2024,Hot Weather / Summer,160.9,90.4,78.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Dharmapuri,Dharmapuri,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,15.9,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Dharmapuri,Dharmapuri,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,46.5,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Dharmapuri,Dharmapuri,2023–2024,May,May 2024,Hot Weather / Summer,211.6,107.3,97.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Krishnagiri,Krishnagiri,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,14.7,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Krishnagiri,Krishnagiri,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,39.9,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Krishnagiri,Krishnagiri,2023–2024,May,May 2024,Hot Weather / Summer,135.6,98.2,38.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Coimbatore,Coimbatore,2023–2024,March,Mar 2024,Hot Weather / Summer,0.4,22.7,-98.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Coimbatore,Coimbatore,2023–2024,April,Apr 2024,Hot Weather / Summer,7.6,57.2,-86.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Coimbatore,Coimbatore,2023–2024,May,May 2024,Hot Weather / Summer,282.6,81.5,246.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruppur,Tiruppur,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,12.0,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruppur,Tiruppur,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,43.5,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruppur,Tiruppur,2023–2024,May,May 2024,Hot Weather / Summer,148.8,72.7,104.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Erode,Erode,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,18.9,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Erode,Erode,2023–2024,April,Apr 2024,Hot Weather / Summer,4.5,47.9,-90.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Erode,Erode,2023–2024,May,May 2024,Hot Weather / Summer,172.4,79.7,116.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruchirapalli,Tiruchirappalli,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,11.5,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruchirapalli,Tiruchirappalli,2023–2024,April,Apr 2024,Hot Weather / Summer,3.0,28.3,-89.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruchirapalli,Tiruchirappalli,2023–2024,May,May 2024,Hot Weather / Summer,136.0,65.2,108.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Karur,Karur,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,13.2,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Karur,Karur,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,32.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Karur,Karur,2023–2024,May,May 2024,Hot Weather / Summer,139.0,65.6,111.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Perambalur,Perambalur,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,9.5,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Perambalur,Perambalur,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,24.5,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Perambalur,Perambalur,2023–2024,May,May 2024,Hot Weather / Summer,81.2,55.9,45.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ariyalur,Ariyalur,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,13.3,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ariyalur,Ariyalur,2023–2024,April,Apr 2024,Hot Weather / Summer,1.9,17.0,-88.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ariyalur,Ariyalur,2023–2024,May,May 2024,Hot Weather / Summer,95.2,54.6,74.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Pudukkottai,Pudukkottai,2023–2024,March,Mar 2024,Hot Weather / Summer,3.2,15.3,-79.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Pudukkottai,Pudukkottai,2023–2024,April,Apr 2024,Hot Weather / Summer,5.3,23.2,-77.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Pudukkottai,Pudukkottai,2023–2024,May,May 2024,Hot Weather / Summer,110.5,49.3,124.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Thanjavur,Thanjavur,2023–2024,March,Mar 2024,Hot Weather / Summer,0.5,17.5,-97.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Thanjavur,Thanjavur,2023–2024,April,Apr 2024,Hot Weather / Summer,9.6,27.0,-64.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Thanjavur,Thanjavur,2023–2024,May,May 2024,Hot Weather / Summer,108.8,53.7,102.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvarur,Tiruvarur,2023–2024,March,Mar 2024,Hot Weather / Summer,1.5,19.5,-92.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvarur,Tiruvarur,2023–2024,April,Apr 2024,Hot Weather / Summer,5.0,30.1,-83.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tiruvarur,Tiruvarur,2023–2024,May,May 2024,Hot Weather / Summer,144.3,54.3,165.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Nagapattinam,Nagapattinam,2023–2024,March,Mar 2024,Hot Weather / Summer,17.0,26.1,-34.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Nagapattinam,Nagapattinam,2023–2024,April,Apr 2024,Hot Weather / Summer,0.1,22.9,-99.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Nagapattinam,Nagapattinam,2023–2024,May,May 2024,Hot Weather / Summer,86.5,41.8,106.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Mayiladuthurai,Mayiladuthurai,2023–2024,March,Mar 2024,Hot Weather / Summer,0.0,24.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Mayiladuthurai,Mayiladuthurai,2023–2024,April,Apr 2024,Hot Weather / Summer,0.0,16.4,-100.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Mayiladuthurai,Mayiladuthurai,2023–2024,May,May 2024,Hot Weather / Summer,87.4,45.1,93.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Madurai,Madurai,2023–2024,March,Mar 2024,Hot Weather / Summer,1.7,22.5,-92.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Madurai,Madurai,2023–2024,April,Apr 2024,Hot Weather / Summer,15.6,47.5,-67.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Madurai,Madurai,2023–2024,May,May 2024,Hot Weather / Summer,134.5,70.8,90.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Theni,Theni,2023–2024,March,Mar 2024,Hot Weather / Summer,1.5,35.3,-95.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Theni,Theni,2023–2024,April,Apr 2024,Hot Weather / Summer,21.2,66.8,-68.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Theni,Theni,2023–2024,May,May 2024,Hot Weather / Summer,188.3,68.9,173.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Dindigul,Dindigul,2023–2024,March,Mar 2024,Hot Weather / Summer,0.2,26.1,-99.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Dindigul,Dindigul,2023–2024,April,Apr 2024,Hot Weather / Summer,12.5,58.1,-78.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Dindigul,Dindigul,2023–2024,May,May 2024,Hot Weather / Summer,190.2,87.5,117.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ramanathapuram,Ramanathapuram,2023–2024,March,Mar 2024,Hot Weather / Summer,2.2,25.5,-91.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ramanathapuram,Ramanathapuram,2023–2024,April,Apr 2024,Hot Weather / Summer,12.3,42.6,-71.1,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Ramanathapuram,Ramanathapuram,2023–2024,May,May 2024,Hot Weather / Summer,99.5,39.3,153.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Virudhunagar,Virudhunagar,2023–2024,March,Mar 2024,Hot Weather / Summer,0.2,29.9,-99.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Virudhunagar,Virudhunagar,2023–2024,April,Apr 2024,Hot Weather / Summer,31.6,51.8,-39.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Virudhunagar,Virudhunagar,2023–2024,May,May 2024,Hot Weather / Summer,133.2,65.5,103.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Sivagangai,Sivaganga,2023–2024,March,Mar 2024,Hot Weather / Summer,1.0,22.1,-95.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Sivagangai,Sivaganga,2023–2024,April,Apr 2024,Hot Weather / Summer,7.1,39.3,-81.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Sivagangai,Sivaganga,2023–2024,May,May 2024,Hot Weather / Summer,125.2,69.8,79.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tirunelveli,Tirunelveli,2023–2024,March,Mar 2024,Hot Weather / Summer,7.1,40.6,-82.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tirunelveli,Tirunelveli,2023–2024,April,Apr 2024,Hot Weather / Summer,68.1,51.8,31.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tirunelveli,Tirunelveli,2023–2024,May,May 2024,Hot Weather / Summer,148.1,37.8,291.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tenkasi,Tenkasi,2023–2024,March,Mar 2024,Hot Weather / Summer,2.2,55.4,-96.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tenkasi,Tenkasi,2023–2024,April,Apr 2024,Hot Weather / Summer,27.9,70.7,-60.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tenkasi,Tenkasi,2023–2024,May,May 2024,Hot Weather / Summer,125.2,53.5,134.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Thoothukudi,Thoothukudi,2023–2024,March,Mar 2024,Hot Weather / Summer,6.9,32.5,-78.8,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Thoothukudi,Thoothukudi,2023–2024,April,Apr 2024,Hot Weather / Summer,7.9,43.8,-82.0,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Thoothukudi,Thoothukudi,2023–2024,May,May 2024,Hot Weather / Summer,51.6,30.5,69.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+The Nilgiris,The Nilgiris,2023–2024,March,Mar 2024,Hot Weather / Summer,1.5,39.0,-96.2,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+The Nilgiris,The Nilgiris,2023–2024,April,Apr 2024,Hot Weather / Summer,29.2,67.2,-56.5,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+The Nilgiris,The Nilgiris,2023–2024,May,May 2024,Hot Weather / Summer,286.4,106.7,168.4,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kanniyakumari,Kanniyakumari,2023–2024,March,Mar 2024,Hot Weather / Summer,7.2,41.5,-82.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kanniyakumari,Kanniyakumari,2023–2024,April,Apr 2024,Hot Weather / Summer,56.7,104.8,-45.9,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Kanniyakumari,Kanniyakumari,2023–2024,May,May 2024,Hot Weather / Summer,421.4,125.9,234.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),False
+Tamil Nadu (State),Tamil Nadu (State),2023–2024,March,Mar 2024,Hot Weather / Summer,1.4,19.6,-92.7,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),True
+Tamil Nadu (State),Tamil Nadu (State),2023–2024,April,Apr 2024,Hot Weather / Summer,8.6,36.8,-76.6,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),True
+Tamil Nadu (State),Tamil Nadu (State),2023–2024,May,May 2024,Hot Weather / Summer,125.7,63.7,97.3,Official TN Seasonal Rainfall Report Screenshot (media_1794830394431_f49b6665.jpg),True

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AquaPulse - Seasonal Rainfall Intelligence Platform</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body class="page-index">
+
+  <!-- ── Navigation ─────────────────────────────────────────── -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff;vertical-align:middle"><path d="M12 2C12 2 5 10.5 5 15a7 7 0 0 0 14 0C19 10.5 12 2 12 2z"/></svg></span>
+      <span class="brand-text">AquaPulse</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/" class="active">Home</a></li>
+      <li><a href="/dashboard">Dashboard</a></li>
+      <li><a href="/prediction">Predict</a></li>
+      <li><a href="/analysis">Analysis</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+    <div class="nav-badge">Tamil Nadu &bull; 2024&ndash;25</div>
+  </nav>
+
+  <!-- ── Hero ───────────────────────────────────────────────── -->
+  <section class="hero">
+    <!-- Rain canvas animation -->
+    <canvas id="rainCanvas"></canvas>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">Seasonal Rainfall Intelligence &amp; Climate Pattern Discovery</div>
+      <h1 class="hero-title">
+        Aqua<span class="accent">Pulse</span>
+      </h1>
+      <p class="hero-subtitle">
+        Machine-learning&ndash;powered rainfall forecasting across all<br/>
+        <strong>38 Tamil Nadu districts</strong> using ensemble models and
+        multi-year meteorological records.
+      </p>
+      <div class="hero-actions">
+        <a href="/dashboard" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          Open Dashboard
+        </a>
+        <a href="/prediction" class="btn btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          Run Prediction
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ── Stats Banner ───────────────────────────────────────── -->
+  <section class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card" data-aos="fade-up">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div class="stat-value counter" data-target="{{ stats.total_districts }}">{{ stats.total_districts }}</div>
+          <div class="stat-label">Districts Analyzed</div>
+          <div class="stat-desc">Complete Tamil Nadu coverage</div>
+        </div>
+        <div class="stat-card" data-aos="fade-up" data-delay="100">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="stat-value">5</div>
+          <div class="stat-label">ML Models</div>
+          <div class="stat-desc">Random Forest, Ridge Regression &amp; more</div>
+        </div>
+        <div class="stat-card" data-aos="fade-up" data-delay="200">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+          </div>
+          <div class="stat-value">2</div>
+          <div class="stat-label">Years of Data</div>
+          <div class="stat-desc">2023&ndash;24 &amp; 2024&ndash;25 seasons</div>
+        </div>
+        <div class="stat-card" data-aos="fade-up" data-delay="300">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <div class="stat-value">87%</div>
+          <div class="stat-label">Model Accuracy</div>
+          <div class="stat-desc">Random Forest R&sup2; score</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Feature Cards ──────────────────────────────────────── -->
+  <section class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Platform Capabilities</div>
+        <h2 class="section-title">Intelligence at Every Layer</h2>
+        <p class="section-desc">From raw meteorological records to actionable seasonal insights.</p>
+      </div>
+
+      <div class="features-grid">
+        <a href="/dashboard" class="feature-card">
+          <div class="feature-icon-wrap icon-blue">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3>Live Dashboard</h3>
+          <p>Interactive KPIs, district selectors and embedded Plotly charts showing rainfall trends across all 38 districts.</p>
+          <span class="feature-cta">View Dashboard &rarr;</span>
+        </a>
+
+        <a href="/prediction" class="feature-card">
+          <div class="feature-icon-wrap icon-cyan">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h3>Rainfall Prediction</h3>
+          <p>Select any Tamil Nadu district and month to generate experimental ML-based rainfall estimates with confidence scores.</p>
+          <span class="feature-cta">Make Prediction &rarr;</span>
+        </a>
+
+        <a href="/analysis" class="feature-card">
+          <div class="feature-icon-wrap icon-teal">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+          </div>
+          <h3>Seasonal Analysis</h3>
+          <p>Year-over-year comparisons, seasonal breakdowns, deviation analysis and district heatmaps for 2023&ndash;25.</p>
+          <span class="feature-cta">View Analysis &rarr;</span>
+        </a>
+
+        <a href="/about" class="feature-card">
+          <div class="feature-icon-wrap icon-purple">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          </div>
+          <h3>Project Overview</h3>
+          <p>Dataset documentation, ML pipeline methodology, tech stack and academic context for this college research project.</p>
+          <span class="feature-cta">Learn More &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Data Pipeline Section ──────────────────────────────── -->
+  <section class="pipeline-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Methodology</div>
+        <h2 class="section-title">End-to-End ML Pipeline</h2>
+      </div>
+      <div class="pipeline-steps">
+        <div class="pipeline-step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h4>Data Collection</h4>
+            <p>Government IMD records for 38 Tamil Nadu districts (2023&ndash;25)</p>
+          </div>
+        </div>
+        <div class="pipeline-arrow">&rarr;</div>
+        <div class="pipeline-step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h4>Preprocessing</h4>
+            <p>Cleaning, normalization, seasonal feature engineering</p>
+          </div>
+        </div>
+        <div class="pipeline-arrow">&rarr;</div>
+        <div class="pipeline-step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h4>Model Training</h4>
+            <p>5 models: Random Forest, Ridge, Baseline, 2025&ndash;26 Estimator</p>
+          </div>
+        </div>
+        <div class="pipeline-arrow">&rarr;</div>
+        <div class="pipeline-step">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h4>Prediction API</h4>
+            <p>Flask REST API with real-time district &times; month inference</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff;vertical-align:middle"><path d="M12 2C12 2 5 10.5 5 15a7 7 0 0 0 14 0C19 10.5 12 2 12 2z"/></svg></span>
+        <span>AquaPulse</span>
+      </div>
+      <p class="footer-desc">
+        Tamil Nadu Seasonal Rainfall Intelligence Platform &mdash;
+        Academic Research Project &bull; Data Science &amp; ML
+      </p>
+      <div class="footer-links">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/prediction">Prediction</a>
+        <a href="/analysis">Analysis</a>
+        <a href="/about">About</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 AquaPulse &bull; Seasonal Rainfall Intelligence &amp; Climate Pattern Discovery</p>
+    </div>
+  </footer>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

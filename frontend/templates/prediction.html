@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prediction &mdash; AquaPulse</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="page-inner">
+
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff;vertical-align:middle"><path d="M12 2C12 2 5 10.5 5 15a7 7 0 0 0 14 0C19 10.5 12 2 12 2z"/></svg></span>
+      <span class="brand-text">AquaPulse</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/dashboard">Dashboard</a></li>
+      <li><a href="/prediction" class="active">Predict</a></li>
+      <li><a href="/analysis">Analysis</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+    <div class="nav-badge">Tamil Nadu &bull; 2024&ndash;25</div>
+  </nav>
+
+  <div class="prediction-layout">
+
+    <!-- ── Prediction Form ────────────────────────────────────── -->
+    <div class="prediction-panel">
+      <div class="panel-header">
+        <div class="panel-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <div>
+          <h1 class="panel-title">Rainfall Prediction</h1>
+          <p class="panel-subtitle">District-wise monthly rainfall estimation using ensemble ML models</p>
+        </div>
+      </div>
+
+      <form id="predictionForm" class="prediction-form" onsubmit="runPrediction(event)">
+
+        <div class="form-group">
+          <label class="form-label" for="districtInput">Tamil Nadu District</label>
+          <div class="select-wrapper">
+            <select id="districtInput" class="form-select" required>
+              <option value="" disabled selected>-- Select a District --</option>
+              {% for district in districts %}
+              <option value="{{ district }}">{{ district }}</option>
+              {% endfor %}
+            </select>
+            <svg class="select-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="periodInput">Period (Month)</label>
+          <div class="select-wrapper">
+            <select id="periodInput" class="form-select" required>
+              <option value="" disabled selected>-- Select Month --</option>
+              {% for month in months %}
+              <option value="{{ month }}">{{ month }}</option>
+              {% endfor %}
+            </select>
+            <svg class="select-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">ML Model</label>
+          <div class="model-radio-group">
+            <label class="model-radio active" data-model="Random Forest">
+              <input type="radio" name="model" value="Random Forest" checked />
+              <div class="radio-content">
+                <div class="radio-name">Random Forest</div>
+                <div class="radio-desc">Ensemble, 87% accuracy</div>
+              </div>
+              <div class="radio-badge badge-best">Best</div>
+            </label>
+            <label class="model-radio" data-model="Linear Regression">
+              <input type="radio" name="model" value="Linear Regression" />
+              <div class="radio-content">
+                <div class="radio-name">Ridge Regression</div>
+                <div class="radio-desc">Linear, 82% accuracy</div>
+              </div>
+            </label>
+            <label class="model-radio" data-model="Baseline">
+              <input type="radio" name="model" value="Baseline" />
+              <div class="radio-content">
+                <div class="radio-name">Climatological Baseline</div>
+                <div class="radio-desc">Historical 30-yr normal</div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full" id="predictBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <span id="btnText">Generate Prediction</span>
+        </button>
+      </form>
+
+      <!-- Disclaimer -->
+      <div class="disclaimer-box">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        <p>Experimental retrospective estimates based on IMD meteorological records (Jun 2024&ndash;May 2025). Not an operational weather forecast.</p>
+      </div>
+    </div>
+
+    <!-- ── Results Panel ───────────────────────────────────────── -->
+    <div class="results-panel" id="resultsPanel">
+
+      <!-- Empty state -->
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2.5a9.5 9.5 0 1 0 0 19 9.5 9.5 0 0 0 0-19z"/><path d="M8 12l2.5 2.5L16 9"/></svg>
+        </div>
+        <h3>Ready to Predict</h3>
+        <p>Select a district and month, then click Generate Prediction to see ML results.</p>
+      </div>
+
+      <!-- Loading state -->
+      <div class="loading-state hidden" id="loadingState">
+        <div class="loader-ring"></div>
+        <p>Running ML inference&hellip;</p>
+      </div>
+
+      <!-- Error state -->
+      <div class="error-state hidden" id="errorState">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ff6b6b" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+        <h3 id="errorTitle">Prediction Error</h3>
+        <p id="errorMessage">Something went wrong.</p>
+      </div>
+
+      <!-- Results -->
+      <div class="prediction-results hidden" id="predictionResults">
+
+        <div class="result-header">
+          <div class="result-district" id="resDistrict">Chennai</div>
+          <div class="result-period" id="resPeriod">May 2025 &bull; <span id="resSeason"></span></div>
+          <div style="display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
+            <div class="result-model" id="resModel">Random Forest</div>
+            <div class="future-badge hidden" id="futureBadge">&#9654; Future Forecast</div>
+          </div>
+        </div>
+
+        <!-- Main metric -->
+        <div class="result-main-metric">
+          <div class="metric-label" id="metricLabel">Predicted Rainfall</div>
+          <div class="metric-value-wrap">
+            <div class="metric-value" id="resPredicted">0.00</div>
+            <div class="metric-unit">mm</div>
+          </div>
+          <div class="confidence-bar-wrap">
+            <div class="confidence-label">Confidence Score</div>
+            <div class="confidence-bar">
+              <div class="confidence-fill" id="confidenceFill" style="width:0%"></div>
+            </div>
+            <div class="confidence-pct" id="confidencePct">0%</div>
+          </div>
+        </div>
+
+        <!-- Comparison metrics -->
+        <div class="result-comparisons">
+          <div class="comparison-card comp-actual" id="cardActual">
+            <div class="comp-label">Historical Actual</div>
+            <div class="comp-value" id="resActual">0.00 mm</div>
+            <div class="comp-sub">Recorded 2024&ndash;25</div>
+          </div>
+          <div class="comparison-card comp-normal">
+            <div class="comp-label">30-yr Normal</div>
+            <div class="comp-value" id="resNormal">0.00 mm</div>
+            <div class="comp-sub">Historical baseline</div>
+          </div>
+          <div class="comparison-card comp-error" id="cardError">
+            <div class="comp-label">Model Error</div>
+            <div class="comp-value" id="resError">0.00 mm</div>
+            <div class="comp-sub" id="resErrorPct">0.0% deviation</div>
+          </div>
+        </div>
+
+        <!-- YoY comparison -->
+        <div class="yoy-section" id="yoySection">
+          <h4>Year-over-Year Comparison</h4>
+          <div class="yoy-row">
+            <div class="yoy-item">
+              <div class="yoy-label">2023&ndash;24 Actual</div>
+              <div class="yoy-value" id="resPrevYear">&mdash;</div>
+            </div>
+            <div class="yoy-arrow" id="yoyArrow">&rarr;</div>
+            <div class="yoy-item">
+              <div class="yoy-label">2024&ndash;25 Actual</div>
+              <div class="yoy-value" id="resCurrentYear">&mdash;</div>
+            </div>
+            <div class="yoy-delta" id="yoyDelta"></div>
+          </div>
+        </div>
+
+        <!-- Mini chart -->
+        <div class="result-chart-wrap">
+          <h4>District Monthly Profile</h4>
+          <div class="chart-container" style="height:200px">
+            <canvas id="predChart"></canvas>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="/static/js/main.js"></script>
+  <script>
+    // Model radio interactivity
+    document.querySelectorAll(".model-radio").forEach(label => {
+      label.addEventListener("click", () => {
+        document.querySelectorAll(".model-radio").forEach(l => l.classList.remove("active"));
+        label.classList.add("active");
+      });
+    });
+
+    let predChart = null;
+
+    async function runPrediction(e) {
+      e.preventDefault();
+      const district = document.getElementById("districtInput").value;
+      const period = document.getElementById("periodInput").value;
+      const model = document.querySelector('input[name="model"]:checked').value;
+
+      showState("loading");
+
+      try {
+        const res = await fetch("/api/prediction", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ district, period, model }),
+        });
+        const data = await res.json();
+
+        if (!res.ok || data.error) {
+          showState("error", data.error || "Unknown error");
+          return;
+        }
+
+        // Fill results
+        document.getElementById("resDistrict").textContent = data.district;
+        document.getElementById("resPeriod").innerHTML = `${data.period} &bull; <span>${data.season}</span>`;
+        document.getElementById("resModel").textContent = data.model_used;
+        document.getElementById("resPredicted").textContent = data.predicted_mm.toFixed(2);
+        document.getElementById("resNormal").textContent = data.normal_mm.toFixed(2) + " mm";
+
+        // Confidence
+        document.getElementById("confidencePct").textContent = data.confidence.toFixed(1) + "%";
+        document.getElementById("confidenceFill").style.width = data.confidence + "%";
+
+        // Future vs historical display
+        const isFuture = data.is_future === true;
+        document.getElementById("futureBadge").classList.toggle("hidden", !isFuture);
+        document.getElementById("cardActual").style.display = isFuture ? "none" : "";
+        document.getElementById("cardError").style.display = isFuture ? "none" : "";
+        document.getElementById("metricLabel").textContent = isFuture ? "Forecasted Rainfall" : "Predicted Rainfall";
+
+        if (!isFuture && data.actual_mm !== undefined) {
+          document.getElementById("resActual").textContent = data.actual_mm.toFixed(2) + " mm";
+          document.getElementById("resError").textContent = data.error_mm.toFixed(2) + " mm";
+          document.getElementById("resErrorPct").textContent = data.error_pct.toFixed(1) + "% deviation";
+        }
+
+        // YoY (historical only)
+        if (!isFuture && data.prev_year_mm != null) {
+          document.getElementById("resPrevYear").textContent = data.prev_year_mm.toFixed(2) + " mm";
+          document.getElementById("resCurrentYear").textContent = data.actual_mm.toFixed(2) + " mm";
+          const delta = data.yoy_delta;
+          const dEl = document.getElementById("yoyDelta");
+          dEl.textContent = (delta >= 0 ? "+" : "") + delta.toFixed(2) + " mm";
+          dEl.className = "yoy-delta " + (delta >= 0 ? "delta-up" : "delta-down");
+          document.getElementById("yoySection").style.display = "";
+        } else {
+          document.getElementById("yoySection").style.display = "none";
+        }
+
+        // Load mini chart
+        const cr = await fetch(`/api/chart-data?district=${encodeURIComponent(district)}`);
+        const cd = await cr.json();
+        const ctx = document.getElementById("predChart").getContext("2d");
+        if (predChart) predChart.destroy();
+        predChart = new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: cd.labels,
+            datasets: [{
+              label: "Actual (mm)",
+              data: cd.actual,
+              backgroundColor: cd.labels.map(l =>
+                l === period ? "rgba(0,212,255,0.9)" : "rgba(0,212,255,0.25)"
+              ),
+              borderColor: "rgba(0,212,255,0.8)",
+              borderWidth: 1,
+              borderRadius: 4,
+            }],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { ticks: { color: "rgba(255,255,255,0.4)", font: { size: 10 }, maxRotation: 45 }, grid: { display: false } },
+              y: { ticks: { color: "rgba(255,255,255,0.4)", font: { size: 10 } }, grid: { color: "rgba(255,255,255,0.06)" } },
+            },
+          },
+        });
+
+        showState("results");
+      } catch (err) {
+        showState("error", err.message);
+      }
+    }
+
+    function showState(state, msg = "") {
+      document.getElementById("emptyState").classList.add("hidden");
+      document.getElementById("loadingState").classList.add("hidden");
+      document.getElementById("errorState").classList.add("hidden");
+      document.getElementById("predictionResults").classList.add("hidden");
+
+      if (state === "loading") document.getElementById("loadingState").classList.remove("hidden");
+      else if (state === "error") {
+        document.getElementById("errorMessage").textContent = msg;
+        document.getElementById("errorState").classList.remove("hidden");
+      } else if (state === "results") document.getElementById("predictionResults").classList.remove("hidden");
+      else document.getElementById("emptyState").classList.remove("hidden");
+    }
+  </script>
+  <footer class="page-footer">
+    <p>&copy; 2026 AquaPulse &bull; Seasonal Rainfall Intelligence &amp; Climate Pattern Discovery</p>
+  </footer>
+</body>
+</html>

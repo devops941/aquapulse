@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
             margin: 0;
             padding: 0;
         }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
             color: #1F2937;
@@ -23,10 +25,12 @@
             max-width: 850px;
             margin: 0 auto;
         }
+
         .header {
             text-align: center;
             margin-bottom: 18px;
         }
+
         .title {
             font-size: 24pt;
             font-weight: 700;
@@ -34,12 +38,14 @@
             letter-spacing: 0.04em;
             margin-bottom: 3px;
         }
+
         .subtitle {
             font-size: 11pt;
             font-style: italic;
             color: #595959;
             margin-bottom: 14px;
         }
+
         .section-title {
             font-size: 11pt;
             font-weight: 700;
@@ -49,6 +55,7 @@
             margin-top: 13px;
             margin-bottom: 4px;
         }
+
         p {
             font-size: 10pt;
             color: #262626;
@@ -56,11 +63,13 @@
             margin-bottom: 5px;
             line-height: 1.38;
         }
+
         ul {
             list-style-type: none;
             padding-left: 0;
             margin-bottom: 5px;
         }
+
         li {
             font-size: 9.8pt;
             color: #262626;
@@ -69,6 +78,7 @@
             position: relative;
             padding-left: 14px;
         }
+
         li::before {
             content: "•";
             color: #16365C;
@@ -76,46 +86,60 @@
             position: absolute;
             left: 0;
         }
+
         .tech-list {
             font-size: 9.8pt;
             line-height: 1.45;
             margin-bottom: 5px;
         }
+
         .tech-list b {
             color: #16365C;
         }
+
         .links-list {
             font-size: 9.8pt;
             line-height: 1.45;
         }
+
         .links-list b {
             color: #16365C;
         }
+
         @media print {
             body {
                 padding: 22px 28px;
                 max-width: 100%;
                 font-size: 9.5pt;
             }
+
             .title {
                 font-size: 20pt;
             }
+
             .subtitle {
                 font-size: 10pt;
                 margin-bottom: 10px;
             }
+
             .section-title {
                 font-size: 10pt;
                 margin-top: 9px;
                 margin-bottom: 3px;
             }
-            p, li, .tech-list, .links-list {
+
+            p,
+            li,
+            .tech-list,
+            .links-list {
                 font-size: 9pt;
                 line-height: 1.28;
             }
+
             li {
                 margin-bottom: 2.2px;
             }
+
             @page {
                 margin: 0.8cm;
                 size: A4 portrait;
@@ -123,6 +147,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <div class="header">
@@ -131,43 +156,67 @@
     </div>
 
     <div class="section-title">PROJECT OVERVIEW</div>
-    <p>AquaPulse is an intelligent meteorological and environmental analytics platform engineered to discover climate patterns, analyze seasonal monsoon behaviors, and estimate district-level precipitation across all 38 districts of Tamil Nadu. Powered by verified India Meteorological Department (IMD) ground-truth datasets, AquaPulse enables agricultural planners, disaster management authorities, and hydrologists to audit monsoon performance, track climate departure trends, evaluate machine learning models, and simulate future rainfall scenarios.</p>
+    <p>AquaPulse is an intelligent meteorological and environmental analytics platform engineered to discover climate
+        patterns, analyze seasonal monsoon behaviors, and estimate district-level precipitation across all 38 districts
+        of Tamil Nadu. Powered by verified India Meteorological Department (IMD) ground-truth datasets, AquaPulse
+        enables agricultural planners, disaster management authorities, and hydrologists to audit monsoon performance,
+        track climate departure trends, evaluate machine learning models, and simulate future rainfall scenarios.</p>
 
     <div class="section-title">PROBLEM STATEMENT</div>
-    <p>Precipitation across peninsular regions exhibits severe temporal and spatial volatility, heavily modulated by the South-West Monsoon, North-East Monsoon, and localized convective disturbances. Traditional water-resource management and crop planning struggle with fragmented meteorological reports, lack of centralized district-wise departure analytics, and the absence of standardized machine learning benchmarks to model seasonal rainfall trends without data leakage or unverified synthetic assumptions.</p>
+    <p>Precipitation across peninsular regions exhibits severe temporal and spatial volatility, heavily modulated by the
+        South-West Monsoon, North-East Monsoon, and localized convective disturbances. Traditional water-resource
+        management and crop planning struggle with fragmented meteorological reports, lack of centralized district-wise
+        departure analytics, and the absence of standardized machine learning benchmarks to model seasonal rainfall
+        trends without data leakage or unverified synthetic assumptions.</p>
 
     <div class="section-title">PROJECT OBJECTIVES</div>
-    <p>Digitize and mathematically validate official IMD district rainfall datasets without synthetic assumptions. &nbsp;•&nbsp; Perform multi-year Year-over-Year (YoY) comparative analysis across meteorological cycles (2023–24 vs 2024–25) and official monsoon seasons. &nbsp;•&nbsp; Implement leakage-free, chronological machine learning benchmarks to evaluate predictive accuracy against 30-year climatological normals. &nbsp;•&nbsp; Build an experimental 2025–2026 forward-looking rainfall estimation pipeline with physical non-negative constraints. &nbsp;•&nbsp; Deliver an interactive, executive-grade web dashboard for decision-makers and researchers.</p>
+    <p>Digitize and mathematically validate official IMD district rainfall datasets without synthetic assumptions.
+        &nbsp;•&nbsp; Perform multi-year Year-over-Year (YoY) comparative analysis across meteorological cycles (2023–24
+        vs 2024–25) and official monsoon seasons. &nbsp;•&nbsp; Implement leakage-free, chronological machine learning
+        benchmarks to evaluate predictive accuracy against 30-year climatological normals. &nbsp;•&nbsp; Build an
+        experimental 2025–2026 forward-looking rainfall estimation pipeline with physical non-negative constraints.
+        &nbsp;•&nbsp; Deliver an interactive, executive-grade web dashboard for decision-makers and researchers.</p>
 
     <div class="section-title">KEY MODULES & FEATURES</div>
     <ul>
-        <li><b>Data Provenance & Validation Engine</b> – Automated ingestion, checksum auditing, and 100% mathematical departure formula verification.</li>
-        <li><b>Overview & Executive Dashboard</b> – High-level KPI scorecards, state-wide rainfall aggregations, and geographical distribution maps.</li>
-        <li><b>Multi-Year & YoY Comparative Analytics</b> – District-level annual and seasonal growth/deficit tracking between 2023–24 and 2024–25.</li>
-        <li><b>2025–2026 Forward Estimation Module</b> – Multi-model ensemble (Climatological Normal, Persistence, Empirical Mean, Regularized Ridge).</li>
-        <li><b>Seasonal Intelligence & Spatial EDA Suite</b> – Deep dives into 12 meteorological months, 4 official IMD seasons, and district departure rankings.</li>
-        <li><b>Chronological ML Benchmarking</b> – Strict temporal split (8-month train / 4-month holdout test) comparing Random Forest, Linear Regression, and Baseline.</li>
-        <li><b>Interactive District Inference Simulator</b> – Live single-district prediction testbed comparing ML estimates, ground truth, and 30-year normals.</li>
-        <li><b>Dataset Transparency & Data Export</b> – Full schema explorer, descriptive statistics, and one-click processed CSV downloads.</li>
+        <li><b>Data Provenance & Validation Engine</b> – Automated ingestion, checksum auditing, and 100% mathematical
+            departure formula verification.</li>
+        <li><b>Overview & Executive Dashboard</b> – High-level KPI scorecards, state-wide rainfall aggregations, and
+            geographical distribution maps.</li>
+        <li><b>Multi-Year & YoY Comparative Analytics</b> – District-level annual and seasonal growth/deficit tracking
+            between 2023–24 and 2024–25.</li>
+        <li><b>2025–2026 Forward Estimation Module</b> – Multi-model ensemble (Climatological Normal, Persistence,
+            Empirical Mean, Regularized Ridge).</li>
+        <li><b>Seasonal Intelligence & Spatial EDA Suite</b> – Deep dives into 12 meteorological months, 4 official IMD
+            seasons, and district departure rankings.</li>
+        <li><b>Chronological ML Benchmarking</b> – Strict temporal split (8-month train / 4-month holdout test)
+            comparing Random Forest, Linear Regression, and Baseline.</li>
+        <li><b>Interactive District Inference Simulator</b> – Live single-district prediction testbed comparing ML
+            estimates, ground truth, and 30-year normals.</li>
+        <li><b>Dataset Transparency & Data Export</b> – Full schema explorer, descriptive statistics, and one-click
+            processed CSV downloads.</li>
     </ul>
 
     <div class="section-title">TECHNOLOGY STACK</div>
     <div class="tech-list">
         <b>Programming & Data Processing:</b> Python 3.12, Pandas, NumPy<br>
-        <b>Machine Learning & Modeling:</b> Scikit-learn (Random Forest, Ridge Regression, Linear Regression), Joblib<br>
+        <b>Machine Learning & Modeling:</b> Scikit-learn (Random Forest, Ridge Regression, Linear Regression),
+        Joblib<br>
         <b>Data Visualization:</b> Plotly Express, Plotly Graph Objects, Matplotlib, Seaborn<br>
         <b>Web Dashboard & UI/UX:</b> Streamlit (Executive SaaS CSS Design System, Google Fonts)<br>
-        <b>Data Governance & Testing:</b> Automated Verification Test Suite (17/17 tests passing), SHA-256 Checksum Auditing
+        <b>Data Governance & Testing:</b> Automated Verification Test Suite (17/17 tests passing), SHA-256 Checksum
+        Auditing
     </div>
 
-    <div class="section-title">PROJECT LINKS</div>
+    <div class="section-title">PROJECT DETAILS</div>
     <div class="links-list">
-        <b>GitHub Repository:</b> <a href="https://github.com/devops941/aquapulse" target="_blank">https://github.com/devops941/aquapulse</a><br>
-        <b>Live Application:</b> <a href="https://aquapulse.streamlit.app/" target="_blank">https://aquapulse.streamlit.app/</a><br>
         <b>Domain:</b> Meteorological Data Science | Climate Informatics | Precision Hydrology<br>
-        <b>Application Type:</b> Full-Stack Data Analytics & Machine Learning Web Application
+        <b>Application Type:</b> Full-Stack Data Analytics & Machine Learning Web Application<br>
+        <b>Data Source:</b> India Meteorological Department (IMD) – Regional Meteorological Centre, Chennai<br>
+        <b>Target Geography:</b> All 38 Administrative Districts of Tamil Nadu, India (2023–2024, 2024–2025, and
+        2025–2026 Projections)
     </div>
 
 </body>
-</html>
 
+</html>
